@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:orange_dye"
 		},
-		"title": "Essence of Color",
-		"description": "Collect all 16 dye colors"
+		"title": "Essence de couleur",
+		"description": "Récuperer toutes les essences des couleurs pour the licorne"
 	},
 	"parent": "custom:collection/root",
 	"rewards": {
