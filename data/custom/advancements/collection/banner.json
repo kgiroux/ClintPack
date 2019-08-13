@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:gray_banner"
 		},
-      "title": "Drapeaux, Drapeaux, Drapeaux, Toujours plus de drapeaux",
+		"title": "Drapeaux, Toujours plus de drapeaux",
       "description": "Il est temps de décorer avec les 16 couleurs de l'arc en ciel"
 	},
 	"parent": "custom:collection/wool",

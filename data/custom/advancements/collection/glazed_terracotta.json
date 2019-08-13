@@ -4,7 +4,7 @@
 			"item": "minecraft:light_blue_glazed_terracotta"
 		},
 		"title": "Un peu de mosaique",
-		"description": "le début de la fresque"
+		"description": "Le début de la fresque"
 	},
 	"parent": "custom:collection/terracotta",
 	"rewards": {

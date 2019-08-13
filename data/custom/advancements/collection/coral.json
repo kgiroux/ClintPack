@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bubble_coral"
 		},
-		"title": "Corail, Corail, mon jolie corail",
-		"description": "La mer c'est bien. les coraux c'est mieux"
+		"title": "Corail, Corail, mon joli corail",
+		"description": "La mer c'est bien. Les coraux c'est mieux"
 	},
 	"parent": "custom:collection/coral_block",
 	"rewards": {

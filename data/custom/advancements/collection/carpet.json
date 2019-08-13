@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:purple_carpet"
 		},
-		"title": "Dance floor",
+		"title": "Dancefloor",
 		"description": "On fait chauffer la piste"
 	},
 	"parent": "custom:collection/wool",

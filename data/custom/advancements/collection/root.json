@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:red_dye"
 		},
-		"title": "The Rainbow",
-		"description": "World of Color",
+		"title": "Rainbow",
+		"description": "Rainbow shower",
 		"background": "minecraft:textures/block/white_concrete.png",
 		"show_toast": false,
 		"announce_to_chat": false

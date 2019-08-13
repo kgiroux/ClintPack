@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brown_terracotta"
 		},
-		"title": "Rainbow ",
-		"description": "une terre de couleur"
+		"title": "Paix sur terre",
+		"description": "Une terre de couleur"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {
