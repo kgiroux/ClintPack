@@ -7,7 +7,7 @@
 		"description": "Get all possible effects during your life",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:nether/all_potions",
+	"parent": "minecraft:nether/brew_potions",
 	"rewards": {
 		"experience": 250
 	},
