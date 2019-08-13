@@ -1,0 +1,23 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": "Première pierre",
+		"description": "Cassez quelques cailloux pour améliorer tout ça",
+		"show_toast": true,
+		"announce_to_chat": false
+		},
+	"parent": "minecraft:story/mine_stone",
+	"criteria": {
+		"cobble": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"count": 64,
+				"item": [{
+					"item": "minecraft:cobblestone"
+				}]
+			}
+		}
+	}
+}

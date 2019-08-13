@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grindstone"
+		},
+		"title": "Sur le Grind",
+		"description": "Posez un grindstone pour réparez vos outils"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"grindstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:grindstone"
+				}
+			}
+		}
+	}
+}

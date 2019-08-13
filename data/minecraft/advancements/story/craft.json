@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"title": "Craft !",
+		"description": "Dans Minecraft, il y a avant tout Craft",
+		"show_toast": true,
+		"announce_to_chat": false
+		},
+	"parent": "minecraft:story/log",
+	"criteria": {
+		"crafting_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": [{
+					"item": "minecraft:crafting_table"
+				}]
+			}
+		}
+	}
+}

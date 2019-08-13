@@ -1,0 +1,55 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_pickaxe"
+		},
+		"frame": "goal",
+		"title": "L'âge d'or",
+		"description": "Durables, pas trop, mais plus puissants",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:story/smelt_gold",
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_shovel"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_pickaxe"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_axe"
+					}
+				]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_hoe"
+					}
+				]
+			}
+		}
+	}
+}

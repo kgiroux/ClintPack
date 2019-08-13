@@ -1,0 +1,22 @@
+{
+	"display": {
+		"frame": "challenge",
+		"icon": {
+			"item": "minecraft:torch"
+		},
+		"title": "Torchez-moi tout ça",
+		"description": "Remplissez votre inventaire de torche pour sécuriser la zone"
+	},
+	"parent": "custom:forestry/charcoal",
+	"criteria": {
+		"torch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:charcoal",
+					"count": 1728
+				}]
+			}
+		}
+	}
+}

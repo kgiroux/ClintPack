@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bookshelf"
+		},
+		"title": "Libraire",
+		"description": "Posez une bibliothèque auprès de votre table d'enchantement pour rendre l'enchantement plus fort"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"bookshelf": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:bookshelf"
+			}
+		}
+	}
+}
+
+

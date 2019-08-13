@@ -1,0 +1,22 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_log"
+		},
+		"title": "Première étape",
+		"description": "Récupérez votre première buche de bois",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:story/root",
+	"criteria": {
+		"crafting_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": [{
+					"item": "minecraft:crafting_table"
+				}]
+			}
+		}
+	}
+}

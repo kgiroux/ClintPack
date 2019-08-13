@@ -1,0 +1,38 @@
+﻿{
+
+	"display": {
+
+		"icon": {
+
+			"item": "minecraft:gold_ingot"
+
+		},
+
+		"title": "De l'or",
+
+		"description": "Faites cuir votre premier lingot d'or"
+	},
+
+	"parent": "minecraft:story/furnace",
+
+	"criteria": {
+
+		"gold": {
+
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+
+				"items": [{
+
+					"item": "minecraft:gold_ingot"
+
+				}]
+
+			}
+
+		}
+
+	}
+
+}

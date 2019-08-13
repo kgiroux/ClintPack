@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_trapdoor"
+		},
+		"title": "It's a trap!",
+		"description": "Craftez une trappe de chaque bois differents"
+	},
+	"parent": "custom:forestry/door",
+	"criteria": {
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_trapdoor"
+				}]
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_trapdoor"
+				}]
+			}
+		},
+		"dark oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_trapdoor"
+				}]
+			}
+		},
+		"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_trapdoor"
+				}]
+			}
+		},
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_trapdoor"
+				}]
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_trapdoor"
+				}]
+			}
+		}
+	}
+}

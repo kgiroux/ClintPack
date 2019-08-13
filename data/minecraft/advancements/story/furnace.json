@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:furnace"
+		},
+		"title": "Chaud devant !",
+		"description": "Fabriquez un four"
+	},
+	"parent": "minecraft:story/cobble",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:furnace"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gravel"
+		},
+		"title": "L'attaque du dessus",
+		"description": "Suffoquez dans du gravier"
+	},
+	"parent": "custom:caving/root",
+	"criteria": {
+		"gravel": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:gravel"
+			}
+		}
+	}
+}

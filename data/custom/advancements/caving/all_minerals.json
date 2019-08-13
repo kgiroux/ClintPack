@@ -1,0 +1,104 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": "Pierres precieuses",
+		"description": "Trouvez un stack de chaque pierres precieuses",
+		"frame": "goal"
+	},
+	"parent": "custom:caving/craft_blast_furnace",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:coal",
+						"count": 64
+					}
+				]
+			}
+		},
+		"iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_ingot",
+						"count": 64
+					}
+				]
+			}
+		},
+		"gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gold_ingot",
+						"count": 64
+					}
+				]
+			}
+		},
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:redstone",
+						"count": 64
+					}
+				]
+			}
+		},
+		"lapis": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lapis_lazuli",
+						"count": 64
+					}
+				]
+			}
+		},
+		"diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond",
+						"count": 64
+					}
+				]
+			}
+		},
+		"emerald": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:emerald",
+						"count": 64
+					}
+				]
+			}
+		},
+		"quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:quartz",
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

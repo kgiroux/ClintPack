@@ -1,0 +1,65 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_pickaxe"
+		},
+		"frame": "goal",
+		"title": "Premiers outils",
+		"description": "Commençons par le commencement",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:story/craft",
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wooden_shovel"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wooden_pickaxe"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wooden_axe"
+					}
+				]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wooden_hoe"
+					}
+				]
+			}
+		},
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wooden_sword"
+					}
+				]
+			}
+		}
+	}
+}

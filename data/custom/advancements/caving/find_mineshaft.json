@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title": "Mine abandonnee",
+		"description": "Entrez dans un mineshaft"
+	},
+	"parent": "custom:caving/killed_bat",
+	"criteria": {
+		"mineshaft": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "mineshaft"
+			}
+		}
+	}
+}

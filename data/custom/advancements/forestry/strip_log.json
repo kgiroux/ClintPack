@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_birch_log"
+		},
+		"title": "Strip-tease",
+		"description": "Ecorcez une buche de bois"
+	},
+	"parent": "custom:forestry/log",
+	"criteria": {
+		"stripped_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "custom:stripped_logs"
+				}]
+			}
+		}
+	}
+}

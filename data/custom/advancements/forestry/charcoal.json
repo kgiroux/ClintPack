@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:charcoal"
+		},
+		"title": "Energie renouvelable",
+		"description": "Faites cuire un stack de buche pour faire du charbon"
+	},
+	"parent": "custom:forestry/log",
+	"criteria": {
+		"charcoal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:charcoal",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

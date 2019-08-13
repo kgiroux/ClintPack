@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:obsidian"
+		},
+		"title": "Obsidienne",
+		"description": "Récupérez 10 blocks d'obsidienne"
+	},
+	"parent": "minecraft:story/lava_bucket",
+	"criteria": {
+		"obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:obsidian",
+						"count": 10
+					}
+				]
+				
+			}
+		}
+	}
+}

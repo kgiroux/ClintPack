@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blast_furnace"
+		},
+		"title": "Fournaise",
+		"description": "Craftez un blast furnace pour cuire vos minerais plus vite"
+	},
+	"parent": "custom:caving/all_stones",
+	"criteria": {
+		"blast_furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:blast_furnace"
+				}]
+			}
+		}
+	}
+}

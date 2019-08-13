@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_mushroom"
+		},
+		"title": "Champis",
+		"description": "Recoltez tous les types de champignons"
+	},
+	"parent": "custom:caving/root",
+	"criteria": {
+		"brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:brown_mushroom"
+				}]
+			}
+		},
+		"red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_mushroom"
+				}]
+			}
+		}
+	}
+}

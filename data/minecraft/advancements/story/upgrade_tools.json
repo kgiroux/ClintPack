@@ -1,0 +1,55 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_pickaxe"
+		},
+		"frame": "goal",
+		"title": "L'âge de pierre",
+		"description": "Des outils un peu plus solides",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:story/cobble",
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_shovel"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_pickaxe"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_axe"
+					}
+				]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_hoe"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"frame": "goal",
+		"title": "L'âge de fer",
+		"description": "Pour pouvoir aller encore plus loin",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_shovel"
+					}
+				]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_pickaxe"
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_axe"
+					}
+				]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_hoe"
+					}
+				]
+			}
+		}
+	}
+}

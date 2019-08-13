@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_pickaxe"
+		},
+		"title": "L'âge de diamant",
+		"description": "Le meilleur matos",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:story/iron_tools",
+	"rewards": {
+		"experience": 75
+	},
+	"criteria": {
+		"shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_shovel"
+				}]
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_pickaxe"
+				}]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_axe"
+				}]
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_hoe"
+				}]
+			}
+		}
+	}
+}

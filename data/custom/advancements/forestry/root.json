@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_axe"
+		},
+		"title": "Bucheron",
+		"description": "Tout est dans la hache",
+		"background": "minecraft:textures/block/oak_log.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "custom:axes"
+				}]
+			}
+		}
+	}
+}

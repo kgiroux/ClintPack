@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:flint_and_steel"
+		},
+		"title": "Faire du feu",
+		"description": "Combinez un silex avec un lingot de fer"
+	},
+	"parent": "custom:caving/flint",
+	"criteria": {
+		"flint_and_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:flint_and_steel"
+				}]
+			}
+		}
+	}
+}

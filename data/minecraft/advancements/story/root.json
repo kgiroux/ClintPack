@@ -1,0 +1,17 @@
+﻿{
+	"display": {
+		"icon": {
+			"item":"minecraft:grass_block"
+		},
+		"title": "Survie",
+		"description": "Minecraft pour les noob",
+		"background": "minecraft:textures/block/stone.png",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"criteria": {
+		"jouer":{
+			"trigger":"minecraft:tick"
+		}
+	}
+}

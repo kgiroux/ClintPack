@@ -1,0 +1,38 @@
+{
+
+	"display": {
+
+		"icon": {
+
+			"item": "minecraft:iron_ingot"
+
+		},
+
+		"title": "Fer",
+
+		"description": "Faites cuir votre premier lingot de fer"
+	},
+
+	"parent": "minecraft:story/upgrade_2",
+
+	"criteria": {
+
+		"iron": {
+
+			"trigger": "minecraft:inventory_changed",
+
+			"conditions": {
+
+				"items": [{
+
+					"item": "minecraft:iron_ingot"
+
+				}]
+
+			}
+
+		}
+
+	}
+
+}

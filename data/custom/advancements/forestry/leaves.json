@@ -1,0 +1,66 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_leaves"
+		},
+		"title": "Grand-mere feuillage",
+		"description": "Recoltez un stack de chaque feuilles"
+	},
+	"parent": "custom:forestry/sapling",
+	"criteria": {
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_leaves",
+					"count": 64
+				}]
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_leaves",
+					"count": 64
+				}]
+			}
+		},
+		"dark oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_leaves",
+					"count": 64
+				}]
+			}
+		},
+		"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_leaves",
+					"count": 64
+				}]
+			}
+		},
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_leaves",
+					"count": 64
+				}]
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_leaves",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

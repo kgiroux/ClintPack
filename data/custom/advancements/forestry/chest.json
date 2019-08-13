@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": "Stockage de masse",
+		"description": "Fabriquez un stack de coffres pour ranger tous vos objets"
+	},
+	"parent": "custom:forestry/planks",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chest",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

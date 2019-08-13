@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Fatal Floor",
+		"description": "Be bitten by evoker fangs"
+	},
+	"parent": "custom:exploration/enter_mansion",
+	"criteria": {
+		"evoker_fangs": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "evoker_fangs"
+					}
+				}
+			}
+		}
+	}
+}

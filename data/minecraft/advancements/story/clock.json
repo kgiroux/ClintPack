@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "clock"
+		},
+		"title": "Quelle heure est-il ?",
+		"description": "Il est temps de vous faire une montre !"
+	},
+	"parent": "minecraft:story/all_tools",
+	"criteria": {
+		"clock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:clock"
+					}
+				]
+			}
+		}
+	}
+}

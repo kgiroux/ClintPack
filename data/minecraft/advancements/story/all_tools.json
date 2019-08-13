@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shears"
+		},
+		"title": "Tous les outils",
+		"description": "Craftez tous les outils du jeu",
+		"frame": "goal"
+	},
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"flint_and_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:flint_and_steel"
+					}
+				]
+			}
+		},
+		"fishing_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fishing_rod"
+					}
+				]
+			}
+		},
+		"shears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:shears"
+					}
+				]
+			}
+		}
+	}
+}

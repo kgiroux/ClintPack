@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_ore"
+		},
+		"title": "Ca sent bon le diamant...",
+		"description": "Descendez jusqu'au niveau du diamant"
+	},
+	"parent": "custom:caving/root",
+	"criteria": {
+		"16": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": 16
+					}
+				}
+			}
+		}
+	}
+}
+				

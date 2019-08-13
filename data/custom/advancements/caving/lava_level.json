@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lava_bucket"
+		},
+		"title": "The Floor Is Lava",
+		"description": "Atteignez les lacs de lave"
+	},
+	"parent": "custom:caving/reach_diamond_level",
+	"criteria": {
+		"10": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": 10
+					}
+				}
+			}
+		}
+	}
+}
+				

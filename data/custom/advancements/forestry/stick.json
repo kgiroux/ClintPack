@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stick"
+		},
+		"title": "Mikado",
+		"description": "Craftez un stack de batons"
+	},
+	"parent": "custom:forestry/planks",
+	"criteria": {
+		"stick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stick",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spawner"
+		},
+		"title": "Impensable",
+		"description": "Cassez un spawner"
+	},
+	"parent": "custom:caving/find_mineshaft",
+	"criteria": {
+		"mine_spawner": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
