@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:green_stained_glass_pane"
 		},
-		"title": "A World of Pane",
-		"description": "Collect all 17 glass pane types"
+		"title": "Un monde de glace",
+		"description": "Libéré délivré"
 	},
 	"parent": "custom:collection/glass",
 	"rewards": {

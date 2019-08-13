@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brown_terracotta"
 		},
-		"title": "Terra Caught 'Em All!",
-		"description": "Collect all 17 terracotta types"
+		"title": "Rainbow ",
+		"description": "une terre de couleur"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {

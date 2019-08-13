@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magenta_concrete"
 		},
-		"title": "Concrete Evidence",
-		"description": "Collect all 16 concrete colors"
+		"title": "Rainbow City",
+		"description": "Pas un mur identique Chef"
 	},
 	"parent": "custom:collection/concrete_powder",
 	"rewards": {

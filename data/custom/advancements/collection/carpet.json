@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:purple_carpet"
 		},
-		"title": "Fuzzy Feet",
-		"description": "Collect all 16 carpet colors"
+		"title": "Dance floor",
+		"description": "On fait chauffer la piste"
 	},
 	"parent": "custom:collection/wool",
 	"rewards": {

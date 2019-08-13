@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:horn_coral_fan"
 		},
-		"title": "Fanatics",
-		"description": "Collect all 10 coral fan types"
+		"title": "un corail de poche",
+		"description": "A emporter partout avec soi"
 	},
 	"parent": "custom:collection/coral",
 	"rewards": {

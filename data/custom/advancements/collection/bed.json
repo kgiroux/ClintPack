@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:black_bed"
 		},
-		"title": "Sweet Dreams",
-		"description": "Collect all 16 bed colors"
+		"title": "Ce Rêve bleu... rouge, vert ... bref un rêve dans un lit",
+		"description": "Un lit n'est pas suffisant, 16 c'est mieux"
 	},
 	"parent": "custom:collection/wool",
 	"rewards": {

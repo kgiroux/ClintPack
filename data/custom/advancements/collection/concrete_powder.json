@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cyan_concrete_powder"
 		},
-		"title": "Powder Power",
-		"description": "Collect all 16 concrete powder colors"
+		"title": "La poudre de couleur c'est bon",
+		"description": "Un peu de couleur dans ce monde de brut"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:gray_banner"
 		},
-		"title": "Flagged Down",
-		"description": "Collect all 16 banner colors"
+      "title": "Drapeaux, Drapeaux, Drapeaux, Toujours plus de drapeaux",
+      "description": "Il est temps de décorer avec les 16 couleurs de l'arc en ciel"
 	},
 	"parent": "custom:collection/wool",
 	"rewards": {

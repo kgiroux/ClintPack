@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:blue_wool"
 		},
-		"title": "Rainbow Collection",
-		"description": "Collect all 16 wool colors"
+		"title": "Un manteau de soie",
+		"description": "un beau manteau de père noël (photo sur le discord oblige)"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {

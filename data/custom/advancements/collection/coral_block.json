@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brain_coral_block"
 		},
-		"title": "Reef Chief",
-		"description": "Collect all 10 coral block types"
+		"title": "Plus qu'un corail",
+		"description": "Un nouveau type de mur ?"
 	},
 	"parent": "custom:collection/root",
 	"rewards": {

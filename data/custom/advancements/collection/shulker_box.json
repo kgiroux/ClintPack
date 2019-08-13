@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lime_shulker_box"
 		},
-		"title": "Somewhere over the Rainbow...",
-		"description": "Collect all 17 shulker box types"
+		"title": "De nyancat agressif",
+		"description": "Nyan Nyan Nyan Nyan Nyan Nyan Nyan Nyan"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {
