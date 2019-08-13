@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:music_disc_cat"
 		},
-		"title": "Music to My Ears",
-		"description": "Obtain a music disc",
+		"title": "Makarena",
+		"description": "Let's dance Clint edition",
 		"frame": "goal"
 	},
 	"parent": "custom:combat/deflect_arrow",

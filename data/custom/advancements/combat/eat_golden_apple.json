@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
-		"title": "Preppin' Up",
-		"description": "Eat a golden apple"
+		"title": "Invicible Man",
+		"description": "L'homme qui valait une pomme d'or"
 	},
 	"parent": "custom:combat/shield",
 	"criteria": {

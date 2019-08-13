@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:music_disc_11"
 		},
-		"title": "Full Album",
-		"description": "Obtain every music disc",
+      "title": "Un peu de music",
+      "description": "Micheal Jackson for ever",
 		"frame": "challenge"
 	},
 	"parent": "custom:combat/music_disc",

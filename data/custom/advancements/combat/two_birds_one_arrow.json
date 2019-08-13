@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.adventure.two_birds_one_arrow.title"
 		},
-		"description": "Kill two phantoms with a piercing arrow",
+		"description": "Deux fantômes pour le prix d'un !",
 		"frame": "challenge"
 	},
 	"rewards": {

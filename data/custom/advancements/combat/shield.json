@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:shield"
 		},
-		"title": "Defense!",
-		"description": "Protect yourself with a shield"
+		"title": "Vous ne passerez pas",
+		"description": "... les flèches bien sûr"
 	},
 	"parent": "custom:combat/root",
 	"criteria": {

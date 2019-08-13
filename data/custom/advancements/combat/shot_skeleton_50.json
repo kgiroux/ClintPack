@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.adventure.sniper_duel.title"
 		},
-		"description": "Kill a skeleton from at least 50 meters away",
+		"description": "Skeleton - 50 mètres - Challenge Accepted",
 		"frame": "challenge"
 	},
 	"parent": "custom:combat/shoot_arrow",

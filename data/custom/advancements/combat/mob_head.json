@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:creeper_head"
 		},
-		"title": "Thick Skull",
-		"description": "Decapitate a mob",
+		"title": "La tête de clint",
+		"description": "Plus facile de tuer un mob que d'avoir la tête de Clint",
 		"frame": "goal"
 	},
 	"parent": "custom:combat/root",

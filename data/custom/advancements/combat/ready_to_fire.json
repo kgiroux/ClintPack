@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": "Ready to Fire",
-		"description": "Have nine loaded crossbows in your hotbar",
+		"title": "Hunger Game",
+		"description": "Il n'en restera plus qu'un, autant être prêt",
 		"frame": "challenge",
 		"hidden": true
 	},

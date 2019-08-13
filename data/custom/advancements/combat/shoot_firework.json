@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:firework_rocket"
 		},
-		"title": "Weaponized Independence",
-		"description": "Shoot a firework with a crossbow"
+		"title": "Flèche d'artifice",
+		"description": "Feu d'artifice sur le voisin"
 	},
 	"parent": "custom:combat/ol_betsy",
 	"criteria": {

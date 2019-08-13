@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:zombie_head"
 		},
-		"title": "A True Robespierre",
-		"description": "Have a stack of any one skull type in your inventory",
+		"title": "Farming de tête de clint",
+		"description": "Plus facile d'avoir un stack de tête de zombie que celle de clint quoique ...",
 		"frame": "challenge",
 		"hidden": true
 	},

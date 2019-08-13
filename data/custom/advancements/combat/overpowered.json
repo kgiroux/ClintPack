@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:enchanted_golden_apple"
 		},
-		"title": "Overpowered",
-		"description": "Eat an enchanted golden apple",
+		"title": "Bug dans la matrice",
+		"description": "Il cheat chef, appelez un admin",
 		"frame": "challenge"
 	},
 	"parent": "custom:combat/eat_golden_apple",

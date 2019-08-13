@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:feather"
 		},
-		"title": "Lost Weight",
-		"description": "Drink a potion of Slow Falling"
+		"title": "Slow motion",
+		"description": "Atterissage sans douleur"
 	},
 	"parent": "custom:combat/phantom_pains",
 	"criteria": {

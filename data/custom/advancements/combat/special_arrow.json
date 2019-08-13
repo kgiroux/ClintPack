@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:tipped_arrow"
 		},
-		"title": "Dipped in Magic",
-		"description": "Obtain a spectral or tipped arrow"
+		"title": "Flèche téléguidé",
+		"description": "Une flèche un peu magique"
 	},
 	"parent": "custom:combat/shoot_arrow",
 	"criteria": {

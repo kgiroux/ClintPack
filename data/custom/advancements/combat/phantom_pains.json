@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:phantom_membrane"
 		},
-		"title": "Phantom Pains",
-		"description": "Hurt or be hurt by a phantom"
+		"title": "Luigi Mansion",
+		"description": "Où est l'aspirateur ?"
 	},
 	"parent": "custom:combat/root",
 	"criteria": {

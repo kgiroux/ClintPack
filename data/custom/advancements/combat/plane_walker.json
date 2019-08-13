@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:ender_pearl"
 		},
-		"title": "Plane Walker",
-		"description": "Kill an enderman in all three dimensions",
+		"title": "Voleur de block",
+		"description": "Trouver et tuer le voleur de block dans toutes les dimensions",
 		"frame": "goal"
 	},
 	"parent": "custom:combat/kill_a_mob",
