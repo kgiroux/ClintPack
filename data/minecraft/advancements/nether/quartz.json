@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:quartz"
 		},
-		"title": "Crystal Collection",
-		"description": "Quarry quartz"
+		"title": "Après le diams",
+		"description": "Quartz mon Quartz"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

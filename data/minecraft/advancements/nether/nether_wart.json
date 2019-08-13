@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:nether_wart"
 		},
-		"title": "Basis to Brew",
-		"description": "Collect nether wart"
+		"title": "On récupère le nécessaire",
+		"description": "Un peu de wart dans le Nether"
 	},
 	"parent": "minecraft:nether/soul_sand",
 	"criteria": {

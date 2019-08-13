@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magma_block"
 		},
-		"title": "Lava Infused",
-		"description": "Mine or craft a magma block"
+		"title": "Lava à domicile",
+		"description": "Un peu de chaleur chez vous"
 	},
 	"parent": "minecraft:nether/quartz",
 	"criteria": {

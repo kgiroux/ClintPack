@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:glowstone_dust"
 		},
-		"title": "Power Up",
-		"description": "Use glowstone dust to make a potion stronger"
+		"title": "Toujours plus fort",
+		"description": "Une petite poudre pour être plus fort que Clint"
 	},
 	"parent": "minecraft:nether/extend_potion",
 	"criteria": {

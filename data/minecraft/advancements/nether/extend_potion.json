@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:redstone"
 		},
-		"title": "Long-Lasting Liquid",
-		"description": "Use redstone dust to make a potion longer"
+      "title": "Un peu de poudre rouge",
+      "description": "Pas assez long ... toujours plus"
 	},
 	"parent": "minecraft:nether/brew_potion",
 	"criteria": {

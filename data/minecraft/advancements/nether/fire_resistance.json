@@ -4,8 +4,8 @@
 			"item": "minecraft:potion",
 			"nbt": "{Potion:'minecraft:fire_resistance'}"
 		},
-		"title": "Stayin' Frosty",
-		"description": "Drink a potion of Fire Resistance"
+      "title": "Eau ou lave qu'elle est la différence",
+      "description": "Y a pas le feu au lac"
 	},
 	"parent": "minecraft:nether/brew_potion",
 	"criteria": {

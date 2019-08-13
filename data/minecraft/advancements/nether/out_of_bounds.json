@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bedrock"
 		},
-		"title": "Out of Bounds",
-		"description": "Break above the Nether. You cheater.",
+		"title": "En dehors des limites",
+		"description": "Trouver la zone interdite du Nether. Si tu la trouve, tu es un tricheur",
 		"frame": "challenge",
 		"hidden": true
 	},

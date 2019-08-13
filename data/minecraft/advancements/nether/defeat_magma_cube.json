@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magma_cream"
 		},
-		"title": "Heated Core",
-		"description": "Kill a magma cube"
+      "title": "Chaud comme la braise",
+      "description": "Eruption, tous au abris"
 	},
 	"parent": "minecraft:nether/find_fortress",
 	"criteria": {

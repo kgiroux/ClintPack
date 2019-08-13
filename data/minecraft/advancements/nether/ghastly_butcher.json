@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cooked_beef"
 		},
-		"title": "Ghastly Butcher",
-		"description": "Use a ghast to kill a farm animal",
+		"title": "Ghast un jour, Ghast toujours",
+		"description": "C'est pas moi c'est lui!!",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/return_to_sender",

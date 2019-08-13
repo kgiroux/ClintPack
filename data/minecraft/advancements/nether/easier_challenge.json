@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:glass_bottle"
 		},
-		"title": "A Much More Doable Challenge",
-		"description": "Get all possible effects during your life",
+      "title": "Jamais deux sans trois",
+      "description": "Avoir tous les effets pour montrer qu'on est un warrior",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/brew_potions",

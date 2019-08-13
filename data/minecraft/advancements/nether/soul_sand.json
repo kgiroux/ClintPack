@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:soul_sand"
 		},
-		"title": "Spooky Sand",
-		"description": "Mine soul sand"
+		"title": "Cela me saoul",
+		"description": "Sand"
 	},
 	"parent": "minecraft:nether/get_blaze_rod",
 	"criteria": {
