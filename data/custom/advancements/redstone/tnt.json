@@ -4,7 +4,7 @@
 			"item": "minecraft:tnt"
 		},
 		"title": "BOOM",
-		"description": "Craft TNT"
+		"description": "Pas de besoin de description si ? Fait pèter Clint!"
 	},
 	"parent": "custom:redstone/detector_rail",
 	"criteria": {

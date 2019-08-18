@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:slime_block"
 		},
-		"title": "...And Stick!",
-		"description": "Craft and place a slime block"
+		"title": "colle",
+		"description": "Bloque tes amis en les collant à toi"
 	},
 	"parent": "custom:redstone/sticky_piston",
 	"criteria": {

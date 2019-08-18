@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:trapped_chest"
 		},
-		"title": "It's a Trap!",
-		"description": "Rig a chest"
+		"title": "Ouvre moi, je t'apporterais la richesse",
+		"description": "Si je te jure"
 	},
 	"parent": "custom:redstone/tripwire_hook",
 	"criteria": {

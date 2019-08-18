@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:comparator"
 		},
-		"title": "(Don't) Compare Yourself",
-		"description": "Compare a signal"
+		"title": "Comparaison",
+		"description": "Dieu n'est pas comparable à toi"
 	},
 	"parent": "custom:redstone/repeater",
 	"criteria": {

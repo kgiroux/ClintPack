@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:redstone_torch"
 		},
-		"title": "Powerful Light",
-		"description": "Craft and place a redstone torch"
+		"title": "Plus puissant que la torche",
+		"description": "Oh c'est rouge!"
 	},
 	"parent": "custom:redstone/root",
 	"criteria": {

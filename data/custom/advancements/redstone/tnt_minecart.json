@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:tnt_minecart"
 		},
-		"title": "Mobile Explosion",
-		"description": "Put TNT in a minecart"
+		"title": "Cadeau empoisonner",
+		"description": "Explosion à distance"
 	},
 	"parent": "custom:redstone/tnt",
 	"criteria": {

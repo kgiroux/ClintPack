@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:detector_rail"
 		},
-		"title": "Minecart Power",
-		"description": "Craft and place a detector rail"
+		"title": "SNCF en retard",
+		"description": "Je suis en retard de 2h chef"
 	},
 	"parent": "custom:redstone/pressure_plate",
 	"criteria": {

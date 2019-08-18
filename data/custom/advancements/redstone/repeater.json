@@ -4,7 +4,7 @@
 			"item": "minecraft:repeater"
 		},
 		"title": "Repeat Yourself",
-		"description": "Extend a signal"
+		"description": "Pète et repète son sur un bateau, pète tombe à l'eau, qui reste sur le bateau."
 	},
 	"parent": "custom:redstone/redstone_torch",
 	"criteria": {

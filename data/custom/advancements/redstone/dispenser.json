@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dispenser"
 		},
-		"title": "Dispense This!",
-		"description": "Craft and place a dispenser"
+		"title": "Distributeur de billets",
+		"description": "Distribuons des potions et des flèches"
 	},
 	"parent": "custom:redstone/dropper",
 	"criteria": {

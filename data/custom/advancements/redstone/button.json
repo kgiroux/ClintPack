@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_button"
 		},
-		"title": "Timed Trigger",
-		"description": "Craft and place a button"
+      "title": "Presse le bouton rouge",
+      "description": "Faire un bouton et appuyer 1000 fois dessus"
 	},
 	"parent": "custom:redstone/flip_lever",
 	"criteria": {

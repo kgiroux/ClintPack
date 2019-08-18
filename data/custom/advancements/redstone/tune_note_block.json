@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:note_block"
 		},
-		"title": "Musician",
-		"description": "Tune a note block"
+		"title": "Mélodie",
+		"description": "Change les notes d'un note block"
 	},
 	"parent": "custom:redstone/root",
 	"criteria": {

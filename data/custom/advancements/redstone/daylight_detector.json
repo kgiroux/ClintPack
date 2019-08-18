@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:daylight_detector"
 		},
-		"title": "Solar Power",
-		"description": "Harness the power of the sun"
+		"title": "Ecolo - time",
+		"description": "La puissance du soleil"
 	},
 	"parent": "custom:redstone/observer",
 	"criteria": {

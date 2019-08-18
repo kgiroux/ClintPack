@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_pressure_plate"
 		},
-		"title": "Under Pressure",
-		"description": "Activate a pressure plate"
+		"title": "C'est un piège",
+		"description": "Fallait pas marcher ici"
 	},
 	"parent": "custom:redstone/button",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dropper"
 		},
-		"title": "Drop This!",
-		"description": "Craft and place a dropper"
+		"title": "Poubelle",
+		"description": "Fait d'un de tes potes ta poubelle"
 	},
 	"parent": "custom:redstone/hopper_placed",
 	"criteria": {

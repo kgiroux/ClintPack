@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sticky_piston"
 		},
-		"title": "...Pull...",
-		"description": "Craft and place a sticky piston"
+		"title": "Tirer",
+		"description": "Fabrique et place un sticky piston"
 	},
 	"parent": "custom:redstone/piston",
 	"criteria": {

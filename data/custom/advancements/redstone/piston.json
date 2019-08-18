@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:piston"
 		},
-		"title": "Push...",
-		"description": "Craft and place a piston"
+		"title": "Pousse",
+		"description": "Pousse toi de là, c'est ma place"
 	},
 	"parent": "custom:redstone/root",
 	"criteria": {

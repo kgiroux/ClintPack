@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:hopper_minecart"
 		},
-		"title": "Moving Moving Storage",
-		"description": "Put a hopper in a minecart"
+		"title": "L'objet n'est plus là",
+		"description": "Cherche bien l'objet n'est plus là, et il se déplace vite"
 	},
 	"parent": "custom:redstone/hopper_placed",
 	"criteria": {

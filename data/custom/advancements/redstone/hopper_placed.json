@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:hopper"
 		},
-		"title": "Moving Storage",
-		"description": "Move your items with a hopper"
+		"title": "Trouve l'objet sous les gobelets",
+		"description": "Bah il est pas là non plus"
 	},
 	"parent": "custom:redstone/root",
 	"criteria": {

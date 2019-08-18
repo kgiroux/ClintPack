@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:gunpowder"
 		},
-		"title": "Payback",
-		"description": "Blow up a creeper",
+		"title": "Vengeance",
+		"description": "Fait pêter un creeper sur un pote",
 		"frame": "challenge"
 	},
 	"parent": "custom:redstone/tnt",

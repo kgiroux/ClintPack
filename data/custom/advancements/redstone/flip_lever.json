@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lever"
 		},
-		"title": "Flip the Switch!",
-		"description": "Craft and place a lever"
+		"title": "Switch!",
+		"description": "Non on parle pas de la console mais bien du levier."
 	},
 	"parent": "custom:redstone/root",
 	"criteria": {
