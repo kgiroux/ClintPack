@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_pressure_plate"
 		},
-		"title": "Boutons en folie",
-		"description": "Craftez tous les boutons possible"
+		"title": "Sous pression",
+		"description": "Craftez toutes les plaques possible"
 	},
 	"parent": "custom:redstone/pressure_plate",
 	"criteria": {
@@ -32,11 +32,11 @@
 				}]
 			}
 		},
-		"acaccia": {
+		"acacia": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "minecraft:acaccia_pressure_plate"
+					"item": "minecraft:acacia_pressure_plate"
 				}]
 			}
 		},
@@ -66,3 +66,4 @@
 		}
 	}
 }
+
