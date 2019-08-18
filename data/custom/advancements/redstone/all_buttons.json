@@ -6,7 +6,7 @@
 		"title": "Boutons en folie",
 		"description": "Craftez tous les boutons possible"
 	},
-	"parent": "custom:caving/root",
+	"parent": "custom:redstone/button",
 	"criteria": {
 		"stone": {
 			"trigger": "minecraft:inventory_changed",
@@ -48,7 +48,7 @@
 				}]
 			}
 		},
-    "jungle": {
+    		"jungle": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
@@ -56,8 +56,8 @@
 				}]
 			}
 		},
-    "dark_oak": {
-      "trigger": "minecraft:inventory_changed",
+    		"dark_oak": {
+      			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
 					"item": "minecraft:dark_oak_button"
