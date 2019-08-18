@@ -8,12 +8,26 @@
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {
-		"button": {
-			"trigger": "minecraft:placed_block",
+		"bateau": {
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"item": {
-					"tag": "minecraft:buttons"
-				}
+				"items": [
+					{
+						"tag": "custom:boats"
+					}
+				]
+			}
+		},
+		"elytra" : (
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": "minecraft:elytra"
+			}
+		},
+		"minecart" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": "minecraft:minecart"
 			}
 		}
 	}
