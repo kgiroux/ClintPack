@@ -6,7 +6,7 @@
 		"title": "Fait gaffe au fil",
 		"description": "Detecteur de présence"
 	},
-	"parent": "custom:redstone/pressure_plate",
+	"parent": "custom:redstone/flip_lever",
 	"criteria": {
 		"tripwire": {
 			"trigger": "minecraft:enter_block",
