@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:andesite"
+			"item": "minecraft:oak_button"
 		},
 		"title": "Boutons en folie",
 		"description": "Craftez tous les boutons possible"
@@ -32,11 +32,11 @@
 				}]
 			}
 		},
-		"acaccia": {
+		"acacia": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "minecraft:acaccia_button"
+					"item": "minecraft:acacia_button"
 				}]
 			}
 		},
