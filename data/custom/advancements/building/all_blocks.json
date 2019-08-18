@@ -1,0 +1,740 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_bricks"
+		},
+		"title": "Tu débloques !",
+		"description": "Utilisez tous les blocs du jeu"
+	},
+	"parent": "custom:building/root",
+	"criteria": {
+		"cobble": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone"
+				}]
+			}
+		},
+    "mossy_cobble": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone"
+				}]
+			}
+		},
+    "stone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone"
+				}]
+			}
+		},
+    "smooth_stone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_stone"
+				}]
+			}
+		},
+    "stonebrick": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_bricks"
+				}]
+			}
+		},
+    "mossy_stonebrick": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_bricks"
+				}]
+			}
+		},
+    "cracked_stonebrick": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cracked_stone_bricks"
+				}]
+			}
+		},
+    "chiseled_stonebrick": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_stone_bricks"
+				}]
+			}
+		},
+    "diorite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diorite"
+				}]
+			}
+		},
+    "polished_diorite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_diorite"
+				}]
+			}
+		},
+    "andesite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:andesite"
+				}]
+			}
+		},
+    "polished_andesite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_andesite"
+				}]
+			}
+		},
+    "granite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_granite"
+				}]
+			}
+		},
+    "polished_granite": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:polished_granite"
+				}]
+			}
+		},
+    "grass": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:grass_block"
+				}]
+			}
+		},
+    "dirt": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dirt"
+				}]
+			}
+		},
+    "podzol": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:podzol"
+				}]
+			}
+		},
+    "coarse_dirt": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:coarse_dirt"
+				}]
+			}
+		},
+    "sand": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sand"
+				}]
+			}
+		},
+    "red_sand": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sand"
+				}]
+			}
+		},
+    "sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sandstone"
+				}]
+			}
+		},
+    "chiseled_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_sandstone"
+				}]
+			}
+		},
+    "smooth_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_sandstone"
+				}]
+			}
+		},
+    "cut_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_sandstone"
+				}]
+			}
+		},
+    "red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sandstone"
+				}]
+			}
+		},
+    "chiseled_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_red_sandstone"
+				}]
+			}
+		},
+    "smooth_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_red_sandstone"
+				}]
+			}
+		},
+    "cut_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_red_sandstone"
+				}]
+			}
+		},
+    "oak_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_log"
+				}]
+			}
+		},
+    "stripped_oak_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_oak_log"
+				}]
+			}
+		},
+    "oak_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_wood"
+				}]
+			}
+		},
+    "stripped_oak_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_oak_wood"
+				}]
+			}
+		},
+    "oak_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_planks"
+				}]
+			}
+		},
+    "birch_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_log"
+				}]
+			}
+		},
+    "stripped_birch_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_birch_log"
+				}]
+			}
+		},
+    "birch_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_wood"
+				}]
+			}
+		},
+    "stripped_birch_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_birch_wood"
+				}]
+			}
+		},
+    "birch_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_planks"
+				}]
+			}
+		},
+    "acacia_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_log"
+				}]
+			}
+		},
+    "stripped_acacia_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_acacia_log"
+				}]
+			}
+		},
+    "acacia_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_wood"
+				}]
+			}
+		},
+    "stripped_acacia_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_acacia_wood"
+				}]
+			}
+		},
+    "acacia_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_planks"
+				}]
+			}
+		},
+    "dark_oak_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_log"
+				}]
+			}
+		},
+    "stripped_dark_oak_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_dark_oak_log"
+				}]
+			}
+		},
+    "dark_oak_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_wood"
+				}]
+			}
+		},
+    "stripped_dark_oak_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_dark_oak_wood"
+				}]
+			}
+		},
+    "dark_oak_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_planks"
+				}]
+			}
+		},
+    "jungle_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_log"
+				}]
+			}
+		},
+    "stripped_jungle_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_jungle_log"
+				}]
+			}
+		},
+    "jungle_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_wood"
+				}]
+			}
+		},
+    "stripped_jungle_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_jungle_wood"
+				}]
+			}
+		},
+    "jungle_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_planks"
+				}]
+			}
+		},
+    "spruce_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_log"
+				}]
+			}
+		},
+    "stripped_spruce_log": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_spruce_log"
+				}]
+			}
+		},
+    "spruce_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_wood"
+				}]
+			}
+		},
+    "stripped_spruce_wood": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_spruce_wood"
+				}]
+			}
+		},
+    "spruce_planks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_planks"
+				}]
+			}
+		},
+    "gravel": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:gravel"
+				}]
+			}
+		},
+    "clay": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:clay"
+				}]
+			}
+		},
+    "coal_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:coal_ore"
+				}]
+			}
+		},
+    "iron_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:iron_ore"
+				}]
+			}
+		},
+    "gold_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:gold_ore"
+				}]
+			}
+		},
+    "redstone_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:redstone_ore"
+				}]
+			}
+		},
+    "lapis_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lapis_ore"
+				}]
+			}
+		},
+    "emerald_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:emerald_ore"
+				}]
+			}
+		},
+    "diamond_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_ore"
+				}]
+			}
+		},
+    "quartz_ore": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_quartz_ore"
+				}]
+			}
+		},
+    "coal_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:coal_block"
+				}]
+			}
+		},
+    "iron_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:iron_block"
+				}]
+			}
+		},
+    "gold_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:gold_block"
+				}]
+			}
+		},
+    "redstone_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:redstone_block"
+				}]
+			}
+		},
+    "lapis_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lapis_block"
+				}]
+			}
+		},
+    "emerald_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:emerald_block"
+				}]
+			}
+		},
+    "diamond_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:diamond_block"
+				}]
+			}
+		},
+    "bricks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bricks"
+				}]
+			}
+		},
+    "bookshelf": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:bookshelf"
+				}]
+			}
+		},
+    "obsidian": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:obsidian"
+				}]
+			}
+		},
+    "snow": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:snow_block"
+				}]
+			}
+		},
+    "ice": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:ice"
+				}]
+			}
+		},
+    "packed_ice": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:packed_ice"
+				}]
+			}
+		},
+    "blue_ice": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:blue_ice"
+				}]
+			}
+		},
+    "purpur_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_block"
+				}]
+			}
+		},
+    "purpur_pillar": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_pillar"
+				}]
+			}
+		},
+    "netherrack": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone"
+				}]
+			}
+		},
+    "soulsand": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:soulsand"
+				}]
+			}
+		},
+    "nether_bricks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_bricks"
+				}]
+			}
+		},
+    "mycelium": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mycelium"
+				}]
+			}
+		},
+    "endstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:end_stone"
+				}]
+			}
+		},
+    "stone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone"
+				}]
+			}
+		},
+    "dark_oak": {
+      "trigger": "minecraft:placed_block",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_planks"
+				}]
+			}
+		}
+	}
+}
