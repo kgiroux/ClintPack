@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:minecart"
+		},
+		"title": "Roulez jeunesse !",
+		"description": "Craftez tous les types de minecart"
+	},
+	"parent": "custom:redstone/tnt_minecart",
+	"criteria": {
+		"minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:minecart"
+				}]
+			}
+		},
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chest_minecart"
+				}]
+			}
+		},
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:furnace_minecart"
+				}]
+			}
+		},
+		"tnt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tnt_minecart"
+				}]
+			}
+		},
+    "hopper": {
+      "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:hopper_minecart"
+				}]
+			}
+		}
+	}
+}
