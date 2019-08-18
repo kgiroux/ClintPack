@@ -6,7 +6,7 @@
 		"title": "C'est un piège",
 		"description": "Fallait pas marcher ici"
 	},
-	"parent": "custom:redstone/button",
+	"parent": "custom:redstone/flip_lever",
 	"criteria": {
 		"activate": {
 			"trigger": "minecraft:impossible"
