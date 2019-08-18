@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#W ",
-        " / ",
+        "## ",
+        " W ",
         " / "
     ],
     "key": {
         "#": {
-            "item": "minecraft:infested_cobblestone"
+            "item": "minecraft:cobblestone"
         },
         "W": {
             "item": "minecraft:wooden_hoe"
