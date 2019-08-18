@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rail"
+		},
+		"title": "T'as déraillé ou quoi ?",
+		"description": "Craftez tous les types de rails"
+	},
+	"parent": "custom:redstone/detector_rail",
+	"criteria": {
+		"rail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:rail"
+				}]
+			}
+		},
+    "detector_rail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:detector_rail"
+				}]
+			}
+		},
+    "powered_rail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:powered_rail"
+				}]
+			}
+		},
+    "activator_rail": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:activator_rail"
+				}]
+			}
+		}
+	}
+}
