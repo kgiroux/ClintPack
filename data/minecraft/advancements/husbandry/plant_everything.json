@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:vine"
 		},
-		"title": "Master of the Field",
-		"description": "Plant everything that grows",
+		"title": "Tous ce qui peut pousser",
+		"description": "Plantons tout ce qui peut l'être",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/plant_all_seeds",

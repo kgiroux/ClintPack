@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:spider_eye"
 		},
-		"title": "Desperate Times",
-		"description": "Eat everything bad for you",
+		"title": "Mauvaise bouffe",
+		"description": "Tacos, Kebab, burger, pizza",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/root",

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bread"
 		},
-		"title": "Unbaked Baked Goods",
-		"description": "Eat bread"
+		"title": "Un baguette",
+		"description": "Un peu de pain pour moi"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {

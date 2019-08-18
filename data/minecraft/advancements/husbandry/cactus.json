@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cactus"
 		},
-		"title": "Water Independent",
-		"description": "Harvest a cactus"
+		"title": "Aie cela pick",
+		"description": "Pas touche au cactus, cela pousse"
 	},
 	"parent": "minecraft:husbandry/isugar_cane",
 	"criteria": {

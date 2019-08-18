@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wooden_hoe"
 		},
-		"title": "Time to Farm!",
-		"description": "Craft a hoe"
+		"title": "Farm adventure",
+		"description": "Faut preparer le terrain"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

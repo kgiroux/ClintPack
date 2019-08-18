@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:rose_bush"
 		},
-		"title": "Full Bouquet",
-		"description": "Pick all the flowers",
+      "title": "Petit bouquet pour Clint",
+      "description": "Moi j'aime toute les fleurs",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/pick_flower",

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cake"
 		},
-		"title": "The Lie",
-		"description": "Bake a cake"
+		"title": "Happy Birthday",
+		"description": "Faire un beau gâteau"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {

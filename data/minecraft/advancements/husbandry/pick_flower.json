@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:poppy"
 		},
-		"title": "Flower Power",
-		"description": "Pick a flower"
+		"title": "Une petite fleur",
+		"description": "Déclare ta flamme en donnant une belle fleur à l'élu de ton coeur"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {
