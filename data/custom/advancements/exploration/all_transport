@@ -1,0 +1,20 @@
+{
+  "display": {
+		"icon": {
+			"item": "minecraft:minecart"
+		},
+		"title": "En voiture Simone !",
+		"description": "Utiliser tous les moyen de transport du jeu"
+	},
+	"parent": "custom:exploration/root",
+	"criteria": {
+		"button": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:buttons"
+				}
+			}
+		}
+	}
+}
