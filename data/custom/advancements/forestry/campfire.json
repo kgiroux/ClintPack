@@ -4,7 +4,7 @@
 			"item": "minecraft:campfire"
 		},
 		"title": "Feu de camp",
-		"description": "Faites vous un feu a la belle etoile"
+		"description": "Faites vous un feu à la belle étoile"
 	},
 	"parent": "custom:forestry/stick",
 	"criteria": {

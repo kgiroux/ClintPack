@@ -3,18 +3,18 @@
     "pattern": [
         " # ",
         " # ",
-        " W "
+        " I "
     ],
     "key": {
         "#": {
-            "item": "minecraft:infested_cobblestone"
+            "item": "minecraft:diamond"
         },
-        "W": {
-            "item": "minecraft:wooden_sword"
+        "I": {
+            "item": "minecraft:iron_sword"
         }
     },
     "result": {
-        "item": "minecraft:stone_sword",
+        "item": "minecraft:diamond_sword",
         "count": 1
     }
 }

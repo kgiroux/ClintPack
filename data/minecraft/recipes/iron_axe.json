@@ -1,23 +1,23 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#W ",
-        "#/ ",
+        "iG ",
+        "i/ ",
         " / "
     ],
     "key": {
-        "#": {
-            "item": "minecraft:infested_cobblestone"
+        "i": {
+            "item": "minecraft:iron_ingot"
         },
-        "W": {
-            "item": "minecraft:wooden_axe"
+        "G": {
+            "item": "minecraft:golden_axe"
         },
         "/": {
             "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "minecraft:stone_axe",
+        "item": "minecraft:iron_axe",
         "count": 1
     }
 }

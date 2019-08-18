@@ -1,19 +1,23 @@
 {
-	"type": "crafting_shaped",
-	"pattern": [
-		"##",
-		" X",
-		" X"
-	],
-	"key": {
-		"#": {
-			"tag": "custom:stones"
-		},
-		"X": {
-			"item": "minecraft:stick"
-		}
-	},
-	"result": {
-		"item": "minecraft:stone_hoe"
-	}
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W ",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:infested_cobblestone"
+        },
+        "W": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_hoe",
+        "count": 1
+    }
 }

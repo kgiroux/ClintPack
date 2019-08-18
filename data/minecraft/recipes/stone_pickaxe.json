@@ -1,19 +1,23 @@
 {
-	"type": "crafting_shaped",
-	"pattern": [
-		"###",
-		" X ",
-		" X "
-	],
-	"key": {
-		"#": {
-			"tag": "custom:stones"
-		},
-		"X": {
-			"item": "minecraft:stick"
-		}
-	},
-	"result": {
-		"item": "minecraft:stone_pickaxe"
-	}
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " W ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:infested_cobblestone"
+        },
+        "W": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_pickaxe",
+        "count": 1
+    }
 }
