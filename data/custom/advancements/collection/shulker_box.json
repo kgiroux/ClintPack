@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lime_shulker_box"
 		},
-		"title": "De nyancat agressif",
-		"description": "Nyan Nyan Nyan Nyan Nyan Nyan Nyan Nyan"
+		"title": "Stockage Xtra coloré",
+		"description": "Récolter toutes les couleur de shulker"
 	},
 	"parent": "custom:collection/all_dye",
 	"rewards": {
