@@ -6,7 +6,7 @@
 		"title": "SNCF en retard",
 		"description": "Je suis en retard de 2h chef"
 	},
-	"parent": "custom:redstone/pressure_plate",
+	"parent": "custom:redstone/all_pressure_plate",
 	"criteria": {
 		"detector_rail": {
 			"trigger": "minecraft:placed_block",
