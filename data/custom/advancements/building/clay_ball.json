@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:clay_ball"
 		},
-		"title": "Clay-Dough",
-		"description": "Dig up some clay from a lake"
+		"title": "Des bouboules",
+		"description": "Récoltez de l'argile dans un lac"
 	},
 	"parent": "custom:building/root",
 	"criteria": {
