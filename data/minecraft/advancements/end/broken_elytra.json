@@ -4,8 +4,8 @@
 			"item": "minecraft:elytra",
 			"nbt": "{Damage:431}"
 		},
-		"title": "Worn Out",
-		"description": "Wear out an elytra",
+      "title": "C'est pas cassé ...",
+      "description": "Aile de dragons elytra",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/elytra",

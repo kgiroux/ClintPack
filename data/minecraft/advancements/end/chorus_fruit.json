@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:chorus_fruit"
 		},
-		"title": "Choir Class",
-		"description": "Attack a chorus tree until it collapses"
+		"title": "Arbre chorus",
+		"description": "Bucheron d'un autre monde"
 	},
 	"parent": "minecraft:end/enter_end_gateway",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:ender_chest"
 		},
-		"title": "Cross-Dimensional Storage",
-		"description": "Craft an ender chest"
+		"title": "Cross-Dimensional Stockage",
+		"description": "Craft un ender chest"
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {

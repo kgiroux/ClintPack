@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dragon_head"
 		},
-		"title": "Off with His Head!",
-		"description": "Collect a dragon's head from an end ship"
+		"title": "Devenir un dragon - Tête",
+		"description": "Trouver une tête de dragon"
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {

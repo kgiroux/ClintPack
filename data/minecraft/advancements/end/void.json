@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:black_stained_glass_pane"
 		},
-		"title": "Call of the Void",
-		"description": "Fall below the world"
+		"title": "Un aller simple",
+		"description": "tomber an dessus du monde"
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {
@@ -20,4 +20,3 @@
 		}
 	}
 }
-				

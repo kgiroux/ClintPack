@@ -3,10 +3,8 @@
 		"icon": {
 			"item": "minecraft:elytra"
 		},
-		"title": {
-			"translate": "advancements.end.elytra.title"
-		},
-		"description": "Find an elytra",
+		"title": "Devenir un dragon - Ailes",
+		"description": "Trouve des elytra",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/find_end_city",

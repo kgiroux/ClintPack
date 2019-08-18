@@ -4,8 +4,8 @@
 			"item": "minecraft:lingering_potion",
 			"nbt": "{Potion:'minecraft:healing'}"
 		},
-		"title": "Watch Your Step",
-		"description": "Brew a lingering potion"
+		"title": "Potions persistante",
+		"description": "Un peu de soufle de dragon"
 	},
 	"parent": "minecraft:end/dragon_breath",
 	"criteria": {

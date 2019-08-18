@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.end.dragon_egg.title"
 		},
-		"description": "Hold the dragon egg",
+		"description": "Nouvelle maman dragounette",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/kill_dragon",
