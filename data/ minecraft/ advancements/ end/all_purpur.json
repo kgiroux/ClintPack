@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:purpur_pillar"
 		},
-		"title": "PurPurfect",
-		"description": "Craft all purpur variants",
+		"title": "Du violet partout ! ",
+		"description": "Craftez toutes les variantes de purpur",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/chorus_fruit",
