@@ -6,7 +6,7 @@
 		"title": "Tu débloques !",
 		"description": "Utilisez tous les blocs du jeu"
 	},
-	"parent": "custom:building/root",
+	"parent": "custom:building/all_quartz_block",
 	"criteria": {
 		"cobble": {
 			"trigger": "minecraft:placed_block",
