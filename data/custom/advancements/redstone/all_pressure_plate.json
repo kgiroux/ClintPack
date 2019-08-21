@@ -20,7 +20,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "minecraft:golden_pressure_plate"
+					"item": "minecraft:light_weighted_pressure_plate"
 				}]
 			}
 		},
