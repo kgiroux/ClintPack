@@ -1,0 +1,55 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:quartz_block"
+		},
+		"title": "Quartzite aigue",
+		"description": "Craftez tous les dérivés du quartz"
+	},
+	"parent": "custom:building/all_stairs",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"quartz_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_block"
+				}]
+			}
+		},
+    "chiseled_quartz_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_quartz_block"
+				}]
+			}
+		},
+    "quartz_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_pillar"
+				}]
+			}
+		},
+    "quartz_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_stairs"
+				}]
+			}
+		},
+		"quartz_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:quartz_slab"
+				}]
+			}
+		}
+	}
+}
