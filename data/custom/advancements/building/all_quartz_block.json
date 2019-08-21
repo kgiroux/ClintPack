@@ -6,7 +6,7 @@
 		"title": "Quartzite aigue",
 		"description": "Craftez tous les dérivés du quartz"
 	},
-	"parent": "custom:building/all_sandstone_block",
+	"parent": "custom:building/all_sandstone_blocks",
 	"rewards": {
 		"experience": 100
 	},
