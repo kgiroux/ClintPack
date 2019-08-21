@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:hay_block"
+		},
+		"title": "Ca me botte bien",
+		"description": "Baloti, balotin"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:pumpkin"
+					}
+				]
+			}
+		}
+	}
+}
