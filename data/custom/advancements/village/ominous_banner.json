@@ -4,8 +4,8 @@
 			"item": "minecraft:white_banner",
 			"nbt": "{BlockEntityTag: {Patterns: [{Pattern: 'mr', Color: 9}, {Pattern: 'bs', Color: 8}, {Pattern: 'cs', Color: 7}, {Pattern: 'bo', Color: 8}, {Pattern: 'ms', Color: 15}, {Pattern: 'hh', Color: 8}, {Pattern: 'mc', Color: 8}, {Pattern: 'bo', Color: 15}]}}"
 		},
-		"title": "Was It Worth It?",
-		"description": "Pick up the cursed banner"
+		"title": "Cela valait le coûp ? ",
+		"description": "Récupérer une bannière enchantée"
 	},
 	"parent": "custom:village/have_bad_omen_effect",
 	"criteria": {

@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.adventure.trade.title"
 		},
-		"description": "Successfully trade with a villager"
+		"description": "Money"
 	},
 	"parent": "custom:village/root",
 	"criteria": {

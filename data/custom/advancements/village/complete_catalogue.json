@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.husbandry.complete_catalogue.title"
 		},
-		"description": "Tame every cat variant",
+		"description": "Il ne faut pas être ailurophobe",
 		"frame": "challenge"
 	},
 	"rewards": {

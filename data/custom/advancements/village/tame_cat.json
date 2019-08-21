@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cod"
 		},
-		"title": "Timid Kitty",
-		"description": "Take in a stray cat"
+		"title": "Hello Kitty",
+		"description": "Apprivoiser un chat"
 	},
 	"parent": "custom:village/root",
 	"criteria": {

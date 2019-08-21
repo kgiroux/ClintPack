@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:saddle"
 		},
-		"title": "Mighty Foe",
-		"description": "Slay a ravager",
+		"title": "Bête indomptable",
+		"description": "Tuer un ravager",
 		"frame": "goal"
 	},
 	"parent": "custom:village/raid",

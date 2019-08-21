@@ -4,8 +4,8 @@
 			"item": "minecraft:emerald",
 			"nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:1}]}"
 		},
-		"title": "True Bravery",
-		"description": "Defeat a raid started with Bad Omen level 5",
+		"title": "Un héro",
+		"description": "Défendre un village contre un raid avec Bad Omen level 5",
 		"frame": "challenge",
 		"hidden": true
 	},

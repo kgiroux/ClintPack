@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bell"
 		},
-		"title": "You Rang?",
-		"description": "Sound a bell to alert a village of danger"
+		"title": "T'es cloche ou quoi ?",
+		"description": "On sonne les cloches de pâques"
 	},
 	"parent": "custom:village/have_bad_omen_effect",
 	"criteria": {

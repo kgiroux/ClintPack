@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": "Pillaged",
-		"description": "Be killed by a patrolling pillager"
+		"title": "AFK ? Brigand",
+		"description": "Mauvais endroid, mauvais moment"
 	},
 	"parent": "custom:village/shoot_pillager",
 	"criteria": {

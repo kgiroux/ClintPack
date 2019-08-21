@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.adventure.whos_the_pillager_now.title"
 		},
-		"description": "Give a pillager a taste of their own medicine"
+		"description": "Retour à l'envoyeur"
 	},
 	"parent": "custom:village/pillager_outpost",
 	"criteria": {

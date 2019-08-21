@@ -4,7 +4,7 @@
 			"item": "minecraft:diamond"
 		},
 		"title": "Artisan",
-		"description": "Trade with an expert level villager",
+		"description": "Money Money",
 		"frame": "goal"
 	},
 	"parent": "custom:village/complete_trade",

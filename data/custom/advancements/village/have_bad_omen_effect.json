@@ -4,7 +4,7 @@
 			"item": "minecraft:black_dye"
 		},
 		"title": "The Grim",
-		"description": "Become a bad omen"
+		"description": "Souffrir de l'effet bad omen"
 	},
 	"parent": "custom:village/shoot_pillager",
 	"criteria": {

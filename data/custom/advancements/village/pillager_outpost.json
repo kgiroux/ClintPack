@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dark_oak_log"
 		},
-		"title": "Outcast Outpost",
-		"description": "Enter a pillager outpost"
+		"title": "Visite indésirable",
+		"description": "Visiter un poste de Pillager"
 	},
 	"parent": "custom:village/root",
 	"criteria": {

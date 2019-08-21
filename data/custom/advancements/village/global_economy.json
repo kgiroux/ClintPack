@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lily_pad"
 		},
-		"title": "Global Economy",
-		"description": "Trade with a villager from each possible biome",
+		"title": "Economie Mondial",
+		"description": "Multinational",
 		"frame": "challenge"
 	},
 	"rewards": {
