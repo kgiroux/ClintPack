@@ -13,7 +13,8 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:pumpkin"
+						"item": "minecraft:hay_block
+					"
 					}
 				]
 			}
