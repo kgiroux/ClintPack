@@ -1,0 +1,143 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sandstone"
+		},
+		"title": "Prince du désert",
+		"description": "Craftez tous les dérivés du sable"
+	},
+	"parent": "custom:building/root",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sandstone"
+				}]
+			}
+		},
+    "chiseled_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_sandstone"
+				}]
+			}
+		},
+    "cut_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_sandstone"
+				}]
+			}
+		},
+    "smooth_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_sandstone"
+				}]
+			}
+		},
+    "smooth_sandstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_sandstone_stairs"
+				}]
+			}
+		},
+    "smooth_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_sandstone_slab"
+				}]
+			}
+		},
+    "sandstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sandstone_stairs"
+				}]
+			}
+		},
+		"sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:sandstone_slab"
+				}]
+			}
+		},
+    "red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sandstone"
+				}]
+			}
+		},
+    "chiseled_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_red_sandstone"
+				}]
+			}
+		},
+    "cut_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cut_red_sandstone"
+				}]
+			}
+		},
+    "smooth_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_red_sandstone"
+				}]
+			}
+		},
+    "smooth_red_sandstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_red_sandstone_stairs"
+				}]
+			}
+		},
+    "smooth_red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_red_sandstone_slab"
+				}]
+			}
+		},
+    "red_sandstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sandstone_stairs"
+				}]
+			}
+		},
+		"red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_sandstone_slab"
+				}]
+			}
+		}
+	}
+}
