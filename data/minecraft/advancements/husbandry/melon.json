@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:melon"
+		},
+		"title": "Chapeau melon et bottes de cuir",
+		"description": "Comment il a pris le melon lui !"
+	},
+	"parent": "minecraft:husbandry/pumpkin",
+	"criteria": {
+		"pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:melon"
+					}
+				]
+			}
+		}
+	}
+}
