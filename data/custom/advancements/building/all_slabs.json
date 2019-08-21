@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:smooth_stone_slab"
 		},
-		"title": "Moar Slabs",
-		"description": "Craft every type of slab",
+		"title": "toujours plus de dalle",
+		"description": "craftez chaques types de dalle",
 		"frame": "challenge"
 	},
 	"parent": "custom:building/all_stairs",
