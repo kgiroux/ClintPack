@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_fence"
 		},
-		"title": "Oaken Corral",
-		"description": "Craft some fences to contain your livestock"
+		"title": "Un enclos, un",
+		"description": "Protéger le bétail"
 	},
 	"parent": "custom:livestock/find_lead",
 	"criteria": {

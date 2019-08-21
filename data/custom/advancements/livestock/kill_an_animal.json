@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_sword"
 		},
-		"title": "Depopulation",
-		"description": "Kill an animal"
+		"title": "Trop de poulet, tue le poulet",
+		"description": "KFC party"
 	},
 	"parent": "custom:livestock/breed_an_animal",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:diamond_horse_armor"
 		},
-		"title": "Ready for Battle",
-		"description": "Find some armor for your trusty steed"
+		"title": "Cheval de combat",
+		"description": "Une armure pour votre fidèle destrier"
 	},
 	"parent": "custom:livestock/tame_horse",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:rabbit_foot"
 		},
-		"title": "Lucky Charm",
-		"description": "Find a rabbit's foot"
+		"title": "Une chance de lapin",
+		"description": "une patte de lapin"
 	},
 	"parent": "custom:livestock/rabbit_hide",
 	"criteria": {

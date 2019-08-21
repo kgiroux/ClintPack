@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:saddle"
 		},
-		"title": "Saddle Up",
-		"description": "Tame a horse"
+		"title": "En selle",
+		"description": "Apprivoisez un cheval"
 	},
 	"parent": "custom:livestock/tame_a_mob",
 	"criteria": {

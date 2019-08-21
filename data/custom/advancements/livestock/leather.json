@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:leather"
 		},
-		"title": "Cow Tipper",
-		"description": "Kill an animal for its leather"
+		"title": "Un sac a main en cuir",
+		"description": "Un peu de cuir"
 	},
 	"parent": "custom:livestock/kill_an_animal",
 	"criteria": {

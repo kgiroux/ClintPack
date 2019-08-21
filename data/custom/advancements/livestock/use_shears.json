@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:shears"
 		},
-		"title": "Shear Audacity",
-		"description": "Use a pair of shears"
+		"title": "De la laine",
+		"description": "Récupérer de la laine"
 	},
 	"parent": "custom:livestock/root",
 	"criteria": {

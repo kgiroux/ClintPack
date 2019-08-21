@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bone"
 		},
-		"title": "Stalhorse",
-		"description": "Command a skeletal steed"
+		"title": "Chevalier de l'apocalipse",
+		"description": "Chevauchez un cheval squelette"
 	},
 	"parent": "custom:livestock/ready_for_battle",
 	"criteria": {

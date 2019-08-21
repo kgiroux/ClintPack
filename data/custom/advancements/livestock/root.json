@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_fence_gate"
 		},
-		"title": "Livestock",
-		"description": "E I E I O",
+		"title": "Bétail",
+		"description": "La vie animal",
 		"background": "minecraft:textures/block/hay_block_top.png",
 		"show_toast": false,
 		"announce_to_chat": false

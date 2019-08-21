@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:rabbit_hide"
 		},
-		"title": "Tiny Leather",
-		"description": "Kill a rabbit for its hide"
+		"title": "Petit cuir",
+		"description": "Tuer un lapin pour son cuir"
 	},
 	"parent": "custom:livestock/leather",
 	"criteria": {

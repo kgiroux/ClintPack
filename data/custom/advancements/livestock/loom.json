@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:loom"
 		},
-		"title": "Looming Over You",
-		"description": "Craft a loom"
+		"title": "Changer de design",
+		"description": "Craftez le loom pour refaire vos bannières"
 	},
 	"parent": "custom:livestock/banner",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:name_tag"
 		},
-		"title": "Mutual Protection",
-		"description": "Tame one of every tameable mob",
+		"title": "Protection Mutuelle",
+		"description": "Apprivoisez tout les mobs apprivoisables",
 		"frame": "challenge"
 	},
 	"parent": "custom:livestock/tame_horse",

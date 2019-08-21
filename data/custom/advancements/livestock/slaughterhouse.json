@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:porkchop"
 		},
-		"title": "Slaughterhouse",
-		"description": "Gather each type of meat",
+		"title": "Ferru de viande",
+		"description": "Trouver tout les types de viandes",
 		"frame": "goal"
 	},
 	"parent": "custom:livestock/meat",

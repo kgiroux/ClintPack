@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:smoker"
 		},
-		"title": "Fast Food",
-		"description": "Make a smoker to cook your food faster"
+		"title": "Barbecue",
+		"description": "Plus de temps a perdre avec la cuisson"
 	},
 	"parent": "custom:livestock/meat",
 	"criteria": {
