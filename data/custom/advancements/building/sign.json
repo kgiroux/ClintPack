@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_sign"
 		},
-		"title": "It's a Sign!",
-		"description": "Craft and place a sign"
+		"title": "Sens interdit",
+		"description": "Cette maison n'est pas la tienne sort de là"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

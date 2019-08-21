@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:flower_pot"
 		},
-		"title": "Pot Planter",
-		"description": "Craft and place a flower pot"
+		"title": "Pot",
+		"description": "Craft et place un pot"
 	},
 	"parent": "custom:building/brick",
 	"criteria": {

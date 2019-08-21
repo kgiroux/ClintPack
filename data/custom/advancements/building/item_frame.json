@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:item_frame"
 		},
-		"title": "I Was Framed!",
-		"description": "Place an item frame to display your items"
+		"title": "Diplôme",
+		"description": "Reste plus qu'a l'encadré"
 	},
 	"parent": "custom:building/sign",
 	"criteria": {

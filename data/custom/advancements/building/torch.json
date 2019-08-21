@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:torch"
 		},
-		"title": "Light It Up, Up, Up!",
-		"description": "Light up the area with some torches"
+		"title": "Adios les monstres",
+		"description": "Pleins de torche pour allumer bien sûr"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

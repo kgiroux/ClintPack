@@ -4,7 +4,7 @@
 			"item": "minecraft:glowstone"
 		},
 		"title": "Glowing",
-		"description": "Light up the area with glowstone"
+		"description": "Illumination de minuit avec de la poudre"
 	},
 	"parent": "custom:building/torch",
 	"criteria": {

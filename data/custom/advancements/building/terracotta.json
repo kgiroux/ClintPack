@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:terracotta"
 		},
-		"title": "Mercurial Moniker",
-		"description": "Obtain terracotta"
+		"title": "Terre coté",
+		"description": "De la terracota"
 	},
 	"parent": "custom:building/clay_ball",
 	"criteria": {

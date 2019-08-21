@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_brick_stairs"
 		},
-		"title": "Ah... My Old Enemy: Stairs",
-		"description": "Craft every type of stair",
+		"title": "Mille et une marche",
+		"description": "Avoir un escalier de chaque type",
 		"frame": "challenge"
 	},
 	"parent": "custom:building/all_walls",

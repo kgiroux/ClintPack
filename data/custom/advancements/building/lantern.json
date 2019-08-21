@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lantern"
 		},
-		"title": "Burning Oil",
-		"description": "Light up the area with lanterns"
+		"title": "Lumière maestro",
+		"description": "Lumière 2.0"
 	},
 	"parent": "custom:building/torch",
 	"criteria": {

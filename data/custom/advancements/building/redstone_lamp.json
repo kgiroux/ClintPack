@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:redstone_lamp"
 		},
-		"title": "Lightbulb",
-		"description": "Light up the area with redstone lamps"
+		"title": "Silence ça tourne",
+		"description": "Utilisation d'une lampe de restone pour les sessions de recording"
 	},
 	"parent": "custom:building/glowstone",
 	"criteria": {

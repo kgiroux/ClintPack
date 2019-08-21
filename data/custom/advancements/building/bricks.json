@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bricks"
 		},
-		"title": "Blocked Up",
-		"description": "Use bricks to build"
+		"title": "Old school",
+		"description": "Maison des petits cochons"
 	},
 	"parent": "custom:building/brick",
 	"criteria": {

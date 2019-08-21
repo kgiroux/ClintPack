@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brick"
 		},
-		"title": "Brick",
-		"description": "Who would buy a brick for a toy?"
+		"title": "Brique",
+		"description": "Tu m'échange ton armur contre une brique ?"
 	},
 	"parent": "custom:building/clay_ball",
 	"criteria": {

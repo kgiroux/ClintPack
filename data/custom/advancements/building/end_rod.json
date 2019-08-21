@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:end_rod"
 		},
-		"title": "Pillar of Light",
-		"description": "Light up the area with end rods"
+		"title": "Lumière dans la nuit",
+		"description": "Illumination de minuit"
 	},
 	"parent": "custom:building/sea_lantern",
 	"criteria": {

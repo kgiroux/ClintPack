@@ -4,7 +4,7 @@
 			"item": "minecraft:bricks"
 		},
 		"title": "Building",
-		"description": "Your only limit is your imagination... and resources",
+		"description": "La seul limite c'est votre imagination et vos ressources",
 		"background": "minecraft:textures/block/bricks.png",
 		"show_toast": false,
 		"announce_to_chat": false

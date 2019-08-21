@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:painting"
 		},
-		"title": "A Masterpiece!",
-		"description": "Paint a painting"
+		"title": "Oeuvre d'art",
+		"description": "Clintwood"
 	},
 	"parent": "custom:building/sign",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:scaffolding"
 		},
-		"title": "Temporary Support",
-		"description": "Scaffold with scaffolding"
+		"title": "Echaffodage",
+		"description": "Adieu la dirt pour build"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

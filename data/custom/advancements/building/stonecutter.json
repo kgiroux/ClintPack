@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stonecutter"
 		},
-		"title": "Back from the Dead",
-		"description": "Create a block to cut stone with"
+		"title": "Coupons coupons de la pierre",
+		"description": "Créer un stone cutter"
 	},
 	"parent": "custom:building/root",
 	"criteria": {
