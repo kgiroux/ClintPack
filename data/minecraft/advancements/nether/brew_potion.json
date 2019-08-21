@@ -4,10 +4,10 @@
 			"item": "minecraft:potion"
 		},
 		"title": {
-			"translate": "advancements.nether.Drole de liquide.title"
+			"translate": "advancements.nether.brew_potion.title"
 		},
 		"description": {
-			"translate": "advancements.nether.confectionnez une potion.description"
+			"translate": "advancements.nether.brew_potion.description"
 		}
 	},
 	"parent": "minecraft:nether/brewing_stand",

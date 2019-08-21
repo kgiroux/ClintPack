@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:feather"
 		},
-		"title": "Pillow Stuffer",
+		"title": "Plûme",
 		"description": "Kill a bird for its feathers"
 	},
 	"parent": "custom:livestock/kill_an_animal",

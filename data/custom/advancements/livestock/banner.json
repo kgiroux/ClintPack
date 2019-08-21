@@ -4,7 +4,7 @@
 			"item": "minecraft:white_banner"
 		},
 		"title": "Banner Hammer",
-		"description": "Craft a banner"
+		"description": "Craftez une bannière"
 	},
 	"parent": "custom:livestock/use_shears",
 	"criteria": {

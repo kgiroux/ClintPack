@@ -4,7 +4,7 @@
 			"item": "minecraft:mojang_banner_pattern"
 		},
 		"title": "Vexillology",
-		"description": "Collect all five banner patterns",
+		"description": "Symbologue",
 		"frame": "goal"
 	},
 	"parent": "custom:livestock/loom",
