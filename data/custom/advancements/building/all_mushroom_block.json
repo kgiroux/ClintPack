@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:andesite_wall"
 		},
-		"title": "Walled Off",
-		"description": "Craft every type of wall",
+		"title": "Cham'ignon",
+		"description": "Une autre façon de décorer",
 		"frame": "goal"
 	},
 	"parent": "custom:building/root",
