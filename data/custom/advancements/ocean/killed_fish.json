@@ -12,7 +12,7 @@
 			"trigger": "minecraft:player_killes_entity",
 			"conditions": {
 				"entity": {
-					"tag": "custom:fish"
+					"tag": "custom:fishes"
 				}
 			}
 		}
