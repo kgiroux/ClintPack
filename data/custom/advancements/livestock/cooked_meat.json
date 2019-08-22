@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_porkchop"
+		},
+		"title": "Mmmmh, charal !",
+		"description": "C'est l'heure du barbecue !",
+		"frame": "goal"
+	},
+	"parent": "custom:livestock/smoker",
+	"criteria": {
+		"porkchop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_porkchop"
+					}
+				]
+			}
+		},
+		"beef": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_beef"
+					}
+				]
+			}
+		},
+		"chicken": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_chicken"
+					}
+				]
+			}
+		},
+		"rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_rabbit"
+					}
+				]
+			}
+		},
+		"mutton": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_mutton"
+					}
+				]
+			}
+		}
+	}
+}
