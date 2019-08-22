@@ -6,7 +6,7 @@
 		"title": "Barbecue",
 		"description": "Plus de temps a perdre avec la cuisson"
 	},
-	"parent": "custom:livestock/meat",
+	"parent": "custom:livestock/slaughterhouse",
 	"criteria": {
 		"smoker": {
 			"trigger": "minecraft:inventory_changed",
