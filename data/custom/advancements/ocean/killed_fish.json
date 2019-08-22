@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": "De la poisscaille !",
+		"description": "L'art d'attraper un poisson à mains nues"
+	},
+	"parent": "custom:ocean/fishy_business",
+	"criteria": {
+		"kill_fish": {
+			"trigger": "minecraft:player_killes_entity",
+			"conditions": {
+				"entity": {
+					"tag": "custom:fish"
+				}
+			}
+		}
+	}
+}
