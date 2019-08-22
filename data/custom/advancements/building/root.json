@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:bricks"
 		},
-		"title": "Building",
+		"title": "Constructeur",
 		"description": "La seul limite c'est votre imagination et vos ressources",
 		"background": "minecraft:textures/block/bricks.png",
 		"show_toast": false,
