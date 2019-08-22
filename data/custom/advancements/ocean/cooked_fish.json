@@ -6,7 +6,7 @@
 		"title": "Delicious Fish",
 		"description": "Catch, cook, and eat a fish"
 	},
-	"parent": "custom:ocean/fishy_business",
+	"parent": "custom:ocean/killed_fish",
 	"criteria": {
 		"cooked_fish": {
 			"trigger": "minecraft:consume_item",
