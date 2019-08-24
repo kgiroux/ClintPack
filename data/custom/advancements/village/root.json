@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:oak_door"
 		},
-		"title": "Villages",
+		"title": "Villageoi",
 		"description": "Voyage Voyage",
 		"background": "minecraft:textures/block/oak_planks.png",
 		"show_toast": false,
