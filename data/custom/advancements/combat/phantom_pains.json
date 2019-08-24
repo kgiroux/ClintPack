@@ -4,7 +4,7 @@
 			"item": "minecraft:phantom_membrane"
 		},
 		"title": "Luigi Mansion",
-		"description": "Où est l'aspirateur ?"
+		"description": "Rencontre avec un phantom"
 	},
 	"parent": "custom:combat/root",
 	"criteria": {
