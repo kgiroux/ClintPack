@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jukebox"
+		},
+      "title": "Et on remet le son !",
+      "description": "Et on coupe le son..."
+	},
+	"parent": "custom:redstone/tune_note_block",
+	"criteria": {
+		"jukebox": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:jukebox"
+				}
+			}
+		}
+	}
+}
