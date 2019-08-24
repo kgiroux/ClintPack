@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:white_banner"
 		},
-		"title": "Banner Hammer",
+		"title": "Banner ? Bruce Banner ?",
 		"description": "Craftez une bannière"
 	},
 	"parent": "custom:livestock/use_shears",
