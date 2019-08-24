@@ -6,9 +6,7 @@
 		"title": {
 			"translate": "advancements.nether.create_beacon.title"
 		},
-		"description": {
-			"translate": "Construct and place a beacon"
-		}
+		"description": "Une aide précieuse"
 	},
 	"parent": "minecraft:nether/summon_wither",
 	"criteria": {
