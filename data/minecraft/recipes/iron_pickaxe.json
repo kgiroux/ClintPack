@@ -2,18 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "iii",
-        " G ",
+        " s ",
         " / "
     ],
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "G": {
-            "item": "minecraft:golden_pickaxe"
-        },
         "/": {
             "item": "minecraft:stick"
+        },
+        "s": {
+            "item": "minecraft:stone_pickaxe"
         }
     },
     "result": {
