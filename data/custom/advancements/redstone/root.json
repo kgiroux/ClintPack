@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:redstone"
 		},
-		"title": "Redstone",
+		"title": "Electricien",
 		"description": "Automatisation",
 		"background": "minecraft:textures/block/hopper_inside.png",
 		"show_toast": false,
