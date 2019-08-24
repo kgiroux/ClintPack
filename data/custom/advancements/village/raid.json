@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": "Unleash the Beast",
+		"title": "Lâchez la bête",
 		"description": "Démarrer un raid"
 	},
 	"parent": "custom:village/have_bad_omen_effect",
