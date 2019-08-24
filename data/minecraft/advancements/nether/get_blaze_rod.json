@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.nether.obtain_blaze_rod.title"
 		},
-		"description": "Relieve a blaze of its rod"
+		"description": "C'est sa tentacule ?"
 	},
 	"criteria": {
 		"blaze_rod": {
