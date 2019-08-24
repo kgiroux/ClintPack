@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:1}]}"
 		},
 		"title": "Larb alete - 1984",
-		"description": "Create a perfect crossbow",
+		"description": "L'arme à distance ultime",
 		"frame": "challenge"
 	},
 	"parent": "custom:combat/ol_betsy",
