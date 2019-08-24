@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:magma_block"
 		},
-		"title": "Lava à domicile",
+		"title": "Lave à domicile",
 		"description": "Un peu de chaleur chez vous"
 	},
 	"parent": "minecraft:nether/quartz",
