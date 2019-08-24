@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_sword"
 		},
 		"title": "Tu frappe ou tu coupe",
-		"description": "le poing c'est has been craft toi une épée"
+		"description": "Le poing c'est has been craft toi une épée"
 	},
 	"parent": "custom:combat/root",
 	"criteria": {
