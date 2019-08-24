@@ -8,7 +8,7 @@
 		"description": "Create a perfect sword",
 		"frame": "challenge"
 	},
-	"parent": "custom:combat/diamond_sword.json",
+	"parent": "custom:combat/diamond_sword",
 	"rewards": {
 		"experience": 100
 	},
