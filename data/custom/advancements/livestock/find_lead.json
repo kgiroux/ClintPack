@@ -4,7 +4,7 @@
 			"item": "minecraft:lead"
 		},
 		"title": "Tenir la laisse",
-		"description": "Un met une laisse à ciboulette"
+		"description": "On met une laisse à ciboulette"
 	},
 	"parent": "custom:livestock/root",
 	"criteria": {
