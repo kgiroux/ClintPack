@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": "Excalibur ?",
+		"description": "Ah non, pas encore"
+	},
+	"parent": "custom:combat/iron_sword",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword"
+					}
+				]
+			}
+		}
+	}
+}
