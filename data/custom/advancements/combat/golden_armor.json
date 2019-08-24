@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_chestplate"
+		},
+		"title": "L'homme en or",
+		"description": "Un peu plus de protection"
+	},
+	"parent": "custom:combat/leather_armor",
+	"criteria": {
+		"helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_helmet"
+					}
+				]
+			}
+		},
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_chestplate"
+					}
+				]
+			}
+		},
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_leggings"
+					}
+				]
+			}
+		},
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_boots"
+					}
+				]
+			}
+		}
+	}
+}
