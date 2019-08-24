@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"title": "Coupe papier",
+		"description": "On peut commencer à jouer au bonhomme"
+	},
+	"parent": "custom:combat/golden_sword",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_sword"
+					}
+				]
+			}
+		}
+	}
+}
