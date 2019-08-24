@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:shears"
 		},
-		"title": "De la laine",
+		"title": "Coup' coup'",
 		"description": "Récupérer de la laine"
 	},
 	"parent": "custom:livestock/root",
