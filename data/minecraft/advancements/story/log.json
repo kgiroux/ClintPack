@@ -14,7 +14,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"item": [{
-					"item": "minecraft:crafting_table"
+					"item": "minecraft:jungle_log"
 				}]
 			}
 		}
