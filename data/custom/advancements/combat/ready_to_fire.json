@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:crossbow"
 		},
-		"title": "Hunger Game",
-		"description": "Il n'en restera plus qu'un, autant être prêt",
+		"title": "Fusée éclairante",
+		"description": "Tirez une fusée avec votre arme de combat",
 		"frame": "challenge",
 		"hidden": true
 	},
