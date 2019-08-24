@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:smooth_stone_slab"
 		},
-		"title": "toujours plus de dalle",
-		"description": "craftez chaques types de dalle",
+		"title": "J'ai la dalle !",
+		"description": "Craftez chaques type de dalle",
 		"frame": "challenge"
 	},
 	"parent": "custom:building/all_stairs",
