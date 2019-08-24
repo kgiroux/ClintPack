@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:fire_coral"
 		},
-		"title": "Cooorrraallll",
-		"description": "Collect some coral"
+		"title": "corail en vue !",
+		"description": "détruit la maison de Némo (récolte du corail)"
 	},
 	"parent": "custom:ocean/green_in_the_blue",
 	"criteria": {
