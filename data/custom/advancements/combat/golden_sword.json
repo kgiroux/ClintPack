@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_sword"
+		},
+		"title": "Couteau à beurre",
+		"description": "Le bois, c'est bien, l'or c'est... mieux ?"
+	},
+	"parent": "custom:combat/make_sword",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_sword"
+					}
+				]
+			}
+		}
+	}
+}
