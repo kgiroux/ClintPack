@@ -6,7 +6,7 @@
 		"title": "Ca me botte bien",
 		"description": "Baloti, balotin"
 	},
-	"parent": "minecraft:husbandry/root",
+	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {
 		"pumpkin": {
 			"trigger": "minecraft:inventory_changed",
