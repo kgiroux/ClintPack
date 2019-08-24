@@ -3,9 +3,7 @@
 		"icon": {
 			"item": "minecraft:hay_block"
 		},
-		"title": {
-			"translate": "advancements.husbandry.root.title"
-		},
+		"title": "Agriculteur",
 		"description": {
 			"translate": "advancements.husbandry.root.description"
 		},
