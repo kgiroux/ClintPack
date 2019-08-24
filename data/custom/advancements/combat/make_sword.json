@@ -13,7 +13,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "custom:swords"
+						"item": "minecraft:wooden_sword"
 					}
 				]
 			}
