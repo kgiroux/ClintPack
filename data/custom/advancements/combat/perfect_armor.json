@@ -8,7 +8,7 @@
 		"description": "L'armure ultime",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:story/mending",
+	"parent": "custom:combat/diamond_armor",
 	"rewards": {
 		"experience": 500
 	},
