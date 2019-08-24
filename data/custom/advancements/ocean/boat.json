@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:oak_boat"
 		},
-		"title": "Ship Shape",
-		"description": "Create and ride on a vessel for your journey"
+		"title": "mille milliards de mille sabords",
+		"description": "créé un bateau et partez a l'aventure !"
 	},
 	"parent": "custom:ocean/dolphins_grace",
 	"criteria": {
