@@ -3,7 +3,7 @@
 		"icon": {
 			"item":"minecraft:grass_block"
 		},
-		"title": "Survie",
+		"title": "Survivant",
 		"description": "Minecraft pour les noob",
 		"background": "minecraft:textures/block/stone.png",
 		"show_toast": true,
