@@ -8,7 +8,7 @@
 		"description": "Create a perfect sword",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:story/mending",
+	"parent": "custom:combat/diamond_sword.json",
 	"rewards": {
 		"experience": 100
 	},
