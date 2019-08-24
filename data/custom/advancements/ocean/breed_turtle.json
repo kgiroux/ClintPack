@@ -1,10 +1,10 @@
-{
+d{
 	"display": {
 		"icon": {
 			"item": "minecraft:seagrass"
 		},
-		"title": "Protective Parents",
-		"description": "Breed some turtles"
+		"title": "the turtle Master!",
+		"description": "reproduit une tortue"
 	},
 	"parent": "custom:ocean/green_in_the_blue",
 	"criteria": {
