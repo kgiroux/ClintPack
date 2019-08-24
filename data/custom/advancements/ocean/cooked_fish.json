@@ -4,7 +4,7 @@
 			"item": "minecraft:cooked_cod"
 		},
 		"title": "Pauvre Poisson",
-		"description": "attrape, tue fait cuire et mange un poisson (pauvre poisson)"
+		"description": "attrape, tue, fait cuire et mange un poisson (pauvre poisson)"
 	},
 	"parent": "custom:ocean/killed_fish",
 	"criteria": {
