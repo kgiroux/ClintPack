@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:oak_fence_gate"
 		},
-		"title": "Bétail",
+		"title": "Elevage",
 		"description": "La vie animal",
 		"background": "minecraft:textures/block/hay_block_top.png",
 		"show_toast": false,
