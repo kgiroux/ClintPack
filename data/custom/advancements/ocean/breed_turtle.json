@@ -1,10 +1,10 @@
-d{
+{
 	"display": {
 		"icon": {
 			"item": "minecraft:seagrass"
 		},
-		"title": "the turtle Master!",
-		"description": "reproduit une tortue"
+		"title": "The turtle Master!",
+		"description": "Reproduit une tortue"
 	},
 	"parent": "custom:ocean/green_in_the_blue",
 	"criteria": {
