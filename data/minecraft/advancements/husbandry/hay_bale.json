@@ -6,16 +6,14 @@
 		"title": "Ca me botte bien",
 		"description": "Baloti, balotin"
 	},
-	"parent": "minecraft:husbandry/root",
+	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {
-		"pumpkin": {
+		"hay_bale": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": [
-					{
+				"items": [{
 						"item": "minecraft:hay_block"
-					}
-				]
+				}]
 			}
 		}
 	}
