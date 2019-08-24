@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magma_cream"
 		},
-      "title": "Chaud comme la braise",
-      "description": "Eruption, tous au abris"
+      "title": "Slime rancher",
+      "description": "Un slime de lave ?"
 	},
 	"parent": "minecraft:nether/find_fortress",
 	"criteria": {
