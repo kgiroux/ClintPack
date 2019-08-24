@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:conduit"
 		},
-		"title": "Open Your Eyes",
-		"description": "Discover the power of the conduit",
+		"title": "Sous l'ocean!",
+		"description": "on vois tellement mieu avec le pouvoir d'un conduit",
 		"frame": "goal"
 	},
 	"parent": "custom:ocean/heart_and_soul",
