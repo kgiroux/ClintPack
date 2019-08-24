@@ -4,7 +4,7 @@
 			"item": "minecraft:black_stained_glass_pane"
 		},
 		"title": "Un aller simple",
-		"description": "tomber an dessus du monde"
+		"description": "Le ciel nous tombe sur la tête ! Ou la tête tombe du ciel ?
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {
