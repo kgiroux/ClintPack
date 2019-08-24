@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cooked_beef"
 		},
-		"title": "Ghast un jour, Ghast toujours",
-		"description": "C'est pas moi c'est lui!!",
+		"title": "C'est pas moi c'est lui!!",
+		"description": "Le mob là bas ? C'est une fireball qui l'a tué",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:nether/return_to_sender",
