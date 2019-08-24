@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:spruce_boat"
 		},
-		"title": "Exploration",
+		"title": "Explorateur",
 		"description": "The world is vast and uncharted",
 		"background": "minecraft:textures/block/spruce_log.png",
 		"show_toast": false,
