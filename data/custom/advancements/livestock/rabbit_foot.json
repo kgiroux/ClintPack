@@ -4,7 +4,7 @@
 			"item": "minecraft:rabbit_foot"
 		},
 		"title": "Une chance de lapin",
-		"description": "une patte de lapin"
+		"description": "Une patte de lapin"
 	},
 	"parent": "custom:livestock/rabbit_hide",
 	"criteria": {
