@@ -9,7 +9,7 @@
 	"parent": "custom:ocean/fishy_business",
 	"criteria": {
 		"kill_fish": {
-			"trigger": "minecraft:player_killes_entity",
+			"trigger": "minecraft:player_kills_entity",
 			"conditions": {
 				"entity": {
 					"tag": "custom:fishes"
