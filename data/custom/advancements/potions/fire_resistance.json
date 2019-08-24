@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magma_cream"
+		},
+      "title": "Y a pas le feu au lac",
+      "description": "Eau ou lave qu'elle est la différence ?"
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:fire_resistance"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": "Saupoudré",
+		"description": "On fait pas de potion sans poudre"
+	},
+	"parent": "custom:potions/root",
+	"criteria": {
+		"blaze_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": {
+					"item": "minecraft:blaze_powder"
+				}
+			}
+		}
+	}
+}

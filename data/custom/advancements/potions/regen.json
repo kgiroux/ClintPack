@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ghast_tear"
+		},
+		"title": "Un super médoc",
+		"description": "Quoi de neuf docteur ?"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"regeneration": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:regeneration"
+			}
+		}
+	}
+}

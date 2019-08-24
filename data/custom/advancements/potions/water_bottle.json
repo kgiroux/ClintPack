@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:'minecraft:water'}"
+		},
+		"title": "Première étape",
+		"description": "Commençons par le commencement"
+	},
+	"parent": "custom:potions/root",
+	"criteria": {
+		"water_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": {
+					"item": "minecraft:potion",
+					"nbt": "{Potion:'minecraft:water'}"
+				}
+			}
+		}
+	}
+}

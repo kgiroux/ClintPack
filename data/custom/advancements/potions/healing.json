@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glistering_melon_slice"
+		},
+		"title": "Infirmière",
+		"description": "J'ai fais bobo... Tu fais un bisou magique ?"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"healing": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:healing"
+			}
+		}
+	}
+}

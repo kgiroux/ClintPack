@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": "Hulk",
+		"description": "Tout casser !!"
+		}
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strength"
+			}
+		}
+	}
+}

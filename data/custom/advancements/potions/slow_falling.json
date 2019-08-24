@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": "I believe I can fly...",
+		"description": "Ou pas..."
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"slow_falling": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:slow_falling"
+			}
+		}
+	}
+}

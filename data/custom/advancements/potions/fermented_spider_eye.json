@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fermented_spider_eye"
+		},
+		"title": "C'est qui le faible?",
+		"description": "En tout cas c'est pas moi..."
+
+	},
+	"parent": "custom:potions/water_bottle",
+	"criteria": {
+		"weakness": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:weakness"
+			}
+		}
+	}
+}

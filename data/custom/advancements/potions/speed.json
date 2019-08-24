@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sugar"
+		},
+		"title": "Flash",
+		"description": "Il est où Zoom ?"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"speed": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:swiftness"
+			}
+		}
+	}
+}

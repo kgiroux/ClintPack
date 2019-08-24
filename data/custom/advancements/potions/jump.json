@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rabbit_foot"
+		},
+		"title": "Aller plus haut",
+		"description": "Oui aller plus haaaauuuuut !!"
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:leaping"
+			}
+		}
+	}
+}

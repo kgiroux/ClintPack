@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_helmet"
+		},
+		"title": "Tortue Ninja",
+		"description": "Lequel êtes-vous ?"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:turtle_master"
+			}
+		}
+	}
+}

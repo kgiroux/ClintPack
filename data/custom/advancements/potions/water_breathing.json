@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish"
+		},
+		"title": "Apnée ++",
+		"description": "Comme un poisson dans l'eau"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"water_breathing": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:water_breathing"
+			}
+		}
+	}
+}

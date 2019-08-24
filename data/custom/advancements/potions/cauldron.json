@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cauldron"
+		},
+		"title": "Sorcière !",
+		"description": "Le parfait petit chaudron"
+	},
+	"parent": "custom:potions/root",
+	"criteria": {
+		"cauldron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": {
+					"item": "minecraft:cauldron"
+				}
+			}
+		}
+	}
+}

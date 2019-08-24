@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spider_eye"
+		},
+		"title": "Méchante sorcière",
+		"description": "L'alternative à la pomme empoisonnée"
+
+	},
+	"parent": "custom:potions/brew_potion",
+	"criteria": {
+		"poison": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:poison"
+			}
+		}
+	}
+}

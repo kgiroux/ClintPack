@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brewing_stand"
+		},
+		"title": "Alchimiste",
+		"description": "Vous prenez vous pour un sorcier ?",
+		"background": "minecraft:textures/block/glowstone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"brewing_stand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+                        "item": "minecraft:brewing_stand"
+                    }
+				]
+			}
+		}
+	}
+}
