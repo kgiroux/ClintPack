@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:magma_block"
 		},
-		"title": "Pushed Around",
-		"description": "Enter a bubble column"
+		"title": "DES BUBULLES, DES BUBULLES!!!",
+		"description": "entre dans une colonne de bulle"
 	},
 	"parent": "custom:ocean/root",
 	"criteria": {
