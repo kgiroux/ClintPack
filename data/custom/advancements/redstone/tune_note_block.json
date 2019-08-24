@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:note_block"
 		},
-		"title": "Mélodie",
+		"title": "La mélodie du bonheur",
 		"description": "Change les notes d'un note block"
 	},
 	"parent": "custom:redstone/root",
