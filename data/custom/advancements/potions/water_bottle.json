@@ -12,10 +12,10 @@
 		"water_bottle": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": {
+				"items": [{
 					"item": "minecraft:potion",
 					"nbt": "{Potion:'minecraft:water'}"
-				}
+				}]
 			}
 		}
 	}

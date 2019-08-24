@@ -11,9 +11,9 @@
 		"cauldron": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": {
+				"items": [{
 					"item": "minecraft:cauldron"
-				}
+				}]
 			}
 		}
 	}

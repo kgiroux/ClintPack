@@ -5,7 +5,6 @@
 		},
 		"title": "Hulk",
 		"description": "Tout casser !!"
-		}
 	},
 	"parent": "custom:potions/brew_potion",
 	"criteria": {

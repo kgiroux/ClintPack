@@ -11,9 +11,9 @@
 		"blaze_powder": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": {
+				"items": [{
 					"item": "minecraft:blaze_powder"
-				}
+				}]
 			}
 		}
 	}
