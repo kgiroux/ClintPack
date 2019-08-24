@@ -6,7 +6,7 @@
 		"title": "Tenue de soirée",
 		"description": "Un vrai garde du corps"
 	},
-	"parent": "custom:combat/shield",
+	"parent": "custom:combat/golden_armor",
 	"criteria": {
 		"helmet": {
 			"trigger": "minecraft:inventory_changed",
