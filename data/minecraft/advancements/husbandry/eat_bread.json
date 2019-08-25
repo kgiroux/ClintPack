@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:bread"
 		},
-		"title": "Un baguette",
+		"title": "Une baguette",
 		"description": "Un peu de pain pour moi"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
