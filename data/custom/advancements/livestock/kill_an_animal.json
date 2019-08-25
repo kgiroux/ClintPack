@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_sword"
 		},
-		"title": "Trop de poulet, tue le poulet",
-		"description": "KFC party"
+		"title": "Eradication",
+		"description": "Trop de bestioles, tue les bestioles"
 	},
 	"parent": "custom:livestock/breed_an_animal",
 	"criteria": {
