@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#L#",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_bars"
+        },
+        "L": {
+            "item": "minecraft:golden_helmet"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_helmet",
+        "count": 1
+    }
+}
