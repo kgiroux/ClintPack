@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ggg",
+        " G ",
+        " / "
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "G": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_pickaxe",
+        "count": 1
+    }
+}

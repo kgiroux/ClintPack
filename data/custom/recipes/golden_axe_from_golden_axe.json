@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gg",
+        "gG",
+        " /"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "G": {
+            "item": "minecraft:golden_axe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_axe",
+        "count": 1
+    }
+}

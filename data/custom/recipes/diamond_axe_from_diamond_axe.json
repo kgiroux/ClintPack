@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "#D",
+        " /"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:diamond_axe"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_axe",
+        "count": 1
+    }
+}

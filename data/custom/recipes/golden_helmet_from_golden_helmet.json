@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ggg",
+        "gGg"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "G": {
+            "item": "minecraft:golden_helmet"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_helmet",
+        "count": 1
+    }
+}

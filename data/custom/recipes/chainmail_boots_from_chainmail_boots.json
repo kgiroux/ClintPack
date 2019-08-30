@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_bars"
+        },
+        "C": {
+            "item": "minecraft:chainmail_boots"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_boots",
+        "count": 1
+    }
+}
