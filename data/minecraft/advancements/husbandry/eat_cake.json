@@ -7,9 +7,14 @@
 		"description": "Faire un beau gâteau"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
-	"criteria": {
-		"cake": {
-			"trigger": "minecraft:impossible"
-		}
-	}
+  	"criteria": {
+    		"cake": {
+      			"trigger": "minecraft:consume_item",
+      			"conditions": {
+        			"item": {
+          				"item": "minecraft:cake"
+        			}
+      			}
+    		}
+  	}
 }
