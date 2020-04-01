@@ -4,22 +4,19 @@
 			"item": "minecraft:spectral_arrow"
 		},
 		"title": "Invisible n'existe pas",
-		"description": "Reste plus qu'a tuer l'invisible"
+		"description": "Reste plus que l'invisible"
 	},
-	"parent": "custom:combat/special_arrow",
+	"parent": "custom:potions/special_arrow",
 	"criteria": {
 		"spectral_arrow": {
-			"trigger": "minecraft:player_hurt_entity",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"damage": {
-					"type": {
-						"is_projectile": true,
-						"direct_entity": {
-							"type": "minecraft:spectral_arrow"
-						}
-					}
-				}
-			}
+                "items": [
+                    {
+                        "item": "minecraft:spectral_arrow"
+                    }
+                ]
+            }
 		}
 	}
 }

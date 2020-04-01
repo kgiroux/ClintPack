@@ -7,7 +7,7 @@
       "description": "Avoir tous les effets pour montrer qu'on est un warrior",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:nether/brew_potions",
+	"parent": "minecraft:potions/brew_potion",
 	"rewards": {
 		"experience": 250
 	},
