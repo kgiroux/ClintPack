@@ -11,7 +11,7 @@
 		"buried_treasure": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"feature": "buried_treasure"
+				"feature": "Buried_Treasure"
 			}
 		}
 	}

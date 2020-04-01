@@ -9,13 +9,15 @@
 	},
 	"parent": "custom:forestry/charcoal",
 	"criteria": {
-		"torch": {
+		"torchfull": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "minecraft:charcoal",
-					"count": 1728
-				}]
+					"item": "minecraft:torch"
+				}],
+				"slots": {
+					"full": 36
+				}
 			}
 		}
 	}

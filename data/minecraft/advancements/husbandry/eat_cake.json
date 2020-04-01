@@ -9,7 +9,7 @@
 	"parent": "minecraft:husbandry/plant_seed",
   	"criteria": {
     		"cake": {
-      			"trigger": "minecraft:consume_item",
+      			"trigger": "minecraft:inventory_changed",
       			"conditions": {
         			"item": {
           				"item": "minecraft:cake"
