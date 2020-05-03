@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "GNG",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_sand"
+        },
+        "G": {
+            "item": "minecraft:gravel"
+        },
+        "N": {
+            "item": "minecraft:green_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_concrete_powder",
+        "count": 8
+    }
+}

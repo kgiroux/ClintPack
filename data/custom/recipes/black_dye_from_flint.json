@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "minecraft:flint"
-    },
-    "result": "minecraft:black_dye",
-    "experience": 0,
-    "cookingtime": 200
-}

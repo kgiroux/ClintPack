@@ -6,7 +6,7 @@
       "title": "Un peu de poudre rouge",
       "description": "Pas assez long ... toujours plus"
 	},
-	"parent": "minecraft:nether/brew_potion",
+	"parent": "custom:potions/brew_potion",
 	"criteria": {
 		"night_vision": {
 			"trigger": "minecraft:brewed_potion",

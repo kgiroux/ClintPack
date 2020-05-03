@@ -6,7 +6,7 @@
 		"title": "Toujours plus fort",
 		"description": "Une petite poudre pour être plus fort que Clint"
 	},
-	"parent": "minecraft:potions/extend_potion",
+	"parent": "custom:potions/extend_potion",
 	"criteria": {
 		"leaping": {
 			"trigger": "minecraft:brewed_potion",
