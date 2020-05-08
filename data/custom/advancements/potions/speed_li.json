@@ -14,7 +14,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:lingering_potion",
-					"nbt": "{Potion:'minecraft:speed'}"
+					"nbt": "{Potion:'minecraft:swiftness'}"
 				}]
 			}
 		},
@@ -23,7 +23,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:lingering_potion",
-					"nbt": "{Potion:'minecraft:long_speed'}"
+					"nbt": "{Potion:'minecraft:long_swiftness'}"
 				}]
 			}
 		},
@@ -32,7 +32,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:lingering_potion",
-					"nbt": "{Potion:'minecraft:strong_speed'}"
+					"nbt": "{Potion:'minecraft:strong_swiftness'}"
 				}]
 			}
 		}

@@ -14,7 +14,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:tipped_arrow",
-					"nbt": "{Potion:'minecraft:jump'}"
+					"nbt": "{Potion:'minecraft:leaping'}"
 				}]
 			}
 		},
@@ -23,7 +23,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:tipped_arrow",
-					"nbt": "{Potion:'minecraft:strong_jump'}"
+					"nbt": "{Potion:'minecraft:strong_leaping'}"
 				}]
 			}
 		},
@@ -32,7 +32,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:tipped_arrow",
-					"nbt": "{Potion:'minecraft:long_jump'}"
+					"nbt": "{Potion:'minecraft:long_leaping'}"
 				}]
 			}
 		}

@@ -13,7 +13,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:splash_potion",
-					"nbt": "{Potion:'minecraft:jump'}"
+					"nbt": "{Potion:'minecraft:leaping'}"
 				}]
 			}
 		},
@@ -22,7 +22,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:splash_potion",
-					"nbt": "{Potion:'minecraft:strong_jump'}"
+					"nbt": "{Potion:'minecraft:strong_leaping'}"
 				}]
 			}
 		},
@@ -31,7 +31,7 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:splash_potion",
-					"nbt": "{Potion:'minecraft:long_jump'}"
+					"nbt": "{Potion:'minecraft:long_leaping'}"
 				}]
 			}
 		}
