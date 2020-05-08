@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:pufferfish"
 		},
-		"title": "Apnée ++",
-		"description": "Comme un poisson dans l'eau"
+		"title": "Respiration 1",
+		"description": "En apnée"
 
 	},
 	"parent": "custom:potions/brew_potion",

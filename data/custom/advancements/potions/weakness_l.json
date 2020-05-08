@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Faiblesse 2",
+		"description": "J'ai plus la force..."
+
+	},
+	"parent": "custom:potions/fermented_spider_eye",
+	"criteria": {
+		"weakness": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_weakness"
+			}
+		}
+	}
+}

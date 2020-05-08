@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:weakness'}"
+		},
+		"title": "Faiblesse 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/weakness_li",
+	"criteria": {
+		"weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:weakness'}"
+				}]
+			}
+		},
+		"l_weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_weakness'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"weakness",
+		"l_weakness"
+		]
+	]
+}

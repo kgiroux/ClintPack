@@ -4,8 +4,8 @@
 			"item": "minecraft:tipped_arrow",
 			"nbt": "{Potion:'minecraft:slowness'}"
 		},
-		"title": "Frozen Archer",
-		"description": "Kill a stray"
+		"title": "Archer glacial",
+		"description": "Tue un vagabond"
 	},
 	"parent": "custom:exploration/snow_biome",
 	"criteria": {

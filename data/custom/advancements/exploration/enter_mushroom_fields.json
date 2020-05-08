@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:mycelium"
 		},
-		"title": "This Smells",
-		"description": "Enter a mushroom fields biome"
+		"title": "La vie en rose",
+		"description": "Entre sur une île champignon"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

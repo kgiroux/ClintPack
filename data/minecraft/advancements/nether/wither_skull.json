@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "wither_skeleton_skull"
+		},
+		"title": {
+			"translate": "advancements.nether.get_wither_skull.title"
+		},
+		"description": "Décapite un whither squelette",
+		"frame": "goal"
+	},
+	"parent": "minecraft:nether/fortress",
+	"criteria": {
+		"skull": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "wither_skeleton_skull"
+					}
+				]
+			}
+		}
+	}
+}

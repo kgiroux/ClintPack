@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:melon"
 		},
-		"title": "Chapeau melon et bottes de cuir",
-		"description": "Comment il a pris le melon lui !"
+		"title": "Comment il a pris le melon lui !",
+		"description": "Craft ou récupère un melon entier"
 	},
 	"parent": "minecraft:husbandry/pumpkin",
 	"criteria": {

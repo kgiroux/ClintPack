@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Dégat 2",
+		"description": "Plus forte"
+
+	},
+	"parent": "custom:potions/damage",
+	"criteria": {
+		"harming": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_harming"
+			}
+		}
+	}
+}

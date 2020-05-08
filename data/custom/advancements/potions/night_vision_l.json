@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Vision Nocturne 2",
+		"description": "Une vraie chauve-souris"
+
+	},
+	"parent": "custom:potions/night_vision",
+	"criteria": {
+		"night_vision": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_night_vision"
+			}
+		}
+	}
+}

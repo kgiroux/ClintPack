@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "nether_gold_ore"
+		},
+		"title": "Richesse de l'enfer",
+		"description": "Mine de l'or du nether"
+	},
+	"parent": "minecraft:nether/quartz",
+	"criteria": {
+		"ngo": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "mined",
+							"stat": "nether_gold_ore",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

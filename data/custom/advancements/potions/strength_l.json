@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Force 2",
+		"description": "Thor"
+	},
+	"parent": "custom:potions/strength",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_strength"
+			}
+		}
+	}
+}

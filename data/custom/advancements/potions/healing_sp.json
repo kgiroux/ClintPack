@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Soin 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/healing",
+	"criteria": {
+		"healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:healing'}"
+				}]
+			}
+		},
+		"s_healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_healing'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"healing",
+		"s_healing"
+		]
+	]
+}

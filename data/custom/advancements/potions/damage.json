@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fermented_spider_eye"
+		},
+		"title": "Dégat 1",
+		"description": "La base"
+
+	},
+	"parent": "custom:potions/healing",
+	"criteria": {
+		"harming": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:harming"
+			}
+		}
+	}
+}

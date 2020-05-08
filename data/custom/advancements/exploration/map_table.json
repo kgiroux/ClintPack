@@ -4,7 +4,7 @@
 			"item": "minecraft:cartography_table"
 		},
 		"title": "Map Maker",
-		"description": "Create a cartography table"
+		"description": "Fais a table de cartographie"
 	},
 	"parent": "custom:exploration/map",
 	"criteria": {

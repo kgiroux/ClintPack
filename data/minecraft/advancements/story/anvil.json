@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:anvil"
 		},
-		"title": "Customization",
-		"description": "Craft and place an anvil"
+		"title": "Tête d'enclume",
+		"description": "Craft et place une enclume"
 	},
 	"parent": "minecraft:story/buy_book",
 	"criteria": {

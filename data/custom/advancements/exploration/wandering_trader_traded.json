@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:blue_dye"
 		},
-		"title": "Meandering Merchant",
-		"description": "Trade with a wandering trader"
+		"title": "Nomades",
+		"description": "Fais affaire avec un marchand ambulant"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

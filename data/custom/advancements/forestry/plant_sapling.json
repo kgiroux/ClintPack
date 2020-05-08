@@ -6,7 +6,7 @@
 		"title": "Restoration",
 		"description": "Aidez a restorer la foret en replantant des pousses d'arbre"
 	},
-	"parent": "custom:forestry/sapling",
+	"parent": "custom:forestry/root",
 	"criteria": {
 		"plant_sapling": {
 			"trigger": "minecraft:placed_block",

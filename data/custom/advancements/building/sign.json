@@ -4,7 +4,7 @@
 			"item": "minecraft:oak_sign"
 		},
 		"title": "Sens interdit",
-		"description": "Cette maison n'est pas la tienne sort de là"
+		"description": "Indique toujours ce qui t'appartient"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

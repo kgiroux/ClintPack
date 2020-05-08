@@ -1,0 +1,76 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:minecart"
+		},
+		"title": "En voiture Simone !",
+		"description": "Utilise tous les moyen de transport du jeu",
+		"frame": "challenge"
+	},
+	"parent": "custom:exploration/root",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"oak_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"tag": "custom:boats"
+					}
+				]
+			}
+		},		
+		"elytra" : {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item":"minecraft:elytra"
+					}
+				]
+			}
+		},
+		"minecart" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item":"minecraft:minecart"
+					}
+				]	
+			}
+		},
+		"carrot_on_a_stick" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item":"minecraft:carrot_on_a_stick"
+					}
+				]	
+			}
+		},
+		"warped_fungus_on_a_stick" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item":"minecraft:warped_fungus_on_a_stick"
+					}
+				]	
+			}
+		},
+		"saddle" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+					"item":"minecraft:saddle"
+					}
+				]	
+			}
+		}
+	}
+}

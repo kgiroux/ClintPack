@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Force 3",
+		"description": "Splash !"
+	},
+	"parent": "custom:potions/strength",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strength'}"
+				}]
+			}
+		},
+		"s_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_strength'}"
+				}]
+			}
+		},
+		"l_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_strength'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"strength",
+		"s_strength",
+		"l_strength"
+		]
+	]
+}

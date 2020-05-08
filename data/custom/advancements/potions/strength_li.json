@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Force 4",
+		"description": "C'est persistant !"
+	},
+	"parent": "custom:potions/strength_sp",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strength'}"
+				}]
+			}
+		},
+		"s_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_strength'}"
+				}]
+			}
+		},
+		"l_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_strength'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"strength",
+		"s_strength",
+		"l_strength"
+		]
+	]
+}

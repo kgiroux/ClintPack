@@ -1,0 +1,88 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass"
+		},
+		"title": "C'est de la bonne !",
+		"description": "Utilise toutes les herbes possibles",
+		"frame" : "goal"
+	},
+	"parent": "custom:building/flower_pot",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"grass": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:grass"
+				}
+			}
+		},
+		"fern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:fern"
+				}
+			}
+		},
+		"dead_bush": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:dead_bush"
+				}
+			}
+		},
+		"seagrass": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:seagrass"
+				}
+			}
+		},
+		"crimson_roots": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crimson_roots"
+				}
+			}
+		},
+		"warped_roots": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:warped_roots"
+				}
+			}
+		},
+		"nether_sprouts": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:nether_sprouts"
+				}
+			}
+		},
+		"tall_grass": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:tall_grass"
+				}
+			}
+		},
+		"large_fern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:large_fern"
+				}
+			}
+		}
+	}
+}

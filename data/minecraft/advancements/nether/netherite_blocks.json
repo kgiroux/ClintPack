@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_block"
+		},
+		"title": "Je suis le plus riche !",
+		"description": "Regroupe un stack de block de netherite",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "minecraft:nether/netherite",
+	"rewards": {
+		"experience": 500
+	},
+	"criteria": {
+		"netherite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_block",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

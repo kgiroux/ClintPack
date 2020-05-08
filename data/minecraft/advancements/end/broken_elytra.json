@@ -5,7 +5,7 @@
 			"nbt": "{Damage:431}"
 		},
       "title": "C'est pas cassé ...",
-      "description": "Aile de dragons elytra",
+      "description": "Petit oiseau si tu n'as pas d'ailes, bah tu peux pas voler",
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/elytra",

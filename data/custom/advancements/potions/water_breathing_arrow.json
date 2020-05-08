@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:water_breathing'}"
+		},
+		"title": "Respiration 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/water_breathing_li",
+	"criteria": {
+		"water_breathing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:water_breathing'}"
+				}]
+			}
+		},
+		"l_water_breathing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_water_breathing'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"water_breathing",
+		"l_water_breathing"
+		]
+	]
+}

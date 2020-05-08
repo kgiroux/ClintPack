@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:jungle_leaves"
 		},
-		"title": "Welcome to the Jungle",
-		"description": "Enter a jungle biome"
+		"title": "Georges de la Jungle",
+		"description": "Bienvenue dans la jungle"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

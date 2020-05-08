@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Chute lente",
+		"description": "Vraiment lente"
+
+	},
+	"parent": "custom:potions/slow_falling",
+	"criteria": {
+		"slow_falling": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_slow_falling"
+			}
+		}
+	}
+}

@@ -6,7 +6,7 @@
 		"title": "Prince du désert",
 		"description": "Craftez tous les dérivés du sable"
 	},
-	"parent": "custom:building/all_mushroom_block",
+	"parent": "custom:building/all_stone",
 	"rewards": {
 		"experience": 100
 	},

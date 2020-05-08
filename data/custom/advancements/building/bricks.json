@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bricks"
 		},
-		"title": "Old school",
-		"description": "Maison des petits cochons"
+		"title": "Maison des petits cochons",
+		"description": "Craft un bloc de brique"
 	},
 	"parent": "custom:building/brick",
 	"criteria": {

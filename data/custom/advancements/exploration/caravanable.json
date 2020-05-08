@@ -4,7 +4,7 @@
 			"item": "minecraft:brown_carpet"
 		},
 		"title": "Caravanable",
-		"description": "Tame a llama"
+		"description": "Apprivoise un llama"
 	},
 	"parent": "custom:exploration/mountains",
 	"criteria": {

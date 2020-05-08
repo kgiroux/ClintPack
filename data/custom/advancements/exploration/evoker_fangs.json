@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:emerald"
 		},
-		"title": "Fatal Floor",
-		"description": "Be bitten by evoker fangs"
+		"title": "Le sol s'écroule",
+		"description": "Se faire toucher par un evoker"
 	},
 	"parent": "custom:exploration/enter_mansion",
 	"criteria": {

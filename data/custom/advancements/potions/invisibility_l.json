@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Invisible 2",
+		"description": "Ca fait vraiment longtemps que je ne l'ai pas vu..."
+
+	},
+	"parent": "custom:potions/invisibility",
+	"criteria": {
+		"invisibility": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_invisibility"
+			}
+		}
+	}
+}

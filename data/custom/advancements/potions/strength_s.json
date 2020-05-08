@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Forrce 2",
+		"description": "Hulk"
+	},
+	"parent": "custom:potions/strength",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_strength"
+			}
+		}
+	}
+}

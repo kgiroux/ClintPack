@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fermented_spider_eye"
+		},
+		"title": "Lenteur 1",
+		"description": "Dans la peau d'un escargot"
+
+	},
+	"parent": "custom:potions/jump",
+	"criteria": {
+		"slowness": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:slowness"
+			}
+		}
+	}
+}

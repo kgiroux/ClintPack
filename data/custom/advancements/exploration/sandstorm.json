@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:red_sand"
 		},
-		"title": "Sandstorm",
-		"description": "Collect both types of sand"
+		"title": "L'homme-sable",
+		"description": "Collecte les différents types de sable"
 	},
 	"parent": "custom:exploration/badlands",
 	"criteria": {

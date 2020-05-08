@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:vine"
 		},
-		"title": "Swampy Marsh",
-		"description": "Enter a swamp biome"
+		"title": "Marécageux",
+		"description": "Entre dans un biome marais"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

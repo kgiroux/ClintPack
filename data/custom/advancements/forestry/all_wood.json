@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_oak_wood"
+		},
+		"title": "Un monde parfait",
+		"description": "Craftez un stack de chaque bois parfait",
+		"frame": "goal"
+	},
+	"parent": "custom:forestry/wood",
+	"criteria": {
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:oak_wood",
+					"count": 64
+				}]
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:birch_wood",
+					"count": 64
+				}]
+			}
+		},
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:acacia_wood",
+					"count": 64
+				}]
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:spruce_wood",
+					"count": 64
+				}]
+			}
+		},
+    	"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:jungle_wood",
+					"count": 64
+				}]
+			}
+		},
+    	"dark_oak": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:dark_oak_wood",
+					"count": 64
+				}]
+			}
+		},
+		"crimson": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:crimson_hyphae",
+					"count": 64
+				}]
+			}
+		},
+		"warped": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_hyphae",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

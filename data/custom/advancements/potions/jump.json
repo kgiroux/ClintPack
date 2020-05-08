@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:rabbit_foot"
 		},
-		"title": "Aller plus haut",
-		"description": "Oui aller plus haaaauuuuut !!"
+		"title": "Saut 1",
+		"description": "Aller plus hauuuuut !!"
 	},
 	"parent": "custom:potions/brew_potion",
 	"criteria": {

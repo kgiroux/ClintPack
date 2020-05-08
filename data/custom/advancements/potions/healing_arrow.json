@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:healing'}"
+		},
+		"title": "Soin 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/healing_li",
+	"criteria": {
+		"healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:healing'}"
+				}]
+			}
+		},
+		"s_healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strong_healing'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"healing",
+		"s_healing"
+		]
+	]
+}

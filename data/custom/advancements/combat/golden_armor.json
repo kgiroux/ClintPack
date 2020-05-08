@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:golden_chestplate"
 		},
-		"title": "L'homme en or",
+		"title": "Bling bling",
 		"description": "Un peu plus de protection"
 	},
 	"parent": "custom:combat/leather_armor",

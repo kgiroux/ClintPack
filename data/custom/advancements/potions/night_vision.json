@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:golden_carrot"
 		},
-		"title": "Je suis batman",
-		"description": "Une vraie chauve-souris"
+		"title": "Vision Nocturne 1",
+		"description": "Je suis batman"
 
 	},
 	"parent": "custom:potions/brew_potion",

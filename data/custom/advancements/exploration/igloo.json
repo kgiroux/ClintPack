@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone_bricks"
 		},
-		"title": "Ice Cave",
-		"description": "Take shelter in an igloo"
+		"title": "Inuits",
+		"description": "Entre dans un igloo"
 	},
 	"parent": "custom:exploration/stray",
 	"criteria": {

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:emerald_ore"
 		},
-		"title": "Buried Currency",
-		"description": "Mine emerald ore with silk touch"
+		"title": "Trésor des montagnes",
+		"description": "Récupère un minerai d'émeraude"
 	},
 	"parent": "custom:exploration/mountains",
 	"criteria": {

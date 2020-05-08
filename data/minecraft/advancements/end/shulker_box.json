@@ -4,7 +4,7 @@
 			"item": "minecraft:shulker_box"
 		},
 		"title": "Stockage Portable",
-		"description": "Coffre 2.0"
+		"description": "Craft une shulker Box"
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {

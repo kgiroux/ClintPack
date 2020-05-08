@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:composter"
 		},
-		"title": "Composte",
-		"description": "On se met au bio, on met au composte les déchets"
+		"title": "Ecolo",
+		"description": "Composte tes déchets plutôt que de les jeter"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

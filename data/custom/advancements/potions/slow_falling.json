@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:phantom_membrane"
 		},
-		"title": "I believe I can fly...",
-		"description": "Ou pas..."
+		"title": "Chute lente",
+		"description": "I believe I can fly..."
 
 	},
 	"parent": "custom:potions/brew_potion",

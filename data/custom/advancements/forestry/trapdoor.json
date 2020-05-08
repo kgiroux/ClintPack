@@ -55,6 +55,22 @@
 					"item": "minecraft:spruce_trapdoor"
 				}]
 			}
+		},
+		"warped": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_trapdoor"
+				}]
+			}
+		},
+		"crimson": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:crimson_trapdoor"
+				}]
+			}
 		}
 	}
 }

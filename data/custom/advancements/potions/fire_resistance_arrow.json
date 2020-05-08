@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:fire_resistance'}"
+		},
+      "title": "Résistance au feu 5",
+      "description": "Touché !"
+	},
+	"parent": "custom:potions/fire_resistance_li",
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:fire_resistance'}"
+				}]
+			}
+		},
+		"l_fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_fire_resistance'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"fire_resistance",
+		"l_fire_resistance"
+		]
+	]
+}

@@ -4,7 +4,7 @@
 			"item": "minecraft:written_book"
 		},
 		"title": "Novelist",
-		"description": "Write a book"
+		"description": "Ecris dans un livre"
 	},
 	"parent": "custom:exploration/book_and_quill",
 	"criteria": {

@@ -6,7 +6,7 @@
 		"title": "Arboriste",
 		"description": "Collectez une pousse de chaque arbre"
 	},
-	"parent": "custom:forestry/root",
+	"parent": "custom:forestry/plant_sapling",
 	"criteria": {
 		"acacia": {
 			"trigger": "minecraft:inventory_changed",
@@ -53,6 +53,22 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:spruce_sapling"
+				}]
+			}
+		},
+		"warped": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_fungus"
+				}]
+			}
+		},
+		"crimson": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:crimson_fungus"
 				}]
 			}
 		}

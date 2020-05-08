@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Maitre Tortue 2",
+		"description": "Donatello"
+
+	},
+	"parent": "custom:potions/turtle_master",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_turtle_master"
+			}
+		}
+	}
+}

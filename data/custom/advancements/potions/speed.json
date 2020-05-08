@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sugar"
 		},
-		"title": "Flash",
-		"description": "Il est où Zoom ?"
+		"title": "Vitesse 1",
+		"description": "Flash"
 
 	},
 	"parent": "custom:potions/brew_potion",

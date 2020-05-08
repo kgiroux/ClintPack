@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_sword"
+		},
+		"title": "Agent de sécurité",
+		"description": "Un zombie piglin de tapé, dix de regroupés !"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"hurt_pigman": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "zombified_piglin"
+				},
+				"damage": {
+					"taken": {
+						"max": 19.9
+					}
+				}
+			}
+		}
+	}
+}

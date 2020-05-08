@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Faiblesse 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/fermented_spider_eye",
+	"criteria": {
+		"weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:weakness'}"
+				}]
+			}
+		},
+		"l_weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_weakness'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"weakness",
+		"l_weakness"
+		]
+	]
+}

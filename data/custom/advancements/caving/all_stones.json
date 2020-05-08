@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:andesite"
 		},
-		"title": "Stone, le monde est stone...",
+		"title": "Roches en folie",
 		"description": "Recuperez tous les types de roche"
 	},
 	"parent": "custom:caving/root",

@@ -4,7 +4,7 @@
 			"item": "minecraft:clay_ball"
 		},
 		"title": "Des bouboules",
-		"description": "Récoltez de l'argile dans un lac"
+		"description": "Récoltez de l'argile au fond de l'eau"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

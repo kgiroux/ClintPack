@@ -4,7 +4,7 @@
 			"item": "minecraft:snow_block"
 		},
 		"title": "Winter Wonderland",
-		"description": "Enter a snowy biome"
+		"description": "Entre dans un biome neige"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

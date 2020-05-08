@@ -7,7 +7,7 @@
 		"description": "Le meilleur matos",
 		"frame": "challenge"
 	},
-	"parent": "minecraft:story/iron_tools",
+	"parent": "minecraft:story/mine_diamond",
 	"rewards": {
 		"experience": 75
 	},

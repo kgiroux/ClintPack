@@ -4,7 +4,7 @@
 			"item": "minecraft:blast_furnace"
 		},
 		"title": "Fournaise",
-		"description": "Craftez un blast furnace pour cuire vos minerais plus vite"
+		"description": "Craft un haut fourneau pour cuire tes minerais plus vite"
 	},
 	"parent": "custom:caving/all_stones",
 	"criteria": {

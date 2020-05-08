@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Vision nocturne 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/night_vision",
+	"criteria": {
+		"night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:night_vision'}"
+				}]
+			}
+		},
+		"l_night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_night_vision'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"night_vision",
+		"l_night_vision"
+		]
+	]
+}

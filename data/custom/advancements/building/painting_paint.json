@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "painting"
+		},
+		"title": "Oeuvre d'art",
+		"description": "Place un tableau pour décorer"
+	},
+	"parent": "custom:building/sign",
+	"criteria": {
+		"painting": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "used",
+							"stat": "painting",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cocoa_beans"
 		},
-		"title": "Coocoo for Cocoa Beans",
-		"description": "Plant some cocoa beans"
+		"title": "Banania",
+		"description": "Plante un peu de cacao"
 	},
 	"parent": "custom:exploration/tame_parrot",
 	"criteria": {

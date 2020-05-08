@@ -4,7 +4,7 @@
 			"item": "minecraft:wooden_hoe"
 		},
 		"title": "Farm adventure",
-		"description": "Faut preparer le terrain"
+		"description": "Préparons le terrain"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Vitesse 2",
+		"description": "Il est où Zoom ?"
+
+	},
+	"parent": "custom:potions/speed",
+	"criteria": {
+		"speed": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_swiftness"
+			}
+		}
+	}
+}

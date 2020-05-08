@@ -4,7 +4,7 @@
 			"item": "minecraft:wither_rose"
 		},
       "title": "Se méfier des apparences",
-      "description": "Une jolie fleur rose"
+      "description": "Une jolie rose noire"
 	},
 	"parent": "minecraft:nether/summon_wither",
 	"criteria": {

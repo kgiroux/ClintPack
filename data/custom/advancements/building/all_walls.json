@@ -123,6 +123,30 @@
 					"item": "minecraft:diorite_wall"
 				}]
 			}
+		},
+		"blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "blackstone_wall"
+				}]
+			}
+		},
+		"polished_blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_wall"
+				}]
+			}
+		},
+		"polished_blackstone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_brick_wall"
+				}]
+			}
 		}
 	}
 }

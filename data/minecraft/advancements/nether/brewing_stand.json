@@ -3,13 +3,13 @@
 		"icon": {
 			"item": "minecraft:brewing_stand"
 		},
-      "title": "Une petite bière",
-      "description": "Une vodka pour moi"
+      "title": "Apprenti chimiste",
+      "description": "Craft ou récupère un alambic"
 	},
 	"parent": "minecraft:nether/get_blaze_rod",
 	"criteria": {
 		"brewing_stand": {
-			"trigger": "minecraft:placed_block",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"item": {
 					"item": "minecraft:brewing_stand"

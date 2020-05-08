@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "campfire"
+		},
+		"title": {
+			"translate": "advancements.husbandry.safely_harvest_honey.title"
+		},
+		"description": "Récolte du miel sans énerver les abeilles"
+	},
+	"parent": "minecraft:husbandry/silk_touch_nest",
+	"criteria": {
+		"harvest_honey": {
+			"trigger": "safely_harvest_honey",
+			"conditions": {
+				"block": {
+					"tag": "beehives"
+				}
+			}
+		}
+	}
+}

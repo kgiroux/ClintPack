@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Lenteur 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/slowness_sp",
+	"criteria": {
+		"slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:slowness'}"
+				}]
+			}
+		},
+		"s_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_slowness'}"
+				}]
+			}
+		},
+		"l_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_slowness'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"slowness",
+		"s_slowness",
+		"l_slowness"
+		]
+	]
+}

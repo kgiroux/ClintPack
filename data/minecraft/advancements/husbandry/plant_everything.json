@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:vine"
 		},
-		"title": "Tous ce qui peut pousser",
-		"description": "Plantons tout ce qui peut l'être",
+		"title": "Silence, ça pousse !",
+		"description": "Plantes tout ce qui peut pousser",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:husbandry/plant_all_seeds",
@@ -160,35 +160,43 @@
 				}
 			}
 		},
-		"grass": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"item": {
-					"item": "minecraft:grass"
-				}
-			}
-		},
-		"fern": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"item": {
-					"item": "minecraft:fern"
-				}
-			}
-		},
-		"dead_bush": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"item": {
-					"item": "minecraft:dead_bush"
-				}
-			}
-		},
 		"sweet_berries": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"item": {
 					"item": "minecraft:sweet_berries"
+				}
+			}
+		},
+		"weeping_vines": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:weeping_vines"
+				}
+			}
+		},
+		"twisting_vines": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:twisting_vines"
+				}
+			}
+		},
+		"crimson_fungus": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crimson_fungus"
+				}
+			}
+		},
+		"warped_fungus": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:warped_fungus"
 				}
 			}
 		}

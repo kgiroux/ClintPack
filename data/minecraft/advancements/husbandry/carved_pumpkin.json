@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:carved_pumpkin"
 		},
-		"title": "Halloween",
-		"description": "Allez on prépare la citrouille"
+		"title": "Atelier Citrouille",
+		"description": "On creuse la citrouille"
 	},
 	"parent": "minecraft:husbandry/pumpkin",
 	"criteria": {

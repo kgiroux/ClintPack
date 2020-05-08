@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:chicken"
 		},
-		"title": "Belyaevian",
-		"description": "Breed foxes with sweet berries"
+		"title": "Rox et Rouky",
+		"description": "Reproduis des renards avec des baies rouges"
 	},
 	"parent": "custom:exploration/sweet_berries",
 	"criteria": {

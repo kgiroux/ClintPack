@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:red_mushroom"
 		},
-		"title": "Mutated",
-		"description": "Murder a mutated cow"
+		"title": "Mutation",
+		"description": "Tue une vache mutante"
 	},
 	"parent": "custom:exploration/enter_mushroom_fields",
 	"criteria": {

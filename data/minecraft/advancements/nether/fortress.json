@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:nether/root",
+	"display": {
+		"icon": {
+			"item": "chiseled_nether_bricks"
+		},
+		"title": {
+			"translate": "advancements.nether.find_fortress.title"
+		},
+		"description": "Aventure toi dans une forteresse"
+	},
+	"criteria": {
+		"fortress": {
+			"trigger": "location",
+			"conditions": {
+				"feature": "fortress"
+			}
+		}
+	}
+}

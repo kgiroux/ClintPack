@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "respawn_anchor"
+		},
+		"title": "Mortal Mainstay",
+		"description": "Anchor yourself to the Nether"
+	},
+	"parent": "minecraft:nether/nether_gold_ore",
+	"criteria": {
+		"a": {
+			"trigger": "impossible"
+		}
+	}
+}

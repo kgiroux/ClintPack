@@ -4,7 +4,7 @@
 			"item": "minecraft:rose_bush"
 		},
       "title": "Petit bouquet pour Clint",
-      "description": "Moi j'aime toute les fleurs",
+      "description": "Cueillir toutes les fleurs",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/pick_flower",

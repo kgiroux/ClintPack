@@ -4,10 +4,9 @@
 			"item": "minecraft:red_mushroom_block"
 		},
 		"title": "Cham'ignon",
-		"description": "Une autre façon de décorer",
-		"frame": "goal"
+		"description": "Une autre façon de décorer"
 	},
-	"parent": "custom:building/root",
+	"parent": "custom:building/all_sandstone_blocks",
 	"rewards": {
 		"experience": 50
 	},

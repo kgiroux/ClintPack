@@ -56,6 +56,14 @@
 				}
 			}
 		},
+		"ender_dragon": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "ender_dragon"
+				}
+			}
+		},
 		"enderman": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
@@ -96,6 +104,14 @@
 				}
 			}
 		},
+		"hoglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "hoglin"
+				}
+			}
+		},
 		"husk": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
@@ -117,6 +133,14 @@
 			"conditions": {
 				"entity": {
 					"type": "minecraft:phantom"
+				}
+			}
+		},
+		"piglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "piglin"
 				}
 			}
 		},
@@ -208,11 +232,27 @@
 				}
 			}
 		},
+		"wither": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "wither"
+				}
+			}
+		},
 		"wither_skeleton": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
 					"type": "minecraft:wither_skeleton"
+				}
+			}
+		},
+		"zoglin": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "zoglin"
 				}
 			}
 		},
@@ -224,11 +264,11 @@
 				}
 			}
 		},
-		"zombie_pigman": {
+		"zombified_piglin": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:zombie_pigman"
+					"type": "minecraft:zombified_piglin"
 				}
 			}
 		},

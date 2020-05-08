@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:jack_o_lantern"
 		},
-		"title": "Un bonbon ou un sort",
-		"description": "Halloween"
+		"title": "Halloween",
+		"description": "Un bonbon ou un sort"
 	},
 	"parent": "minecraft:husbandry/carved_pumpkin",
 	"criteria": {

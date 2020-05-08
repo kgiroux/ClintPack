@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "Mountain Climber",
-		"description": "Enter a mountain biome"
+		"title": "Randonneur",
+		"description": "Entre dans un biome montagne"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

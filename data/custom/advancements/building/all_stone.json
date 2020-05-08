@@ -1,0 +1,197 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "Stone, le monde est stoooone",
+		"description": "Obtiens tous les dérivés de la pierre"
+	},
+	"parent": "custom:building/root",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone"
+				}]
+			}
+		},
+		"mossy_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone"
+				}]
+			}
+		},
+		"stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone"
+				}]
+			}
+		},
+		"smooth_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_stone"
+				}]
+			}
+		},
+		"stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_bricks"
+				}]
+			}
+		},
+		"mossy_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_bricks"
+				}]
+			}
+		},
+		"cracked_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cracked_stone_bricks"
+				}]
+			}
+		},
+		"chiseled_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_stone_bricks"
+				}]
+			}
+		},
+		"cobblestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone_slab"
+				}]
+			}
+		},
+		"cobblestone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cobblestone_stairs"
+				}]
+			}
+		},
+		"mossy_cobblestone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone_stairs"
+				}]
+			}
+		},
+		"mossy_cobblestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone_slab"
+				}]
+			}
+		},
+		"stone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_slab"
+				}]
+			}
+		},
+		"stone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_stairs"
+				}]
+			}
+		},
+		"smooth_stone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:smooth_stone_slab"
+				}]
+			}
+		},"stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_brick_slab"
+				}]
+			}
+		},
+		"stone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_brick_stairs"
+				}]
+			}
+		},
+		"mossy_stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_brick_slab"
+				}]
+			}
+		},
+		"mossy_stone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_brick_stairs"
+				}]
+			}
+		},"cobblestone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone_slab"
+				}]
+			}
+		},
+		"mossy_cobblestone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_cobblestone_wall"
+				}]
+			}
+		},
+		"stone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stone_brick_wall"
+				}]
+			}
+		},
+		"mossy_stone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:mossy_stone_brick_wall"
+				}]
+			}
+		}
+	}
+}

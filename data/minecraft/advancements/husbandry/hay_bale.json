@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:hay_block"
 		},
-		"title": "Ca me botte bien",
-		"description": "Baloti, balotin"
+		"title": "Baloti, balotin",
+		"description": "Craft un bloc de paille"
 	},
 	"parent": "minecraft:husbandry/plant_seed",
 	"criteria": {

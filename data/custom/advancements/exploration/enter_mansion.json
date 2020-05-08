@@ -4,7 +4,7 @@
 			"item": "minecraft:dark_oak_planks"
 		},
 		"title": "Pariahs",
-		"description": "Enter a woodland mansion"
+		"description": "Entre dans un manoir"
 	},
 	"parent": "custom:exploration/dark_forest",
 	"criteria": {

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+      "title": "Résistance au feu 2",
+      "description": "Y'a pas le feu au lac"
+	},
+	"parent": "custom:potions/fire_resistance",
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_fire_resistance"
+			}
+		}
+	}
+}

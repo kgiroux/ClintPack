@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:mossy_cobblestone"
 		},
-		"title": "Ancient Power",
-		"description": "Enter a jungle temple"
+		"title": "Pouvoir ancient",
+		"description": "Trouve un temple de la jungle"
 	},
 	"parent": "custom:exploration/jungle",
 	"criteria": {

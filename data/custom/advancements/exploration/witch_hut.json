@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:spruce_planks"
 		},
-		"title": "Toil and Trouble",
-		"description": "Enter a witch's hut"
+		"title": "Sorcière !",
+		"description": "Entre dans une cabane de sorcière"
 	},
 	"parent": "custom:exploration/kill_slime",
 	"criteria": {

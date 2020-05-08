@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fermented_spider_eye"
+		},
+		"title": "Invisible 1",
+		"description": "Vous avez vu Pierre ?"
+
+	},
+	"parent": "custom:potions/night_vision",
+	"criteria": {
+		"invisibility": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:invisibility"
+			}
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:turtle_helmet"
 		},
-		"title": "Tortue Ninja",
-		"description": "Lequel êtes-vous ?"
+		"title": "Maitre Tortue 1",
+		"description": "Tortue Ninja"
 
 	},
 	"parent": "custom:potions/brew_potion",

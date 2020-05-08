@@ -1,0 +1,81 @@
+{
+	"display": {
+		"icon": {
+			"item": "bow",
+			"nbt": "{Enchantments:[{id:'minecraft:lure'}]}"
+		},
+		"title": "Sniper Ultime",
+		"description": "Fais-toi l'arc parfait",
+		"frame": "challenge"
+	},
+	"parent": "custom:combat/shoot_arrow",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"perfect_bow_infinity": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "bow",
+					"enchantments": [{
+							"enchantment": "power",
+							"levels": 5
+						},
+						{
+							"enchantment": "punch",
+							"levels": 2
+						},
+						{
+							"enchantment": "flame",
+							"levels": 1
+						},
+						{
+							"enchantment": "infinity",
+							"levels": 1
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		},
+		"perfect_bow_mending": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "bow",
+					"enchantments": [{
+							"enchantment": "power",
+							"levels": 5
+						},
+						{
+							"enchantment": "punch",
+							"levels": 2
+						},
+						{
+							"enchantment": "flame",
+							"levels": 1
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						}
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_bow_infinity",
+			"perfect_bow_mending"
+		]
+	]
+}

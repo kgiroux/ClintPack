@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_ingot"
+		},
+		"title": "Un pas de plus",
+		"description": "Utilise la netherite pour améliorer ton stuff",
+		"frame": "goal"
+	},
+	"parent": "minecraft:nether/ancient_debris",
+	"criteria": {
+		"netherite": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "minecraft:netherite_gear"
+				}]
+			}
+		}
+	}
+}

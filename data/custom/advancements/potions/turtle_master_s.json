@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Maitre Tortue 2",
+		"description": "Michaelangello"
+
+	},
+	"parent": "custom:potions/turtle_master",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_turtle_master"
+			}
+		}
+	}
+}

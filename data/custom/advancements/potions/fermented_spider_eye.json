@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:fermented_spider_eye"
 		},
-		"title": "C'est qui le faible?",
-		"description": "En tout cas c'est pas moi..."
+		"title": "Faiblesse 1",
+		"description": "La base"
 
 	},
 	"parent": "custom:potions/water_bottle",

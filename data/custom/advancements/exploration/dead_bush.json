@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dead_bush"
 		},
-		"title": "Sticky",
-		"description": "Obtain a dead bush"
+		"title": "Arbre mort",
+		"description": "Récolte un arbuste mort"
 	},
 	"parent": "custom:exploration/husk",
 	"criteria": {

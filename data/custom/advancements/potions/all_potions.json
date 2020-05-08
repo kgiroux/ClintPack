@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glass_bottle"
+		},
+      "title": "Beta testeur",
+      "description": "Avoir tous les effets de potion en même temps",
+		"frame": "challenge"
+	},
+	"parent": "custom:potions/all_potion",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"absorption": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+                    "minecraft:speed": {},
+                    "minecraft:slowness": {},
+                    "minecraft:strength": {},
+                    "minecraft:jump_boost": {},
+                    "minecraft:regeneration": {},
+                    "minecraft:fire_resistance": {},
+                    "minecraft:water_breathing": {},
+                    "minecraft:invisibility": {},
+                    "minecraft:night_vision": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+					"minecraft:resistance": {},
+					"minecraft:slow_falling": {}
+                }
+			}
+		}
+	}
+}

@@ -5,7 +5,7 @@
 		},
 		"title": "J'ai la dalle !",
 		"description": "Craftez chaques type de dalle",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "custom:building/all_stairs",
 	"rewards": {
@@ -289,6 +289,45 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:diorite_slab"
+				}]
+			}
+		},"crimson": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "crimson_slab"
+				}]
+			}
+		},
+		"warped": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "warped_slab"
+				}]
+			}
+		},
+		"blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "blackstone_slab"
+				}]
+			}
+		},
+		"polished_blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_slab"
+				}]
+			}
+		},
+		"polished_blackstone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_brick_slab"
 				}]
 			}
 		}

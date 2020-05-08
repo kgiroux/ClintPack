@@ -1,0 +1,152 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lantern"
+		},
+		"title": "Aziz, lumières !",
+		"description": "Utilise toutes les sources de lumières possibles",
+		"frame" : "goal"
+	},
+	"parent": "custom:building/torch",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"torch": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:torch"
+				}
+			}
+		},
+		"soul_torch": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:soul_torch"
+				}
+			}
+		},
+		"redstone_torch": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:redstone_torch"
+				}
+			}
+		},
+		"jack_o_lantern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:jack_o_lantern"
+				}
+			}
+		},
+		"lantern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lantern"
+				}
+			}
+		},
+		"soul_lantern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:soul_lantern"
+				}
+			}
+		},
+		"campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:campfire"
+				}
+			}
+		},
+		"soul_campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:soul_campfire"
+				}
+			}
+		},
+		"shroomlight": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:shroomlight"
+				}
+			}
+		},
+		"end_rod": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:end_rod"
+				}
+			}
+		},
+		"glowstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:glowstone"
+				}
+			}
+		},
+		"sea_lantern": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:sea_lantern"
+				}
+			}
+		},
+		"beacon": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beacon"
+				}
+			}
+		},
+		"sea_pickle": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:sea_pickle"
+				}
+			}
+		},
+		"redstone_lamp": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:redstone_lamp"
+				}
+			}
+		},
+		"magma_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:magma_block"
+				}
+			}
+		},
+		"lava": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lava_bucket"
+				}
+			}
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:experience_bottle"
 		},
-		"title": "Magicly Repairing Molecules",
-		"description": "Obtain Mending on any item",
+		"title": "Réparation automatique",
+		"description": "Applique du raccommodage sur ce que tu veux",
 		"frame": "goal"
 	},
 	"parent": "minecraft:story/anvil",

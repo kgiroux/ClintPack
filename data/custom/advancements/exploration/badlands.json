@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:terracotta"
 		},
-		"title": "Disco Mountains",
-		"description": "Enter the badlands"
+		"title": "Le Grand Canyon",
+		"description": "Entre dans un Mesa"
 	},
 	"parent": "custom:exploration/husk",
 	"criteria": {

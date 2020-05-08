@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:nether/bastion",
+	"display": {
+		"icon": {
+			"item": "gilded_blackstone"
+		},
+		"title": "Pierre dorée",
+		"description": "Récolte un block de roche noire dorée"
+	},
+	"criteria": {
+		"gilded": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "gilded_blackstone"
+				}]
+			}
+		}
+	}
+}

@@ -61,6 +61,24 @@
 					"count": 64
 				}]
 			}
+		},
+		"warped": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_wart_block",
+					"count": 64
+				}]
+			}
+		},
+		"crimson": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_wart_block",
+					"count": 64
+				}]
+			}
 		}
 	}
 }

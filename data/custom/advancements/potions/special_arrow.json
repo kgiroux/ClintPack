@@ -3,10 +3,10 @@
 		"icon": {
 			"item": "minecraft:tipped_arrow"
 		},
-		"title": "Flèche téléguidé",
-		"description": "Une flèche un peu magique"
+		"title": "Flèche magique",
+		"description": "Fais ta première flèche magique"
 	},
-	"parent": "custom:combat/shoot_arrow",
+	"parent": "custom:potions/water_bottle",
 	"criteria": {
 		"tipped": {
 			"trigger": "minecraft:inventory_changed",

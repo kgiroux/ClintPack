@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "target"
+		},
+		"title": {
+			"translate": "advancements.adventure.bullseye.title"
+		},
+		"description": "Touche le centre de la cible"
+	},
+	"parent": "custom:redstone/dispenser",
+	"criteria": {
+		"bullseye": {
+			"trigger": "target_hit",
+			"conditions": {
+				"signal_strength": 15
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Saut 2",
+		"description": "Oui aller plus haaaauuuuut !!"
+	},
+	"parent": "custom:potions/jump",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_leaping"
+			}
+		}
+	}
+}

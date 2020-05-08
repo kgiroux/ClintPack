@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "porkchop"
+		},
+		"title": "Quand les Hoglins volent",
+		"description": "Réussi a reproduire 2 hoglins en lévitation",
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "minecraft:nether/hurt_zombie_piglin",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"hoglin": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "hoglin",
+					"effects": {
+						"levitation": {}
+					}
+				},
+				"partner": {
+					"type": "hoglin",
+					"effects": {
+						"levitation": {}
+					}
+				}
+			}
+		}
+	}
+}

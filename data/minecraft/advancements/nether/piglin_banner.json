@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:nether/pigstep",
+	"display": {
+		"icon": {
+			"item": "piglin_banner_pattern"
+		},
+		"title": "Piglinsigia",
+		"description": "Fais une bannière avec un pattern de piglin"
+	},
+	"criteria": {
+		"banner": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "banners",
+					"nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"pig\"}]}}"
+				}]
+			}
+		}
+	}
+}

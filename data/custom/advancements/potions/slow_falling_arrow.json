@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:slow_falling'}"
+		},
+		"title": "Chute lente 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/slow_falling_li",
+	"criteria": {
+		"slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:slow_falling'}"
+				}]
+			}
+		},
+		"l_slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_slow_falling'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"slow_falling",
+		"l_slow_falling"
+		]
+	]
+}

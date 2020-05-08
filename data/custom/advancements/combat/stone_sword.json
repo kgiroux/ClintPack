@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_sword"
+		},
+		"title": "Du caillou !?",
+		"description": "T'as pas mieux ?"
+	},
+	"parent": "custom:combat/make_sword",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_sword"
+					}
+				]
+			}
+		}
+	}
+}

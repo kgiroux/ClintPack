@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:turtle_master'}"
+		},
+		"title": "Maitre Tortue 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/turtle_master_li",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:turtle_master'}"
+				}]
+			}
+		},
+		"l_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_turtle_master'}"
+				}]
+			}
+		},
+		"s_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strong_turtle_master'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"turtle_master",
+		"s_turtle_master",
+		"l_turtle_master"
+		]
+	]
+}

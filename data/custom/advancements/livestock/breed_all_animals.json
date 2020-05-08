@@ -16,6 +16,14 @@
 		"experience": 150
 	},
 	"criteria": {
+		"bee": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "bee"
+				}
+			}
+		},
 		"cat": {
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
@@ -54,6 +62,14 @@
 			"conditions": {
 				"parent": {
 					"type": "minecraft:fox"
+				}
+			}
+		},
+		"hoglin": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "hoglin"
 				}
 			}
 		},
@@ -118,6 +134,14 @@
 			"conditions": {
 				"parent": {
 					"type": "minecraft:sheep"
+				}
+			}
+		},
+		"strider": {
+			"trigger": "bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "strider"
 				}
 			}
 		},

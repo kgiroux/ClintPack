@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "bone_block"
+		},
+		"title": "Cimetière de ghast",
+		"description": "Trouvez des fossils"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"bastion": {
+			"trigger": "location",
+			"conditions": {
+				"feature": "nether_fossil"
+			}
+		}
+	}
+}

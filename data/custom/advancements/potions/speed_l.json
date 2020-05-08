@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Vitesse 2",
+		"description": "Supersonic"
+
+	},
+	"parent": "custom:potions/speed",
+	"criteria": {
+		"speed": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_swiftness"
+			}
+		}
+	}
+}

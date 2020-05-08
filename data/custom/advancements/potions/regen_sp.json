@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Régénération 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/regen",
+	"criteria": {
+		"regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:regeneration'}"
+				}]
+			}
+		},
+		"s_regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_regeneration'}"
+				}]
+			}
+		},
+		"l_regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_regeneration'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"regeneration",
+		"s_regeneration",
+		"l_regeneration"
+		]
+	]
+}

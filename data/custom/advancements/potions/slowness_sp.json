@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Lenteur 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/slowness",
+	"criteria": {
+		"slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:slowness'}"
+				}]
+			}
+		},
+		"s_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_slowness'}"
+				}]
+			}
+		},
+		"l_slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_slowness'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"slowness",
+		"s_slowness",
+		"l_slowness"
+		]
+	]
+}

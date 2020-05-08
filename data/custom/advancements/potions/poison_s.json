@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Poison 2",
+		"description": "L'alternative à la pomme empoisonnée"
+
+	},
+	"parent": "custom:potions/poison",
+	"criteria": {
+		"poison": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_poison"
+			}
+		}
+	}
+}

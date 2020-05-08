@@ -4,7 +4,7 @@
 			"item": "minecraft:torch"
 		},
 		"title": "Adios les monstres",
-		"description": "Pleins de torche pour allumer bien sûr"
+		"description": "Craft une torche pour ne plus avoir peur la nuit"
 	},
 	"parent": "custom:building/root",
 	"criteria": {

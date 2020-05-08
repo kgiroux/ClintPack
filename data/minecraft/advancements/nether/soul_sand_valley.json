@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "soul_soil"
+		},
+		"title": "La vallée de la mort",
+		"description": "Entre dans la soul sand valley"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"valley": {
+			"trigger": "location",
+			"conditions": {
+				"biome": "soul_sand_valley"
+			}
+		}
+	}
+}

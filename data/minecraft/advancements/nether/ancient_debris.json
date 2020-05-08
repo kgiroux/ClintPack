@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "ancient_debris"
+		},
+		"title": "Polluants persistants",
+		"description": "Récupère quelques anciens débris"
+	},
+	"parent": "minecraft:nether/nether_gold_ore",
+	"criteria": {
+		"ancient_debris": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "ancient_debris"
+				}]
+			}
+		}
+	}
+}

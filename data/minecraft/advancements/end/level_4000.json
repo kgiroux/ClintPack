@@ -4,7 +4,7 @@
 			"item": "minecraft:firework_rocket"
 		},
 		"title": "Aller plus haut",
-		"description": "Attendre le Y  4000",
+		"description": "Atteindre le Y 4000",
 		"frame": "challenge"
 	},
 	"parent": "minecraft:end/elytra",

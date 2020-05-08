@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:jungle_log"
 		},
-		"title": "Disappearing Rainforests",
-		"description": "Chop down a jungle tree, you inconsiderate monster"
+		"title": "Déforestation",
+		"description": "Interdiction de laisser des arbres volants !"
 	},
 	"parent": "custom:exploration/jungle",
 	"criteria": {

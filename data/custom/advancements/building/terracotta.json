@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:terracotta"
 		},
-		"title": "Terre coté",
+		"title": "Terre sous-cotée",
 		"description": "De la terracota"
 	},
 	"parent": "custom:building/clay_ball",

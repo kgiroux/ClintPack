@@ -6,7 +6,7 @@
 		"title": "Couteau à beurre",
 		"description": "Le bois, c'est bien, l'or c'est... mieux ?"
 	},
-	"parent": "custom:combat/make_sword",
+	"parent": "custom:combat/stone_sword",
 	"criteria": {
 		"sword": {
 			"trigger": "minecraft:inventory_changed",

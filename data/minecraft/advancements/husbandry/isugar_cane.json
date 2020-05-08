@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sugar_cane"
 		},
-		"title": "Sucre, sucre besoin de sucre",
-		"description": "Toi faire pousser sucre pour moi"
+		"title": "Sucre, sucre, besoin de sucre !",
+		"description": "Récolte de la canne à sucre"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

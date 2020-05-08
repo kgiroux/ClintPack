@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:jump'}"
+		},
+		"title": "Saut 5",
+		"description": "Touché !"
+	},
+	"parent": "custom:potions/jump_li",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:jump'}"
+				}]
+			}
+		},
+		"s_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strong_jump'}"
+				}]
+			}
+		},
+		"l_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_jump'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"jump",
+		"s_jump",
+		"l_jump"
+		]
+	]
+}

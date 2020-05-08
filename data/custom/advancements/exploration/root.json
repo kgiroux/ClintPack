@@ -4,7 +4,7 @@
 			"item": "minecraft:spruce_boat"
 		},
 		"title": "Explorateur",
-		"description": "The world is vast and uncharted",
+		"description": "Le monde est vaste et plein de surprises",
 		"background": "minecraft:textures/block/spruce_log.png",
 		"show_toast": false,
 		"announce_to_chat": false

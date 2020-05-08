@@ -11,7 +11,7 @@
 		},
 		"frame": "challenge"
 	},
-	"parent": "minecraft:nether/get_wither_skull",
+	"parent": "minecraft:nether/wither_skull",
 	"rewards": {
 		"experience": 100
 	},

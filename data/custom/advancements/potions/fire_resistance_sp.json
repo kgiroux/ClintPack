@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Résistance au feu 3",
+		"description": "Splash !"
+	},
+	"parent": "custom:potions/fire_resistance",
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:fire_resistance'}"
+				}]
+			}
+		},
+		"l_fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_fire_resistance'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"fire_resistance",
+		"l_fire_resistance"
+		]
+	]
+}

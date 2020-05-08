@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Lenteur 2",
+		"description": "Ou encore une tortue ?"
+
+	},
+	"parent": "custom:potions/slowness",
+	"criteria": {
+		"slowness": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_slowness"
+			}
+		}
+	}
+}

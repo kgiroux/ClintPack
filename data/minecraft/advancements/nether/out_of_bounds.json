@@ -4,7 +4,7 @@
 			"item": "minecraft:bedrock"
 		},
 		"title": "En dehors des limites",
-		"description": "Trouver la zone interdite du Nether. Si tu la trouve, tu es un tricheur",
+		"description": "Trouve la zone interdite du Nether",
 		"frame": "challenge",
 		"hidden": true
 	},

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "red_bed"
+		},
+		"title": "Insomniaque",
+		"description": "Ne dors pas pendant une semaine entière",
+		"frame": "goal"
+	},
+	"parent": "custom:combat/phantom_pains",
+	"criteria": {
+		"week": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "time_since_rest",
+							"value": {
+								"min": 168000
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

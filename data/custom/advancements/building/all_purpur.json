@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:purpur_pillar"
+		},
+		"title": "Du violet partout ! ",
+		"description": "Craftez toutes les variantes de purpur"
+	},
+	"parent": "custom:building/all_blackstone",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_block"
+				}]
+			}
+		},
+		"pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_pillar"
+				}]
+			}
+		},
+		"stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_stairs"
+				}]
+			}
+		},
+		"slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:purpur_slab"
+				}]
+			}
+		}
+	}
+}

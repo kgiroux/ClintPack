@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Poison 2",
+		"description": "Véritable venin"
+
+	},
+	"parent": "custom:potions/poison",
+	"criteria": {
+		"poison": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_poison"
+			}
+		}
+	}
+}

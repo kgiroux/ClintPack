@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Vitesse 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/speed",
+	"criteria": {
+		"speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:speed'}"
+				}]
+			}
+		},
+		"l_speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_speed'}"
+				}]
+			}
+		},
+		"s_speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_speed'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"speed",
+		"s_speed",
+		"l_speed"
+		]
+	]
+}

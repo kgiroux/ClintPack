@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:poppy"
 		},
-		"title": "Une petite fleur",
+		"title": "Le pouvoir des fleurs",
 		"description": "Déclare ta flamme en donnant une belle fleur à l'élu de ton coeur"
 	},
 	"parent": "minecraft:husbandry/root",

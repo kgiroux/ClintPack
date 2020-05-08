@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:iron_sword"
 		},
-		"title": "Etheral Soldiers",
-		"description": "Kill a vex"
+		"title": "Méchants fantômes",
+		"description": "Tue un Vex"
 	},
 	"parent": "custom:exploration/evoker_fangs",
 	"criteria": {

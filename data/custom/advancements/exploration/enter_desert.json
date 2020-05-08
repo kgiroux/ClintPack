@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sand"
 		},
-		"title": "Bone Dry",
-		"description": "Enter a desert biome"
+		"title": "Os séché",
+		"description": "Entre dans un désert"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

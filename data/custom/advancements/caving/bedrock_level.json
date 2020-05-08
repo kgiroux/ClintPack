@@ -4,7 +4,7 @@
 			"item": "minecraft:bedrock"
 		},
 		"title": "Incassable",
-		"description": "Atteignez le bout du monde"
+		"description": "Creuse six pieds sous terre"
 	},
 	"parent": "custom:caving/lava_level",
 	"criteria": {

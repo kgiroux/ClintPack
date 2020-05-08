@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "gold_block"
+        },
+        "title": "Beacon Tier 2",
+        "description": "Balise toute en or"
+    },
+    "parent": "minecraft:nether/beacon_tier_1",
+    "criteria": {
+        "gold": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [{
+                            "type": "used",
+                            "stat": "gold_block",
+                            "value": {
+                                "min": 164
+                            }
+                        }]
+                    }
+                }
+            }
+        },
+		"full_beacon": {
+			"trigger": "construct_beacon",
+			"conditions": {
+				"level": 4
+			}
+		}
+    },
+	"requirement": [
+		"full_beacon"
+	]
+}

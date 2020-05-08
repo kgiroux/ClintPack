@@ -4,7 +4,7 @@
 			"item": "minecraft:armor_stand"
 		},
 		"title": "Les gardiens",
-		"description": "Place une armor stand pour garder votre palace"
+		"description": "Place un porte-armure pour garder votre palace"
 	},
 	"parent": "custom:building/item_frame",
 	"criteria": {

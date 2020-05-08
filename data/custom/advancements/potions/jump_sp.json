@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Saut 3",
+		"description": "Splash !"
+	},
+	"parent": "custom:potions/jump",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:jump'}"
+				}]
+			}
+		},
+		"s_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_jump'}"
+				}]
+			}
+		},
+		"l_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_jump'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"jump",
+		"s_jump",
+		"l_jump"
+		]
+	]
+}

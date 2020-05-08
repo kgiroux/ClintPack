@@ -3,10 +3,10 @@
 		"icon": {
 			"item": "minecraft:emerald"
 		},
-		"title": "Magic Merchant",
-		"description": "Buy an enchanted book from a villager"
+		"title": "Marchand de rêves",
+		"description": "Achète un livre enchanté à un villageois"
 	},
-	"parent": "minecraft:story/place_grindstone",
+	"parent": "minecraft:story/disenchanted",
 	"criteria": {
 		"book": {
 			"trigger": "minecraft:villager_trade",

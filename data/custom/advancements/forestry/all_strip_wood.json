@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_spruce_wood"
+		},
+		"title": "Tous à poil !",
+		"description": "Un stack de bloc de bois écorcés",
+		"frame": "goal"
+	},
+	"parent": "custom:forestry/strip_wood",
+	"criteria": {
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_oak_wood",
+					"count": 64
+				}]
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_birch_wood",
+					"count": 64
+				}]
+			}
+		},
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_acacia_wood",
+					"count": 64
+				}]
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_spruce_wood",
+					"count": 64
+				}]
+			}
+		},
+    	"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_jungle_wood",
+					"count": 64
+				}]
+			}
+		},
+    	"dark_oak": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_dark_oak_wood",
+					"count": 64
+				}]
+			}
+		},
+		"crimson": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_crimson_hyphae",
+					"count": 64
+				}]
+			}
+		},
+		"warped": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:stripped_warped_hyphae",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

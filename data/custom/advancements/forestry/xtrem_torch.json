@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": "Torcheur de l'extrême",
+        "description": "Seulement 1 ? Petit joueur :P"
+    },
+    "parent": "custom:forestry/make_lot_of_torch",
+    "criteria": {
+        "torchotamator": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "used",
+							"stat": "minecraft:torch",
+							"value": {
+								"min": 11520
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Poison 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/poison_sp",
+	"criteria": {
+		"poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:poison'}"
+				}]
+			}
+		},
+		"s_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_poison'}"
+				}]
+			}
+		},
+		"l_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_poison'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"poison",
+		"s_poison",
+		"l_poison"
+		]
+	]
+}

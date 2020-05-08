@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Dégats 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/damage_sp",
+	"criteria": {
+		"harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:harming'}"
+				}]
+			}
+		},
+		"s_harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_harming'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"harming",
+		"s_harming"
+		]
+	]
+}

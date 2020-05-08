@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:nether/bastion",
+	"display": {
+		"icon": {
+			"item": "music_disc_pigstep"
+		},
+		"title": "Swine Song",
+		"description": "Trouve le disque \"Pigstep\" "
+	},
+	"criteria": {
+		"pigstep": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "music_disc_pigstep"
+				}]
+			}
+		}
+	}
+}

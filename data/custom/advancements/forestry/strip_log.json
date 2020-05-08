@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stripped_birch_log"
 		},
-		"title": "Strip-tease",
-		"description": "Ecorcez une buche de bois"
+		"title": "Ecorcé",
+		"description": "Enlève l'écorce d'une buche de bois"
 	},
 	"parent": "custom:forestry/log",
 	"criteria": {

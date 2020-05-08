@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Vision nocturne 4",
+		"description": "C'est persistant !"
+	},
+	"parent": "custom:potions/night_vision_sp",
+	"criteria": {
+		"night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:night_vision'}"
+				}]
+			}
+		},
+		"l_night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_night_vision'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"night_vision",
+		"l_night_vision"
+		]
+	]
+}

@@ -4,7 +4,7 @@
 			"item": "minecraft:quartz"
 		},
 		"title": "Mon précieux...",
-		"description": "Quartz mon Quartz"
+		"description": "Récolte du quartz"
 	},
 	"parent": "minecraft:nether/root",
 	"criteria": {

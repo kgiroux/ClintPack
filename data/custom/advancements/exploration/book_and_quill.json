@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:writable_book"
 		},
-		"title": "Captain's Log",
-		"description": "Create a book and quill to document your adventures"
+		"title": "Le journal du Capitaine",
+		"description": "Ecris dans un livre pour raconter tes aventures"
 	},
 	"parent": "custom:exploration/map",
 	"criteria": {

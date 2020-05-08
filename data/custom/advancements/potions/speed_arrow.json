@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:speed'}"
+		},
+		"title": "Vitesse 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/speed_li",
+	"criteria": {
+		"speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:speed'}"
+				}]
+			}
+		},
+		"l_speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_speed'}"
+				}]
+			}
+		},
+		"s_speed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strong_speed'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"speed",
+		"s_speed",
+		"l_speed"
+		]
+	]
+}

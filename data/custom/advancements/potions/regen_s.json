@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Régénération 2",
+		"description": "Immortel"
+
+	},
+	"parent": "custom:potions/regen",
+	"criteria": {
+		"regeneration": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_regeneration"
+			}
+		}
+	}
+}

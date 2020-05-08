@@ -71,6 +71,22 @@
 					"item": "minecraft:dark_oak_pressure_plate"
 				}]
 			}
+		},
+    	"crimson": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:crimson_pressure_plate"
+				}]
+			}
+		},
+    	"warped": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_pressure_plate"
+				}]
+			}
 		}
 	}
 }

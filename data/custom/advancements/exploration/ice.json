@@ -4,7 +4,7 @@
 			"item": "minecraft:ice"
 		},
 		"title": "Ice Ice Baby",
-		"description": "Collect some ice"
+		"description": "Récolte de la glace"
 	},
 	"parent": "custom:exploration/snow_biome",
 	"criteria": {

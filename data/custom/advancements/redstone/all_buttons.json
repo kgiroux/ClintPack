@@ -48,7 +48,7 @@
 				}]
 			}
 		},
-    		"jungle": {
+    	"jungle": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
@@ -56,11 +56,27 @@
 				}]
 			}
 		},
-    		"dark_oak": {
+    	"dark_oak": {
       			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [{
 					"item": "minecraft:dark_oak_button"
+				}]
+			}
+		},
+    	"crimson": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:crimson_button"
+				}]
+			}
+		},
+    	"warped": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:warped_button"
 				}]
 			}
 		}

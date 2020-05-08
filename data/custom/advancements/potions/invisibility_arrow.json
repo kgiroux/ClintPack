@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:invisibility'}"
+		},
+		"title": "Invisible 5",
+		"description": "Touché !"
+
+	},
+	"parent": "custom:potions/invisibility_li",
+	"criteria": {
+		"invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:invisibility'}"
+				}]
+			}
+		},
+		"l_invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_invisibility'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"invisibility",
+		"l_invisibility"
+		]
+	]
+}

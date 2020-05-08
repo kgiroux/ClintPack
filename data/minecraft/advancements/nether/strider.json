@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "lava_bucket"
+		},
+		"title": "Lava Walker",
+		"description": "Traverse les lacs de lave sur le dos d'un arpenteur"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"a": {
+			"trigger": "impossible"
+		}
+	}
+}

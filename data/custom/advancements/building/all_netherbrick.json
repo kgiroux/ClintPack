@@ -1,0 +1,103 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chiseled_nether_bricks"
+		},
+		"title": "Prince des enfers",
+		"description": "Craftez tous les dérivés de la brique du nether"
+	},
+	"parent": "custom:building/all_quartz_block",
+	"rewards": {
+		"experience": 100
+	},
+	"criteria": {
+		"nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_bricks"
+				}]
+			}
+		},
+		"nether_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_brick_slab"
+				}]
+			}
+		},
+		"nether_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_brick_stairs"
+				}]
+			}
+		},
+		"nether_brick_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_brick_fence"
+				}]
+			}
+		},
+		"nether_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:nether_brick_wall"
+				}]
+			}
+		},
+		"cracked_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:cracked_nether_bricks"
+				}]
+			}
+		},
+		"chiseled_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:chiseled_nether_bricks"
+				}]
+			}
+		},
+		"red_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_bricks"
+				}]
+			}
+		},
+		"red_nether_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_brick_stairs"
+				}]
+			}
+		},
+		"red_nether_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_brick_slab"
+				}]
+			}
+		},
+		"red_nether_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:red_nether_brick_wall"
+				}]
+			}
+		}
+	}
+}

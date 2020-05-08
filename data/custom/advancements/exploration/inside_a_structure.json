@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cobweb"
 		},
-		"title": "Here Before Us",
-		"description": "Who built this?"
+		"title": "First !",
+		"description": "Qui a construit ça ?"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

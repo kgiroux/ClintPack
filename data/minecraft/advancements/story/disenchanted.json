@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "grindstone"
+		},
+		"title": "Désenchanté",
+		"description": "Utilise un grindstone pour enlever des enchantements"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"grindstone": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "interact_with_grindstone",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

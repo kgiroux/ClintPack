@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "chiseled_polished_blackstone"
+		},
+		"title": "Forsaken City",
+		"description": "Explore les ruines d'un bastion"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"bastion": {
+			"trigger": "location",
+			"conditions": {
+				"feature": "bastion_remnant"
+			}
+		}
+	}
+}

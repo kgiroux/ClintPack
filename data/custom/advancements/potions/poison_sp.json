@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Poison 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/poison",
+	"criteria": {
+		"poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:poison'}"
+				}]
+			}
+		},
+		"s_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strong_poison'}"
+				}]
+			}
+		},
+		"l_poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:long_poison'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"poison",
+		"s_poison",
+		"l_poison"
+		]
+	]
+}

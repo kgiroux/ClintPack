@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Respiration 2",
+		"description": "Comme un poisson dans l'eau"
+
+	},
+	"parent": "custom:potions/water_breathing",
+	"criteria": {
+		"water_breathing": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_water_breathing"
+			}
+		}
+	}
+}

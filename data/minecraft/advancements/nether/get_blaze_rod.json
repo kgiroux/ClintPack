@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:nether/find_fortress",
+	"parent": "minecraft:nether/fortress",
 	"display": {
 		"icon": {
 			"item": "minecraft:blaze_rod"
@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "advancements.nether.obtain_blaze_rod.title"
 		},
-		"description": "C'est sa tentacule ?"
+		"description": "Récupère un baton de blaze"
 	},
 	"criteria": {
 		"blaze_rod": {

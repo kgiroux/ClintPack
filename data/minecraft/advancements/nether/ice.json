@@ -6,7 +6,7 @@
 		"title": "Pôle nord au enfer",
 		"description": "Une clim s'il vous plait"
 	},
-	"parent": "minecraft:nether/root",
+	"parent": "minecraft:nether/strider",
 	"criteria": {
 		"ice": {
 			"trigger": "minecraft:placed_block",

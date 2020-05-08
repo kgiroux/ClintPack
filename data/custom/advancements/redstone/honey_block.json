@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "honey_block"
+		},
+		"title": "Ca colle !",
+		"description": "Descend le long d'un block de miel"
+	},
+	"parent": "custom:redstone/slime_block",
+	"criteria": {
+		"honey_block": {
+			"trigger": "slide_down_block",
+			"conditions": {
+				"block": "honey_block"
+			}
+		}
+	}
+}

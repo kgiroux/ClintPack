@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Faiblesse 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/weakness_sp",
+	"criteria": {
+		"weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:weakness'}"
+				}]
+			}
+		},
+		"l_weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_weakness'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"weakness",
+		"l_weakness"
+		]
+	]
+}

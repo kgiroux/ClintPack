@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:slime_ball"
 		},
-		"title": "Squishy Division",
-		"description": "'Kill' a slime"
+		"title": "Ennemis gluants",
+		"description": "Tue un slime"
 	},
 	"parent": "custom:exploration/lily_pad",
 	"criteria": {

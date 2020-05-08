@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:magma_cream"
 		},
-      "title": "Y a pas le feu au lac",
+      "title": "Résistance au feu 1",
       "description": "Eau ou lave qu'elle est la différence ?"
 	},
 	"parent": "custom:potions/brew_potion",

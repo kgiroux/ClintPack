@@ -4,9 +4,9 @@
 			"item": "minecraft:stripped_spruce_wood"
 		},
 		"title": "Mettre a nu",
-		"description": "Ecorcez un bloc de bois"
+		"description": "Ecorce un bloc de bois"
 	},
-	"parent": "custom:forestry/wood",
+	"parent": "custom:forestry/log",
 	"criteria": {
 		"stripped_wood": {
 			"trigger": "minecraft:inventory_changed",

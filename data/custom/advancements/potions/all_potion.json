@@ -1,0 +1,120 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glass_bottle"
+		},
+      "title": "Alpha testeur",
+      "description": "Teste chaque effet de potion",
+		"frame": "goal"
+	},
+	"parent": "custom:potions/root",
+	"rewards": {
+		"experience": 50
+	},
+	"criteria": {
+		"fire_resistance": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:fire_resistance": {}
+				}
+			}
+		},
+		"invisibility": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:invisibility": {}
+				}
+			}
+		},
+		"jump_boost": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:jump_boost": {}
+				}
+			}
+		},
+		"night_vision": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:night_vision": {}
+				}
+			}
+		},
+		"poison": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:poison": {}
+				}
+			}
+		},
+		"regeneration": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:regeneration": {}
+				}
+			}
+		},
+		"resistance": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:resistance": {}
+				}
+			}
+		},
+		"slow_falling": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:slow_falling": {}
+				}
+			}
+		},
+		"slowness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:slowness": {}
+				}
+			}
+		},
+		"speed": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:speed": {}
+				}
+			}
+		},
+		"strength": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:strength": {}
+				}
+			}
+		},
+		"water_breathing": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:water_breathing": {}
+				}
+			}
+		},
+		"weakness": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:weakness": {}
+				}
+			}
+		}
+	}
+}

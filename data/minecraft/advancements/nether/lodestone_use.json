@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "lodestone"
+		},
+		"title": "Localisation",
+		"description": "Utilise un compas sur une magnétite pour retrouver ton chemin"
+	},
+	"parent": "minecraft:nether/respawn_anchor",
+	"criteria": {
+		"compass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "compass",
+					"nbt": "{LodestoneTracked:1b}"
+				}]
+			}
+		}
+	}
+}

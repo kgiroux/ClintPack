@@ -1,0 +1,88 @@
+{
+	"display": {
+		"icon": {
+			"item": "netherite_pickaxe"
+		},
+		"title": "Le dernier tier",
+		"description": "Fais-toi un stuff complet en netherite",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:nether/netherite",
+	"rewards": {
+		"experience": 85
+	},
+	"criteria": {
+		"helmet": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_helmet"
+				}]
+			}
+		},
+		"chestplate": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_chestplate"
+				}]
+			}
+		},
+		"leggings": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_leggings"
+				}]
+			}
+		},
+		"boots": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_boots"
+				}]
+			}
+		},
+		"sword": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_sword"
+				}]
+			}
+		},
+		"shovel": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_shovel"
+				}]
+			}
+		},
+		"pickaxe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_pickaxe"
+				}]
+			}
+		},
+		"axe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_axe"
+				}]
+			}
+		},
+		"hoe": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_hoe"
+				}]
+			}
+		}
+	}
+}

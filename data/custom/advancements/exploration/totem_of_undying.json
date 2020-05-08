@@ -6,7 +6,7 @@
 		"title": {
 			"translate": "advancements.adventure.totem_of_undying.title"
 		},
-		"description": "Use a totem of undying to cheat death",
+		"description": "Utilise le totem pour cheater face à la mort",
 		"frame": "goal"
 	},
 	"parent": "custom:exploration/vex",

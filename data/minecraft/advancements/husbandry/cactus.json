@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cactus"
 		},
-		"title": "Aie cela pick",
-		"description": "Pas touche au cactus, cela pousse"
+		"title": "Aie ça pick",
+		"description": "Récolte du cactus"
 	},
 	"parent": "minecraft:husbandry/isugar_cane",
 	"criteria": {

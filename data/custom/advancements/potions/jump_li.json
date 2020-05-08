@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Saut 4",
+		"description": "C'est persistant !"
+	},
+	"parent": "custom:potions/jump_sp",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:jump'}"
+				}]
+			}
+		},
+		"s_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_jump'}"
+				}]
+			}
+		},
+		"l_jump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_jump'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"jump",
+		"s_jump",
+		"l_jump"
+		]
+	]
+}

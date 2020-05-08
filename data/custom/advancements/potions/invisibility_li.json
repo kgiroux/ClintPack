@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Invisible 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/invisibility_sp",
+	"criteria": {
+		"invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:invisibility'}"
+				}]
+			}
+		},
+		"l_invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_invisibility'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"invisibility",
+		"l_invisibility"
+		]
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Maitre Tortue 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/turtle_master_sp",
+	"criteria": {
+		"turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:turtle_master'}"
+				}]
+			}
+		},
+		"l_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_turtle_master'}"
+				}]
+			}
+		},
+		"s_turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_turtle_master'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"turtle_master",
+		"s_turtle_master",
+		"l_turtle_master"
+		]
+	]
+}

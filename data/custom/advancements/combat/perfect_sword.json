@@ -1,54 +1,135 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword",
+			"item": "minecraft:netherite_sword",
 			"nbt": "{Enchantments:[{id:'minecraft:unbreaking',lvl:1}]}"
 		},
 		"title": "Master Knight",
 		"description": "Create a perfect sword",
 		"frame": "challenge"
 	},
-	"parent": "custom:combat/diamond_sword",
+	"parent": "custom:combat/netherite_sword",
 	"rewards": {
 		"experience": 100
 	},
 	"criteria": {
-		"perfect_sword": {
-			"trigger": "minecraft:inventory_changed",
+		"sharp_sword": {
+			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "minecraft:diamond_sword",
+					"item": "netherite_sword",
 					"enchantments": [{
-							"enchantment": "minecraft:sharpness",
+							"enchantment": "sharpness",
 							"levels": 5
 						},
 						{
-							"enchantment": "minecraft:knockback",
+							"enchantment": "knockback",
 							"levels": 2
 						},
 						{
-							"enchantment": "minecraft:fire_aspect",
+							"enchantment": "fire_aspect",
 							"levels": 2
 						},
 						{
-							"enchantment": "minecraft:looting",
+							"enchantment": "looting",
 							"levels": 3
 						},
 						{
-							"enchantment": "minecraft:sweeping",
+							"enchantment": "sweeping",
 							"levels": 3
 						},
 						{
-							"enchantment": "minecraft:unbreaking",
+							"enchantment": "unbreaking",
 							"levels": 3
 						},
 						{
-							"enchantment": "minecraft:mending",
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"smite_sword": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_sword",
+					"enchantments": [{
+							"enchantment": "smite",
+							"levels": 5
+						},
+						{
+							"enchantment": "knockback",
+							"levels": 2
+						},
+						{
+							"enchantment": "fire_aspect",
+							"levels": 2
+						},
+						{
+							"enchantment": "looting",
+							"levels": 3
+						},
+						{
+							"enchantment": "sweeping",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
+							"levels": 1
+						}
+					]
+				}]
+			}
+		},
+		"bane_sword": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "netherite_sword",
+					"enchantments": [{
+							"enchantment": "bane_of_arthropods",
+							"levels": 5
+						},
+						{
+							"enchantment": "knockback",
+							"levels": 2
+						},
+						{
+							"enchantment": "fire_aspect",
+							"levels": 2
+						},
+						{
+							"enchantment": "looting",
+							"levels": 3
+						},
+						{
+							"enchantment": "sweeping",
+							"levels": 3
+						},
+						{
+							"enchantment": "unbreaking",
+							"levels": 3
+						},
+						{
+							"enchantment": "mending",
 							"levels": 1
 						}
 					]
 				}]
 			}
 		}
-	}
+	},
+	"requirements": [
+		[
+			"sharp_sword",
+			"smite_sword",
+			"bane_sword"
+		]
+	]
 }

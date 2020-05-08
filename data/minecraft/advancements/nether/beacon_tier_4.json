@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "emerald_block"
+        },
+        "title": "Beacon Tier 4",
+        "description": "Balise toute en Emeraude"
+    },
+    "parent": "minecraft:nether/beacon_tier_3",
+    "criteria": {
+        "emerald": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [{
+                            "type": "used",
+                            "stat": "emerald_block",
+                            "value": {
+                                "min": 164
+                            }
+                        }]
+                    }
+                }
+            }
+        },
+		"full_beacon": {
+			"trigger": "construct_beacon",
+			"conditions": {
+				"level": 4
+			}
+		}
+    },
+	"requirement": [
+		"full_beacon"
+	]
+}

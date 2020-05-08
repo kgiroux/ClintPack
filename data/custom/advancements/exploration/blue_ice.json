@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:blue_ice"
 		},
-		"title": "Deep Freeze",
-		"description": "Collect some blue ice"
+		"title": "Mister Freeze",
+		"description": "Récolte un peu de glace bleue"
 	},
 	"parent": "custom:exploration/packed_ice",
 	"criteria": {
@@ -13,7 +13,8 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:blue_ice"
+						"item": "minecraft:blue_ice",
+						"count": 64
 					}
 				]
 			}

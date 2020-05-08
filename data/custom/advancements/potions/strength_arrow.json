@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:'minecraft:strength'}"
+		},
+		"title": "Force 5",
+		"description": "Touché !"
+	},
+	"parent": "custom:potions/strength_li",
+	"criteria": {
+		"strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strength'}"
+				}]
+			}
+		},
+		"s_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:strong_strength'}"
+				}]
+			}
+		},
+		"l_strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:tipped_arrow",
+					"nbt": "{Potion:'minecraft:long_strength'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"strength",
+		"s_strength",
+		"l_strength"
+		]
+	]
+}

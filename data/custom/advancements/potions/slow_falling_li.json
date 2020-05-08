@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Chute lente 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/slow_falling_sp",
+	"criteria": {
+		"slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:slow_falling'}"
+				}]
+			}
+		},
+		"l_slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:long_slow_falling'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"slow_falling",
+		"l_slow_falling"
+		]
+	]
+}

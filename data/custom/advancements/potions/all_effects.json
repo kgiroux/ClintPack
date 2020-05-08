@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+      "title": "Warrior or not warrior ?",
+      "description": "Avoir tous les effets en même temps",
+		"frame": "challenge"
+	},
+	"parent": "custom:potions/all_effect",
+	"rewards": {
+		"experience": 250
+	},
+	"criteria": {
+		"absorption": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+                    "minecraft:speed": {},
+                    "minecraft:slowness": {},
+                    "minecraft:strength": {},
+                    "minecraft:jump_boost": {},
+                    "minecraft:regeneration": {},
+                    "minecraft:fire_resistance": {},
+                    "minecraft:water_breathing": {},
+                    "minecraft:invisibility": {},
+                    "minecraft:night_vision": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+                    "minecraft:wither": {},
+                    "minecraft:haste": {},
+                    "minecraft:mining_fatigue": {},
+                    "minecraft:levitation": {},
+                    "minecraft:glowing": {},
+                    "minecraft:absorption": {},
+                    "minecraft:hunger": {},
+                    "minecraft:nausea": {},
+					"minecraft:resistance": {},
+					"minecraft:slow_falling": {},
+					"minecraft:conduit_power": {},
+					"minecraft:dolphins_grace": {},
+					"minecraft:blindness": {},
+					"minecraft:bad_omen": {},
+					"minecraft:hero_of_the_village": {}
+                }
+			}
+		}
+	}
+}

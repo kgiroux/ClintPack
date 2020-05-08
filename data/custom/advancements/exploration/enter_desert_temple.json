@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:chiseled_sandstone"
 		},
-		"title": "Grave Robber",
-		"description": "Enter a desert temple"
+		"title": "Pyramide",
+		"description": "Attention aux momies"
 	},
 	"parent": "custom:exploration/husk",
 	"criteria": {

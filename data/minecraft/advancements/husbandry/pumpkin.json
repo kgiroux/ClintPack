@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:pumpkin"
 		},
-		"title": "Citrouille",
-		"description": "N'ai pas la trouille de la récolter"
+		"title": "Faut pas avoir la trouille",
+		"description": "Récolte une citrouille"
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {

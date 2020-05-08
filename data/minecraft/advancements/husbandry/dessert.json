@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:cookie"
 		},
-		"title": "Gâteaux",
-		"description": "Faut rien laisser",
+		"title": "Aux fourneaux !",
+		"description": "Cuisine tout ce que tu peux",
 		"frame": "goal"
 	},
 	"parent": "minecraft:husbandry/eat_cake",
@@ -20,6 +20,30 @@
 			"conditions": {
 				"item": {
 					"item": "minecraft:cookie"
+				}
+			}
+		},
+		"champi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:mushroom_stew"
+				}
+			}
+		},
+		"lapin": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit_stew"
+				}
+			}
+		},
+		"bettrave": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beetroot_soup"
 				}
 			}
 		},

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Saut 2",
+		"description": "Et plus longtemps !"
+	},
+	"parent": "custom:potions/jump",
+	"criteria": {
+		"jump": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_leaping"
+			}
+		}
+	}
+}

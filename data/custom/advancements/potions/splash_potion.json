@@ -1,0 +1,156 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+      "title": "Et la poudre grise alors ?",
+      "description": "On envoi !"
+	},
+	"parent": "custom:potions/water_bottle",
+	"criteria": {
+		"night_vision": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:night_vision'}"
+				}
+			}
+		},
+		"invisibility": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:invisibility'}"
+				}
+			}
+		},
+		"leaping": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:leaping'}"
+				}
+			}
+		},
+		"fire_resistance": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:fire_resistance'}"
+				}
+			}
+		},
+		"swiftness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:swiftness'}"
+				}
+			}
+		},
+		"slowness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:slowness'}"
+				}
+			}
+		},
+		"turtle_master": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:turtle_master'}"
+				}
+			}
+		},
+		"water_breathing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:water_breathing'}"
+				}
+			}
+		},
+		"poison": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:poison'}"
+				}
+			}
+		},
+		"regeneration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:regeneration'}"
+				}
+			}
+		},
+		"strength": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:strength'}"
+				}
+			}
+		},
+		"healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:healing'}"
+				}
+			}
+		},
+		"weakness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:weakness'}"
+				}
+			}
+		},
+		"slow_falling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"potion": "minecraft:splash_potion",
+					"nbt": "{Potion:'minecraft:slow_falling'}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"night_vision",
+			"healing",
+			"invisibility",
+			"leaping",
+			"fire_resistance",
+			"swiftness",
+			"slowness",
+			"turtle_master",
+			"water_breathing",
+			"poison",
+			"regeneration",
+			"strength",
+			"weakness",
+			"slow_falling"
+		]
+	]
+}

@@ -4,7 +4,7 @@
 			"item": "minecraft:obsidian"
 		},
 		"title": "Obsidienne",
-		"description": "Récupérez 10 blocks d'obsidienne"
+		"description": "Recupere 10 blocks d'obsidienne"
 	},
 	"parent": "minecraft:story/lava_bucket",
 	"criteria": {

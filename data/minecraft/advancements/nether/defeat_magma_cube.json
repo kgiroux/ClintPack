@@ -6,7 +6,7 @@
       "title": "Slime rancher",
       "description": "Un slime de lave ?"
 	},
-	"parent": "minecraft:nether/find_fortress",
+	"parent": "minecraft:nether/fortress",
 	"criteria": {
 		"magma_cube": {
 			"trigger": "minecraft:player_killed_entity",

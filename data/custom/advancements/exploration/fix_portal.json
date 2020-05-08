@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "crying_obsidian"
+		},
+		"title": "Restoration inter-dimentionnelle",
+		"description": "Répare un portail en ruine"
+	},
+	"parent": "custom:exploration/inside_a_structure",
+	"criteria": {
+		"portal": {
+			"trigger": "location",
+			"conditions": {
+				"feature": "ruined_portal",
+				"block": {
+					"block": "nether_portal"
+				}
+			}
+		}
+	}
+}

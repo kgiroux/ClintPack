@@ -1,35 +1,29 @@
 {
-	"display": {
-		"frame": "challenge",
-		"icon": {
-			"item": "minecraft:torch"
-		},
-		"title": "Torchez-moi tout ça",
-		"description": "Remplissez votre inventaire de torche pour sécuriser la zone"
-	},
-	"parent": "custom:forestry/charcoal",
-	"criteria": {
-		"full of torch": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:torch",
-                        "count": {
-                            "min": 2304,
-                            "max": 2304
-                        }
-                    }
-                ],
-                "slots": {
-                    "full": 36
-                }
-            }
-        }
+    "display": {
+        "frame": "goal",
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": "Torchez-moi tout ça",
+        "description": "Craft un inventaire complet de torche pour sécuriser la zone"
     },
-    "requirements": [
-        [
-            "full of torch"
-        ]
-    ]
+    "parent": "custom:forestry/charcoal",
+    "criteria": {
+        "torchotamator": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:torch",
+							"value": {
+								"min": 2304
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
 }

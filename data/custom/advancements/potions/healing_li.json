@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_breath"
+		},
+		"title": "Soin 4",
+		"description": "C'est persistant !"
+
+	},
+	"parent": "custom:potions/healing_sp",
+	"criteria": {
+		"healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:healing'}"
+				}]
+			}
+		},
+		"s_healing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:lingering_potion",
+					"nbt": "{Potion:'minecraft:strong_healing'}"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"healing",
+		"s_healing"
+		]
+	]
+}

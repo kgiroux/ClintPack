@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword"
+		},
+		"title": "L'arme des enfers",
+		"description": "Enfin une arme à ta hauteur !"
+	},
+	"parent": "custom:combat/diamond_sword",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:netherite_sword"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Soin 2",
+		"description": "Plus forte"
+
+	},
+	"parent": "custom:potions/healing",
+	"criteria": {
+		"healing": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:strong_healing"
+			}
+		}
+	}
+}

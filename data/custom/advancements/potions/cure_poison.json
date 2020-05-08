@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "honey_bottle"
+		},
+		"title": "Cure de Vitamine C",
+		"description": "Bois du miel pour enlever l'effet de poison"
+	},
+	"parent": "custom:potions/water_bottle",
+	"criteria": {
+		"cure": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "honey_bottle"
+				},
+				"player": {
+					"effects": {
+						"poison": {}
+					}
+				}
+			}
+		}
+	}
+}

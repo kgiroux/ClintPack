@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:slime_ball"
 		},
-		"title": "Wow. How Did You Even Do That?",
-		"description": "Drown in a llama's spit",
+		"title": "Whaaaaaat ??",
+		"description": "Mort par un llama",
 		"frame": "goal"
 	},
 	"parent": "custom:exploration/caravanable",

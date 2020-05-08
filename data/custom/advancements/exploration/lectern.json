@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:lectern"
 		},
-		"title": "Published Author",
-		"description": "Place a lectern to display books"
+		"title": "Auteur reconnu",
+		"description": "Place un pupitre pour présenter tes écrits"
 	},
 	"parent": "custom:exploration/written_book",
 	"criteria": {

@@ -5,7 +5,7 @@
 		},
 		"title": "Mille et une marche",
 		"description": "Avoir un escalier de chaque type",
-		"frame": "challenge"
+		"frame": "goal"
 	},
 	"parent": "custom:building/all_walls",
 	"rewards": {
@@ -257,6 +257,46 @@
 			"conditions": {
 				"items": [{
 					"item": "minecraft:diorite_stairs"
+				}]
+			}
+		},
+		"crimson": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "crimson_stairs"
+				}]
+			}
+		},
+		"warped": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "warped_stairs"
+				}]
+			}
+		},
+		"blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "blackstone_stairs"
+				}]
+			}
+		},
+		"polished_blackstone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_stairs"
+				}]
+			}
+		},
+		"polished_blackstone_brick": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "polished_blackstone_brick_stairs"
 				}]
 			}
 		}

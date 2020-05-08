@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:spruce_leaves"
 		},
-		"title": "Land of Christmas Trees",
-		"description": "Enter a taiga biome"
+		"title": "Pays du Père Noël",
+		"description": "Entre dans un biome Taiga"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {

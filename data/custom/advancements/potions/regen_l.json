@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Régénération 2",
+		"description": "Un super médoc"
+
+	},
+	"parent": "custom:potions/regen",
+	"criteria": {
+		"regeneration": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_regeneration"
+			}
+		}
+	}
+}

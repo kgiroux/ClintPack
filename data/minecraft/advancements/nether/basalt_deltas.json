@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "basalt"
+		},
+		"title": "The floor is lava",
+		"description": "Entre dans le biome basalt"
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"valley": {
+			"trigger": "location",
+			"conditions": {
+				"biome": "basalt_deltas"
+			}
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:bamboo"
 		},
-		"title": "Bamboo Baby",
-		"description": "Breed some pandas",
+		"title": "Panda Power",
+		"description": "Reproduis des pandas",
 		"frame": "goal"
 	},
 	"parent": "custom:exploration/jungle_log",

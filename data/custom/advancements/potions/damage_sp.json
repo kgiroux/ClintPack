@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"title": "Dégat 3",
+		"description": "Splash !"
+
+	},
+	"parent": "custom:potions/damage",
+	"criteria": {
+		"harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"potion":"minecraft:harming"
+				}]
+			}
+		},
+		"s_harming": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "minecraft:splash_potion",
+					"potion":"minecraft:strong_harming"
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+		"harming",
+		"s_harming"
+		]
+	]
+}

@@ -4,9 +4,9 @@
 			"item": "minecraft:glowstone_dust"
 		},
 		"title": "Toujours plus fort",
-		"description": "Une petite poudre pour être plus fort que Clint"
+		"description": "Une petite poudre pour rendre la potion plus forte"
 	},
-	"parent": "custom:potions/extend_potion",
+	"parent": "custom:potions/water_bottle",
 	"criteria": {
 		"leaping": {
 			"trigger": "minecraft:brewed_potion",

@@ -4,7 +4,7 @@
 			"item": "minecraft:nether_wart"
 		},
 		"title": "On récupère le nécessaire",
-		"description": "Un peu de wart dans le Nether"
+		"description": "Un peu de verrues dans le Nether"
 	},
 	"parent": "minecraft:nether/soul_sand",
 	"criteria": {

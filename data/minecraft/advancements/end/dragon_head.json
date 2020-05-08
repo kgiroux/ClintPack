@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:dragon_head"
 		},
-		"title": "Devenir un dragon - Tête",
-		"description": "Trouver une tête de dragon"
+		"title": "Devenir un dragon",
+		"description": "Trouve une tête de dragon"
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {

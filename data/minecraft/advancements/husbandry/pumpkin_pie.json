@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "pumpkin_pie"
+		},
+		"title": "Thanksgiving",
+		"description": "Mange une bonne tarte"
+	},
+	"parent": "minecraft:husbandry/pumpkin",
+	"criteria": {
+		"pumpkin_pie": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"item": "pumpkin_pie"
+				}
+			}
+		}
+	}
+}

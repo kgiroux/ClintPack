@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:brick"
 		},
-		"title": "Brique",
-		"description": "Tu m'échange ton armur contre une brique ?"
+		"title": "T'as des briques dans ton sac ?",
+		"description": "Fais cuir de l'argile pour obtenir une brique"
 	},
 	"parent": "custom:building/clay_ball",
 	"criteria": {

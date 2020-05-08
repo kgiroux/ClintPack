@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone"
+		},
+		"title": "Lenteur 2",
+		"description": "Ou plutot d'un paresseux"
+
+	},
+	"parent": "custom:potions/slowness",
+	"criteria": {
+		"slowness": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "minecraft:long_slowness"
+			}
+		}
+	}
+}

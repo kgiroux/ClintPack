@@ -3,17 +3,30 @@
 		"icon": {
 			"item": "minecraft:filled_map"
 		},
-		"title": "Charting the Territory",
-		"description": "Open a map"
+		"title": "Inspection de terrain",
+		"description": "Ouvre une map"
 	},
 	"parent": "custom:exploration/root",
 	"criteria": {
 		"map": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": [{
+				"items": [
+					{
 					"item": "minecraft:filled_map"
-				}]
+					}
+				],
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "used",
+							"stat": "map",
+							"value": {
+								"min": 1
+							}
+						}]
+					}
+				}
 			}
 		}
 	}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dandelion"
+		},
+		"title": "Queen Bee",
+		"description": "Fais une reproduction d'abeilles"
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"breed_bee": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:bee"
+				}
+			}
+		}
+	}
+}

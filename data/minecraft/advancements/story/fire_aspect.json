@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "flint_and_steel"
+		},
+		"title": "Sabre laser",
+		"description": "Enchant une épée de netherite avec Aura de feu 2"
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"fire_aspect": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "netherite_sword",
+						"enchantments": [
+							{
+								"enchantment": "fire_aspect",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

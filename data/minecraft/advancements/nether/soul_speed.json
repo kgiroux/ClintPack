@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "golden_boots",
+			"nbt": "{Enchantments:[{id:'minecraft:lure'}]}"
+		},
+		"title": "Qui a parlé de ralentissement ?",
+		"description": "Essaye ces bottes avec l'agilité des âmes"
+	},
+	"parent": "minecraft:nether/soul_sand",
+	"criteria": {
+		"a": {
+			"trigger": "impossible"
+		}
+	}
+}

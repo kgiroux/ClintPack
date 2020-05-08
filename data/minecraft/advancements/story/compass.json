@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "compass"
+		},
+		"title": "Retour à la case départ",
+		"description": "Utilise un compas pour retrouver le spawn"
+	},
+	"parent": "minecraft:story/all_tools",
+	"criteria": {
+		"compass": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "compass"
+				}]
+			}
+		}
+	}
+}

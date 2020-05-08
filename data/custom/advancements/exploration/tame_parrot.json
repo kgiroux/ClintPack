@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:wheat_seeds"
 		},
-		"title": "A Pirate's Best Friend",
-		"description": "Befriend a parrot"
+		"title": "Le meilleur ami du Pirate",
+		"description": "Apprivoise un perroquet"
 	},
 	"parent": "custom:exploration/jungle_log",
 	"criteria": {

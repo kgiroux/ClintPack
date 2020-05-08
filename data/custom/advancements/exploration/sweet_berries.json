@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:sweet_berries"
 		},
-		"title": "Sweets",
-		"description": "Eat some sweet berries"
+		"title": "Sweet",
+		"description": "Mange de bonnes baies sucrées"
 	},
 	"parent": "custom:exploration/in_taiga_biome",
 	"criteria": {
