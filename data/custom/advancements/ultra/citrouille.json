@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de citrouilles"
+    },
+    "parent": "custom:ultra/bettrave",
+    "criteria": {
+        "pumpkin": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:pumpkin",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

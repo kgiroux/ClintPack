@@ -12,7 +12,8 @@
 			"trigger": "inventory_changed",
 			"conditions": {
 				"items": [{
-					"item": "ancient_debris"
+					"item": "ancient_debris",
+					"count": 64
 				}]
 			}
 		}

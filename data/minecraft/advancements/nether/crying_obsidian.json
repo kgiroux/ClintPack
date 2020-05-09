@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "crying_obsidian"
+		},
+		"title": "Let it cry",
+		"description": "Récupère un stack d'obsidienne pleureuse"
+	},
+	"parent": "minecraft:nether/magma_block",
+	"criteria": {
+		"crying_obsidian": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [{
+					"item": "crying_obsidian",
+					"count": 64
+				}]
+			}
+		}
+	}
+}

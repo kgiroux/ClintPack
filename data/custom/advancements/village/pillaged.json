@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"item": "crossbow"
+		},
+		"title": "Pillaged",
+		"description": "Be killed by a patrolling pillager"
+	},
+	"parent": "custom:village/kill_pillager",
+	"criteria": {
+		"a": {
+			"trigger": "impossible"
+		}
+	}
+}

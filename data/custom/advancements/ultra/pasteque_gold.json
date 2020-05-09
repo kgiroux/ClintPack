@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de golden pasteques"
+    },
+    "parent": "custom:ultra/pasteque",
+    "criteria": {
+        "melon": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:glistering_melon_slice",
+							"value": {
+								"min": 100000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

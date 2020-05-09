@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": "Warrior - 3",
+        "description": "Tue 50000 mobs"
+    },
+    "parent": "custom:ultra/mob_2",
+    "criteria": {
+        "mob": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:mob_kills",
+							"value": {
+								"min": 50000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

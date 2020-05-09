@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:melon"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de pasteques"
+    },
+    "parent": "custom:ultra/citrouille",
+    "criteria": {
+        "melon": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "mined",
+							"stat": "minecraft:melon",
+							"value": {
+								"min": 100000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

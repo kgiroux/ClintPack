@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"title": "Ulra hard",
+		"description": "Master Class",
+		"background": "minecraft:textures/block/bedrock.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"village": {
+			"trigger":"minecraft:tick"
+			}
+		}
+	}
+}

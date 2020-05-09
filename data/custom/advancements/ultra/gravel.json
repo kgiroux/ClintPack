@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "title": "Bloc tier 1-3",
+        "description": "Mine 1M de blocs de gravier"
+    },
+    "parent": "custom:ultra/stone",
+    "criteria": {
+        "gravel": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "mined",
+							"stat": "minecraft:gravel",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

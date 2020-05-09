@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de golden carrotes"
+    },
+    "parent": "custom:ultra/carrote",
+    "criteria": {
+        "carrot_golden": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:golden_carrot",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

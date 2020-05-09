@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 pommes dorees" 
+    },
+    "parent": "custom:ultra/pomme",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:golden_apple",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

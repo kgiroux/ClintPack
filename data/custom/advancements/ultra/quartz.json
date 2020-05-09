@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:quartz_block"
+        },
+        "title": "Inventaire tier 3-3",
+        "description": "Craft un inventaire complet de blocs de quartz"
+    },
+    "parent": "custom:ultra/lapis",
+    "criteria": {
+        "quartz": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:quartz_block",
+							"value": {
+								"min": 2304
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

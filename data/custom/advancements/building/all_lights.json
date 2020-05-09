@@ -3,11 +3,11 @@
 		"icon": {
 			"item": "minecraft:lantern"
 		},
-		"title": "Aziz, lumières !",
+		"title": "En mode Zaka",
 		"description": "Utilise toutes les sources de lumières possibles",
 		"frame" : "goal"
 	},
-	"parent": "custom:building/torch",
+	"parent": "custom:building/chain",
 	"rewards": {
 		"experience": 50
 	},

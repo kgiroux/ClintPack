@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de bettraves"
+    },
+    "parent": "custom:ultra/patate",
+    "criteria": {
+        "beetroot": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:beetroot",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

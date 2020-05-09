@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chain"
+		},
+		"title": "Déchaîné",
+		"description": "Craft un stack de chaines pour accrocher tes lanternes"
+	},
+	"parent": "custom:building/torch",
+	"criteria": {
+		"sign": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:chain",
+							"value": {
+								"min": 64
+							}
+						}]
+					}
+				}
+			}
+		}
+	}
+}

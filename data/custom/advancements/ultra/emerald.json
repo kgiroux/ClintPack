@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": "Inventaire tier 4",
+        "description": "Craft un inventaire complet de blocs d'emeraude"
+    },
+    "parent": "custom:ultra/quartz",
+    "criteria": {
+        "emerald": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:emerald_block",
+							"value": {
+								"min": 2304
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

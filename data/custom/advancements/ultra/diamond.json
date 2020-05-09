@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "title": "Inventaire tier 5",
+        "description": "Craft un inventaire complet de blocs de diamant"
+    },
+    "parent": "custom:ultra/emerald",
+    "criteria": {
+        "diamond": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:diamond_block",
+							"value": {
+								"min": 2304
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

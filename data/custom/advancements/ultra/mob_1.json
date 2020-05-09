@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": "Warrior - 1",
+        "description": "Tue 10000 mobs"
+    },
+    "parent": "custom:ultra/root",
+    "criteria": {
+        "mob": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:mob_kills",
+							"value": {
+								"min": 10000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

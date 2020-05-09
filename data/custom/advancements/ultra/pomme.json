@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 pommes"
+    },
+    "parent": "custom:ultra/bettrave",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:apple",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de carrotes"
+    },
+    "parent": "custom:ultra/ble",
+    "criteria": {
+        "carrot": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:carrot",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

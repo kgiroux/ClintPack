@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick"
+		},
+		"title": "Arpenteur de lave",
+		"description": "Met un champi bleu au bout d'une cane pour l'attirer"
+	},
+	"parent": "minecraft:nether/basalt_deltas",
+	"criteria": {
+		"warped_fungus_on_a_stick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:warped_fungus_on_a_stick"
+					}
+				]
+			}
+		}
+	}
+}

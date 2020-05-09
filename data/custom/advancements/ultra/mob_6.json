@@ -1,0 +1,30 @@
+{
+    "display": {
+        "frame": "challenge",
+		"icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:\"d8ba354c-58ac-4196-bcda-20a5b247d6a9\",Name:\"Clintwood\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU4ODk2OTkxOTUxMiwKICAicHJvZmlsZUlkIiA6ICJkOGJhMzU0YzU4YWM0MTk2YmNkYTIwYTViMjQ3ZDZhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbGludHdvb2QiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg2YzEyYzk3ODRmZDhhYWIxYWZjN2VlZDI1NmYyNmFjYmJlZWIxOTk1OTYxMWIyNmRmOGZkN2IwNWJlNWMyMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}}}"
+        },
+        "title": "Warrior - 6",
+        "description": "Tue 500000 mobs"
+    },
+    "parent": "custom:ultra/mob_5",
+    "criteria": {
+        "mob": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:mob_kills",
+							"value": {
+								"min": 500000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

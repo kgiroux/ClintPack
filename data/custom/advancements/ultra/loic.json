@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "Fais ton Loic - 1",
+        "description": "Mourir 100 fois"
+    },
+    "parent": "custom:ultra/root",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:deaths",
+							"value": {
+								"min": 100
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

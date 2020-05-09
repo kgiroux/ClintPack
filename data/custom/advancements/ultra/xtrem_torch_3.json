@@ -4,10 +4,10 @@
         "icon": {
             "item": "minecraft:torch"
         },
-        "title": "Torcheur de l'extrême",
-        "description": "Seulement 1 ? Petit joueur :P"
+        "title": "Torcheur de l'extrême - 3",
+        "description": "15 Inventaires"
     },
-    "parent": "custom:forestry/make_lot_of_torch",
+    "parent": "custom:ultra/xtrem_torch_2",
     "criteria": {
         "torchotamator": {
             "trigger": "location",
@@ -18,7 +18,7 @@
 							"type": "used",
 							"stat": "minecraft:torch",
 							"value": {
-								"min": 11520
+								"min": 34560
 							}
 						}]
 					}

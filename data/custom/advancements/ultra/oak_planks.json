@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "title": "Materiaux naturels 2",
+        "description": "Creation de 400000 planches de chêne"
+    },
+    "parent": "custom:ultra/birch_planks",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:oak_planks",
+							"value": {
+								"min": 4000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

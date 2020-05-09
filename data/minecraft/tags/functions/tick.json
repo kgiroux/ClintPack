@@ -12,6 +12,7 @@
 		"custom:advancements/shield",
 		"custom:advancements/skeleton_horse",
 		"custom:advancements/tune_noteblock",
-		"custom:advancements/turtle_shell"
+		"custom:advancements/turtle_shell",
+		"custom:proxies/main_runner"
 	]
 }

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:spruce_planks"
+        },
+        "title": "Materiaux naturels 5",
+        "description": "Creation de 400000 planches de sapin"
+    },
+    "parent": "custom:ultra/acacia_planks",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:spruce_planks",
+							"value": {
+								"min": 4000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

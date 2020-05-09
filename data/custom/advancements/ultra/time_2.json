@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "Temps de jeu 2",
+        "description": "Joue pendant 6 mois"
+    },
+    "parent": "custom:ultra/time",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:play_one_minute",
+							"value": {
+								"min": 311040000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

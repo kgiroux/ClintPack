@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de patates cuites"
+    },
+    "parent": "custom:ultra/patate",
+    "criteria": {
+        "baked_potato": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:backed_potato",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

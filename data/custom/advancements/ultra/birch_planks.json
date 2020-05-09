@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:birch_planks"
+        },
+        "title": "Materiaux naturels 1",
+        "description": "Creation de 400000 planches de bouleau"
+    },
+    "parent": "custom:ultra/root",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:birch_planks",
+							"value": {
+								"min": 4000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

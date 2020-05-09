@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "Fais ton Loic - 5",
+        "description": "Mourir 500 fois"
+    },
+    "parent": "custom:ultra/loic_4",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:deaths",
+							"value": {
+								"min": 500
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

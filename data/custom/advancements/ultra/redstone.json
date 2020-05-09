@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:redstone_block"
+        },
+        "title": "Inventaire tier 3-1",
+        "description": "Craft un inventaire complet de blocs de redstone"
+    },
+    "parent": "custom:ultra/gold",
+    "criteria": {
+        "redstone": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:redstone_block",
+							"value": {
+								"min": 2304
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

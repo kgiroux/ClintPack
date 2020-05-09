@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:jungle_planks"
+        },
+        "title": "Materiaux naturels 3",
+        "description": "Creation de 400000 planches d'acajou"
+    },
+    "parent": "custom:ultra/oak_planks",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:jungle_planks",
+							"value": {
+								"min": 4000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

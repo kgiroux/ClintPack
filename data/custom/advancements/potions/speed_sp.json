@@ -5,7 +5,6 @@
 		},
 		"title": "Vitesse 3",
 		"description": "Splash !"
-
 	},
 	"parent": "custom:potions/speed",
 	"criteria": {

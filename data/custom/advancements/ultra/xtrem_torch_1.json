@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": "Torcheur de l'extrême - 1",
+        "description": "5 Inventaires"
+    },
+    "parent": "custom:ultra/root",
+    "criteria": {
+        "torchotamator": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "used",
+							"stat": "minecraft:torch",
+							"value": {
+								"min": 11520
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

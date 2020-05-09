@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": "Warrior - 4",
+        "description": "Tue 100000 mobs"
+    },
+    "parent": "custom:ultra/mob_3",
+    "criteria": {
+        "mob": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:mob_kills",
+							"value": {
+								"min": 100000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

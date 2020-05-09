@@ -1,0 +1,76 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_sign"
+		},
+		"title": "Signalétique",
+		"description": "Craft tous les panneaux"
+	},
+	"parent": "custom:forestry/stick",
+	"criteria": {
+		"oak": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:oak_sign"
+				}
+			}
+		},
+		"birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:birch_sign"
+				}
+			}
+		},
+		"acacia": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:acacia_sign"
+				}
+			}
+		},
+		"spruce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:spruce_sign"
+				}
+			}
+		},
+    	"jungle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:jungle_sign"
+				}
+			}
+		},
+    	"dark_oak": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:dark_oak_sign"
+				}
+			}
+		},
+		"crimson": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crimson_sign"
+				}
+			}
+		},
+		"warped": {
+      			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"item": {
+					"item": "minecraft:warped_sign"
+				}
+			}
+		}
+	}
+}

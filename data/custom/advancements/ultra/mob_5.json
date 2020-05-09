@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": "Warrior - 5",
+        "description": "Tue 250000 mobs"
+    },
+    "parent": "custom:ultra/mob_4",
+    "criteria": {
+        "mob": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "custom",
+							"stat": "minecraft:mob_kills",
+							"value": {
+								"min": 250000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

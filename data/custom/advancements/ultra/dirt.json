@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "title": "Bloc tier 1-5",
+        "description": "Mine 1M de blocs de terre"
+    },
+    "parent": "custom:ultra/sand",
+    "criteria": {
+        "dirt": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "mined",
+							"stat": "minecraft:dirt",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

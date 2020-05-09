@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:crimson_planks"
+        },
+        "title": "Materiaux naturels 7",
+        "description": "Creation de 400000 planches carmin"
+    },
+    "parent": "custom:ultra/dark_oak_planks",
+    "criteria": {
+        "apple": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "crafted",
+							"stat": "minecraft:crimson_planks",
+							"value": {
+								"min": 4000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "title": "Nourriture végétal",
+        "description": "Recolte de 100000 de ble"
+    },
+    "parent": "custom:ultra/root",
+    "criteria": {
+        "wheat": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "picked_up",
+							"stat": "minecraft:wheat",
+							"value": {
+								"min": 1000000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}
