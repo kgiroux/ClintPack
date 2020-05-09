@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:obsidian"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Bloc tier 3-6",
+        "description": "Mine 50000 blocs d'obsidian"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/crying_obsidian",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "crafted",
+							"stat": "minecraft:obsidian",
 							"value": {
-								"min": 622080000
+								"min": 50000
 							}
 						}]
 					}

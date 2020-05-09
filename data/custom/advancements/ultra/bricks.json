@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:bricks"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Bloc tier 3-2",
+        "description": "Mine 50000 blocs de briques"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/sponge",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "crafted",
+							"stat": "minecraft:bricks",
 							"value": {
-								"min": 622080000
+								"min": 50000
 							}
 						}]
 					}

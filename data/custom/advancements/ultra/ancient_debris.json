@@ -1,0 +1,29 @@
+{
+    "display": {
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "title": "Bloc tier 3-3",
+        "description": "Mine 50000 blocs de debris ancient"
+    },
+    "parent": "custom:ultra/bricks",
+    "criteria": {
+        "basalt": {
+            "trigger": "location",
+			"conditions": {
+				"player": {
+					"player": {
+						"stats": [{
+							"type": "mined",
+							"stat": "minecraft:ancient_debris",
+							"value": {
+								"min": 50000
+							}
+						}]
+					}
+				}
+			}
+        }
+    }
+}

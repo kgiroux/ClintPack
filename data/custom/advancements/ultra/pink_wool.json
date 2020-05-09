@@ -2,12 +2,12 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:pink_wool"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Rainbow 4",
+        "description": "Creation de 100000 laines roses"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/orange_wool",
     "criteria": {
         "apple": {
             "trigger": "location",
@@ -15,10 +15,10 @@
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "crafted",
+							"stat": "minecraft:pink_wool",
 							"value": {
-								"min": 622080000
+								"min": 100000
 							}
 						}]
 					}

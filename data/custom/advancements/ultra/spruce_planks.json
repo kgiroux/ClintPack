@@ -18,7 +18,7 @@
 							"type": "crafted",
 							"stat": "minecraft:spruce_planks",
 							"value": {
-								"min": 4000000
+								"min": 400000
 							}
 						}]
 					}

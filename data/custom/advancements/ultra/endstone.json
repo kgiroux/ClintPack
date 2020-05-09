@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:end_stone"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Bloc tier 2-4",
+        "description": "Mine 250000  blocs d'End Stone"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/diorite",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "mined",
+							"stat": "minecraft:end_stone",
 							"value": {
-								"min": 622080000
+								"min": 250000
 							}
 						}]
 					}

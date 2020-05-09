@@ -2,7 +2,8 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:\"0fce0504-272e-4a6e-ae43-6eab44675d7b\",Name:\"loic_criss\",Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU4OTAzMTA2Nzg5MywKICAicHJvZmlsZUlkIiA6ICIwZmNlMDUwNDI3MmU0YTZlYWU0MzZlYWI0NDY3NWQ3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2ljX2NyaXNzIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VmMTE4OTU3MTA2MzQ4ZDYxMzQyNTNhYzJjYWRjYWYxOWFkY2YxNjA2ZWEwZDFlNzFhODc5ODkwYzQyMmZjYzYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}}}"
         },
         "title": "Fais ton Loic - 5",
         "description": "Mourir 500 fois"

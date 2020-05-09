@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:blackstone"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Bloc tier 3-7",
+        "description": "Mine 50000 blocs de pierre noir"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/obsidian",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "mined",
+							"stat": "minecraft:blackstone",
 							"value": {
-								"min": 622080000
+								"min": 50000
 							}
 						}]
 					}

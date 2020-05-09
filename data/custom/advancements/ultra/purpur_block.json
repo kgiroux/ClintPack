@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:dark_oak_planks"
+            "item": "minecraft:purpur_block"
         },
-        "title": "Materiaux naturels 6",
-        "description": "Creation de 400000 planches de chêne noir"
+        "title": "Bloc tier 3-4",
+        "description": "Mine 50000 blocs de purpur"
     },
-    "parent": "custom:ultra/spruce_planks",
+    "parent": "custom:ultra/ancient_debris",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
 							"type": "crafted",
-							"stat": "minecraft:dark_oak_planks",
+							"stat": "minecraft:purpur_block",
 							"value": {
-								"min": 400000
+								"min": 50000
 							}
 						}]
 					}

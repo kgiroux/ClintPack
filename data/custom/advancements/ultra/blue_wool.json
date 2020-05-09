@@ -2,12 +2,12 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:blue_wool"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Rainbow 10",
+        "description": "Creation de 100000 laines bleu"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/light_blue_wool",
     "criteria": {
         "apple": {
             "trigger": "location",
@@ -15,10 +15,10 @@
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "crafted",
+							"stat": "minecraft:blue_wool",
 							"value": {
-								"min": 622080000
+								"min": 100000
 							}
 						}]
 					}

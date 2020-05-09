@@ -2,23 +2,23 @@
     "display": {
         "frame": "challenge",
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:blue_ice"
         },
-        "title": "Temps de jeu 3",
-        "description": "Joue pendant 1 an"
+        "title": "Bloc tier 2-5",
+        "description": "Craft 250000 blocs de glace bleu"
     },
-    "parent": "custom:ultra/time_2",
+    "parent": "custom:ultra/endstone",
     "criteria": {
-        "apple": {
+        "basalt": {
             "trigger": "location",
 			"conditions": {
 				"player": {
 					"player": {
 						"stats": [{
-							"type": "custom",
-							"stat": "minecraft:play_one_minute",
+							"type": "crafted",
+							"stat": "minecraft:blue_ice",
 							"value": {
-								"min": 622080000
+								"min": 250000
 							}
 						}]
 					}
